@@ -33,6 +33,7 @@ listings-disable-line-numbers: false
 header-includes:
 - |
   ```{=latex}
+  
   \usepackage{awesomebox}
   \usepackage{caption}
   \usepackage{array}
@@ -60,7 +61,7 @@ pandoc-latex-environment:
 
 <!-- \awesomebox[violet]{2pt}{\faRobot}{violet}{\textbf{greatest}} -->
 
-\vspace{\hijo}
+\vspace{\fill}
 
 ![](img/cc.png){ height=50px }
 

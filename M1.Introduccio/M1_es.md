@@ -33,6 +33,7 @@ listings-disable-line-numbers: false
 header-includes:
 - |
   ```{=latex}
+  \usepackage{lastpage}
   \usepackage{awesomebox}
   \usepackage{caption}
   \usepackage{array}
@@ -58,7 +59,7 @@ pandoc-latex-environment:
 
 <!-- \textbf{greatest} -->
 
-\vspace{\hijo}
+\vspace{\fill}
 
 ![](img/cc.png){ height=50px }
 
