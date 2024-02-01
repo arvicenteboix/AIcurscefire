@@ -75,6 +75,10 @@ Este documento está sujeto a una licencia creative commons que permite su difus
 
 Hasta ahora hemos visto algunas herramientas GPT, pero en la red podemos encontrar un montón de aplicaciones que hacen uso de la inteligencia artificial para crear casi cualquier producto multimedia. En este módulo os plantearemos algunas herramientas que os pueden ser de utilidad en vuestro día a día. Pero como bien sabréis, son unas cuántas de ejemplo. Estoy seguro que vosotros  conoceréis muchas más y que seràn tan útiles como las planteadas aquí.
 
+:::warning
+Es recomendable que os creéis un correo aleatorio para poder #inscribir uno probar así todas las herramientas sin necesidad de tener que mujer vuestro correo personal. Si alguna os interesa ya mucho, di que podrieu utilizar vuestro correo para estar informado de las novedades.
+:::
+
 # Buscadores que utilizen inteligencia artifical
 
 Ya hemos comentado al módulo 1 la diferencia entre algoritmo y red neuronal, básicamente un algoritmo es una secuencia lógica de pasos que permite solucionar un problema mediante operaciones matemáticas no-ambiguas, mientras que una red neuronal es un sistema que puede aprender y #modificar a sí mismo. Los buscadores más conocidos, a pesar de que poco a poco van introduciendo redes neuronales están basados principalmente en algoritmos de busca. Pero existen otros tipos de buscadores que nos pueden facilitar más nuestra busca por Internet. Aquí os damos dos ejemplos:

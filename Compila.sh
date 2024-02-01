@@ -1,0 +1,11 @@
+#!/bin/bask
+./M1.Introduccio/crea.sh
+./M1.Introduccio/crea_html.sh
+./M2.FerramentesGPT/crea.sh
+./M2.FerramentesGPT/crea_html.sh
+./M3.Creaci%C3%B3%20multim%C3%A8dia%20amb%20IA/crea.sh
+./M3.Creaci%C3%B3%20multim%C3%A8dia%20amb%20IA/crea_html.sh
+./M4.Creaci%C3%B3%20de%20codi.%20Programes%20i%20webs/crea.sh
+./M4.Creaci%C3%B3%20de%20codi.%20Programes%20i%20webs/crea_html.sh
+./M5.Creaci%C3%B3%20de%20situacions%20d%27aprenentatge/crea.sh
+./M5.Creaci%C3%B3%20de%20situacions%20d%27aprenentatge/crea_html.sh
