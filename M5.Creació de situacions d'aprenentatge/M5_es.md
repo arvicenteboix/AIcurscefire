@@ -9,7 +9,7 @@ titlepage: true
 titlepage-rule-height: 2
 titlepage-rule-color: AA0000
 titlepage-texto-color: AA0000
-titlepage-background: U1.png
+titlepage-background: U5.png
 
 # Tabla de contenidos
 toque: true
@@ -33,7 +33,7 @@ listings-disable-line-numbers: false
 header-includes:
 - |
   ```{=latex}
-  
+  \usepackage{lastpage}
   \usepackage{awesomebox}
   \usepackage{caption}
   \usepackage{array}
@@ -70,7 +70,7 @@ Este documento está sujeto a una licencia creative commons que permite su difus
 [https://github.com/arvicenteboix/aicurscefire](https://github.com/arvicenteboix/aicurscefire)
 \newpage
 
-# #SA con IA
+# SA con IA
 
 En este bloque explicaremos como diseñar una Situación de aprendizaje  (##SA) utilizando Inteligencia Artificial (IA). La idea es la de ir rellenando la plantilla de ##SA que nos proporciona Consellería con unos pocos prompts. Puede ser que la primera vez que lo hagas te cuesto un poco , pero verás que, con la práctica, en unos minutos puedes crear una situación de aprendizaje en pocos pasos. Obviamente, el papel fundamental de la IA es ofrecerte inspiración porque tú selecciones y modificas los resultados que te doy. No recomendamos volcar los resultados que nos ofrezca la IA tal cual, sino que, mediante el diálogo con ella, obtengamos resultados cada vez más precisos y coherentes. 
 Antes de empezar necesitamos tener a mano dos documentos:
@@ -85,11 +85,11 @@ Antes de empezar necesitamos tener a mano dos documentos:
 
 A continuación, explicaremos paso a paso el proceso de creación de una ##SA intermediando IA:
 
-##  *Asignar un rol a la IA:*
+##  Asignar un rol a la IA:
 
 Es fundamental crear bonos prompts (instrucciones) para obtener los mejores resultados posibles. Pero igual de importante es pedirle a la IA que adopte un rol determinado desde el cual nos pueda dar la mejor información posible. Por eso lo primero que haremos es pedirle que se convierta en una experta en el diseño de ##SA. Te ofrecemos un ejemplo de prompt para asignar el rol, en el cual solo tendrás que cambiar el que esté subrallado para adaptarlo a tus necesidades:  *Actúa como una experta en el diseño de Situaciones de Aprendizaje (LOMLOE) para el [primer curso]{.underline} de [Educación Secundaria Obligatoria]{.underline}. Tenso un amplio conocimiento en Metodologías innovadoras, Aprendizaje Basado en Proyectos e inclusión, y estás familiarizada con una gran variedad de bibliografía sobre este tema que utilizas para brindar asesoramiento a otros profesores. Si tienes alguna pregunta o inquietud relacionada con el tema que te planteo, te animo a compartirla conmigo. Si hay algún tema del cual no tengas conocimiento, prefiero que evitas improvisar; sé honesta y notifícame si no has comprendido algo. Me gustaría que utilices un lenguaje claro y formal, y que tus ideas sean creativas y apropiadas para la situación educativa que te solicitaré a continuación. Me he explicado correctamente?*
 
-##  Seguir la plantilla de ##SA:
+##  Seguir la plantilla de SA:
 
 Para poder crear un buen prompt, que nos ofrezca una respuesta lo más personalizada posible, hay apartados de la plantilla que tenemos que rellenar  nosotros mismos. Se trata de toda la primera fila de la mesa. También tenemos que rellenar la información de contexto: Donde está situado el centro, nivel socioeconómico de las familias del alumnado, del entorno  incluyendo las características del alumnado, necesidades específicas, problemática concreta, etc. Finalmente, tenemos que indicar en la plantilla, el mismo prompt qué criterios de evaluación y saberes básicos queremos trabajar. Para lo cual tenemos que ayudarnos del currículum oficial, cortando y pegando. Aquí tenso un ejemplo en el cual tienes que sustituir el texto subrayado por tu personalizado. 
 *Crea la estructura de una Situación de Aprendizaje para la materia de [Geografía e historia,]{.underline} de [1.º de ##ESO]{.underline}, que se
@@ -103,7 +103,7 @@ desarrollará en el siguiente contexto: \_\_.*
 
 A partir de aquí pega donde corresponda la respuesta de la IA. Si no te parece correcta o mejorable indícaselo: "Genera una respuesta nueva", "Repítelo donante más importancia al contexto que te he indicado". 
 
-##  *Prompt secuencia didáctica:*
+##  Prompt secuencia didáctica:
 
 A continuación podemos pedirle a la IA que genere las actividades y la temporización de estas.
 
@@ -113,7 +113,7 @@ Si en la secuencia didáctica no aparecen desarrolladas las actividades, pídele
 
 *Desarrolla [Sesión 1/Actividad 1]{.underline} e indica en forma de cronograma como se desarrollaría.*
 
-##  *Prompt de evaluación:*
+##  Prompt de evaluación:
 
 Llegados a este punto podemos intentar que la IA nos haga una propuesta en relación a la evaluación. Podemos pedirle que nos indique qué instrumentos de evaluación propone para registrar cada criterio.  Crea una mesa con dos columnas: criterio de evaluación e instrumento de evaluación (observación directa, lista de cotejo, rúbrica, diana de evaluación,  exit ticket\...). Rellénala con los criterios de evaluación que te indiqué y el instrumento de evaluación que consideras más apropiado en cada caso.
 

@@ -32,7 +32,7 @@ body {
     font-language-override: normal;
     font-feature-settings: normal;
     font-variation-settings: normal;
-    background-image: url("cefire.png"), linear-gradient(to right,  #f9f3f2 0%,#fccac2 100%);
+    background-image: url("img/cefire.png"), linear-gradient(to right,  #f9f3f2 0%,#fccac2 100%);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: right bottom;

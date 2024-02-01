@@ -9,7 +9,7 @@ titlepage: true
 titlepage-rule-height: 2
 titlepage-rule-color: AA0000
 titlepage-texto-color: AA0000
-titlepage-background: U1.png
+titlepage-background: U4.png
 
 # Tabla de contenidos
 toque: true
@@ -33,7 +33,7 @@ listings-disable-line-numbers: false
 header-includes:
 - |
   ```{=latex}
-  
+  \usepackage{lastpage}
   \usepackage{awesomebox}
   \usepackage{caption}
   \usepackage{array}
@@ -88,7 +88,7 @@ Para crear un programa con python tenemos que pegar el código a una archivo de 
 
 Plantearemos un prompt como este:
 
-\awesomebox[violet]{2pt}{\faRobot}{violet}{Eras un programador experimentado que le gusta documentar su código y trabaja con linux. Nuestra vida depende de realizar un programa con python que abrirá una ventana que nos mostrará el que hay a la cámara web de nuestro ordenador. Este programa detectará cuando nuestra cara sonríe y cuando está triste y mostrará un mensaje a la pantalla que irá #refrescar cada segundo mostrando el texto "triste" o "alegre"}
+\awesomebox[violet]{2pt}{\faRobot}{violet}{Eras un programador experimentado que le gusta documentar su código y trabaja con linux. Nuestra vida depende de realizar un programa con python que abrirá una ventana que nos mostrará el que hay a la cámara web de nuestro ordenador. Este programa detectará cuando nuestra cara sonríe y cuando está triste y mostrará un mensaje a la pantalla que irá refrescar cada segundo mostrando el texto triste o alegre}
 
 Copiamos y pegan el que nos dice exactamente puesto que es trata de una respuesta bastante larga:
 
@@ -184,7 +184,7 @@ Puede parecer una tarea sencilla tal y como voy a planteároslo, pero lo prompt 
 
 La plataforma que hemos utilizado es Bing Copilot con su modo más preciso y lo prompt planteado ha sido lo siguiente:
 
-awesomebox[violet]{2pt}{Crea un juego con la biblioteca Pygame para python que tenga una pantalla estática con una plataforma del 20% del total de la ventana que pueda desplazar a la izquierda o la derecha con el teclado de manera suave y rápida. La velocidad de la bola será constante de 1 y que se actualice la función que mueve la bola cada 0.3 según y cuando la bola choco con los extremos de la pantalla rebotará con un ángulo de 45° en la dirección que lleva, si la bola choca contra la plataforma rebotará, si rebota en la mitad derecha de la plataforma se  irá hacia la derecha con un ángulo de 45° hacia arriba y si rebota en la mitad izquierda de la plataforma se  irá hacia el izquierdo con un ángulo de 45° hacia arriba. Al comienzo habrá una bola encima de la tabla sin #mover y cuando se polse la tecla espacio la bola empezará a #mover hacia arriba. Escribir-me el código solo, sin comentarios y de la manera más resumida posible. No quiero que me escribas ninguna explicación, solo quiero el código y sin comentarios.}
+awesomebox[violet]{2pt}{Crea un juego con la biblioteca Pygame para python que tenga una pantalla estática con una plataforma del 20% del total de la ventana que pueda desplazar a la izquierda o la derecha con el teclado de manera suave y rápida. La velocidad de la bola será constante de 1 y que se actualice la función que mueve la bola cada 0.3 según y cuando la bola choco con los extremos de la pantalla rebotará con un ángulo de 45° en la dirección que lleva, si la bola choca contra la plataforma rebotará, si rebota en la mitad derecha de la plataforma se  irá hacia la derecha con un ángulo de 45° hacia arriba y si rebota en la mitad izquierda de la plataforma se  irá hacia el izquierdo con un ángulo de 45° hacia arriba. Al comienzo habrá una bola encima de la tabla sin mover y cuando se polse la tecla espacio la bola empezará a mover hacia arriba. Escribir-me el código solo, sin comentarios y de la manera más resumida posible. No quiero que me escribas ninguna explicación, solo quiero el código y sin comentarios.}
 
 La respuesta tal cual ha sido:
 
@@ -298,7 +298,7 @@ Es posible que ahora ya haya deprés que el juego Arkanoid está relacionado con
 
 El prompt que hemos planteado es:
 
->Crea un juego con la bilioteca pygame para python que tenga una pantalla estática con una plataforma del 20% del total de la ventana que pueda desplazar a la izquierda o la derecha con el teclado de manera suave y rápida. La velocidad de la bola será constante de 1 y que se actualice la función que mueve la bola cada 0.3 según y cuando la bola choco con los extremos de la pantalla rebotará con un ángulo de 45° en la dirección que lleva, si la bola choca contra la plataforma rebotará, si rebota en la mitad derecha de la plataforma se  irá hacia la derecha con un ángulo de 45° hacia arriba y si rebota en la mitad izquierda de la plataforma se  irá hacia el izquierdo con un ángulo de 45° hacia arriba. Al comienzo habrá una bola encima de la tabla sin #mover y cuando se polse la tecla espacio la bola empezará a #mover hacia arriba. Escribir-me el código solo, sin comentarios y de la manera más resumida posible. No quiero que me escribas ninguna explicación, solo quiero el código y sin comentarios.
+>Crea un juego con la bilioteca pygame para python que tenga una pantalla estática con una plataforma del 20% del total de la ventana que pueda desplazar a la izquierda o la derecha con el teclado de manera suave y rápida. La velocidad de la bola será constante de 1 y que se actualice la función que mueve la bola cada 0.3 según y cuando la bola choco con los extremos de la pantalla rebotará con un ángulo de 45° en la dirección que lleva, si la bola choca contra la plataforma rebotará, si rebota en la mitad derecha de la plataforma se  irá hacia la derecha con un ángulo de 45° hacia arriba y si rebota en la mitad izquierda de la plataforma se  irá hacia el izquierdo con un ángulo de 45° hacia arriba. Al comienzo habrá una bola encima de la tabla sin mover y cuando se polse la tecla espacio la bola empezará a mover hacia arriba. Escribir-me el código solo, sin comentarios y de la manera más resumida posible. No quiero que me escribas ninguna explicación, solo quiero el código y sin comentarios.
 
 > Crea un juego con la bilioteca pygame para python
 
@@ -324,7 +324,7 @@ Es importante delimitar como rebota, aquí es cuando le damos ejemplos a la IA p
 
 Continuamos con los ejemplos que ayudan a entender qué es el que deseamos.
 
-> Al comienzo habrá una bola encima de la tabla sin #mover y cuando se polse la tecla espacio la bola empezará a #mover hacia arriba. 
+> Al comienzo habrá una bola encima de la tabla sin mover y cuando se polse la tecla espacio la bola empezará a mover hacia arriba. 
 
 Hay que definir una situación inicial puesto que, como ya hemos comentado, la IA no presupone como un humano, sino especificamos algo se lo inventará y podría ser que no fuera el que deseamos
 

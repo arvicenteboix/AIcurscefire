@@ -9,7 +9,7 @@ titlepage: true
 titlepage-rule-height: 2
 titlepage-rule-color: AA0000
 titlepage-texto-color: AA0000
-titlepage-background: U1.png
+titlepage-background: U3.png
 
 # Tabla de contenidos
 toque: true
@@ -143,7 +143,7 @@ Se trata de una herramienta para crear y editar videos, esta presenta una parte 
 
 [https://www.flexclip.com](https://www.flexclip.com)
 
-Para crear un video a partir de texto tenemos que ir a la herramienta #AI Video Generator:
+Para crear un video a partir de texto tenemos que ir a la herramienta AI Video Generator:
 
 ![Ay Video Generator](img/6.png){ width=10cm }
 
@@ -200,11 +200,11 @@ La tecnología DALL-E nos permite crear imágenes a partir de texto. A Canva hay
 
 ![Canva DALL-E](img/12.png){ width=10cm }
 
-### D-ID #AI Presenter
+### D-ID AI Presenter
 
 Podemos generar audio para las presentaciones pero podemos añadir una persona que hablo mientras se hace la presentación. Se tiene que conectar a plataforma externa y solo permite la creación de 5 minutos.
 
-![D-ID #AI Presenter](img/13.png){ width=10cm }
+![D-ID AI Presenter](img/13.png){ width=10cm }
 
  han muchísimas App más dentro de Canva que utilizan la IA para facilitarnos la tarea.
 
@@ -256,8 +256,8 @@ La IA no ha venido para creárnoslo todo sino que nosotros tenemos que saber que
 Obviamente  han otras muchas como:
 
 * [OpenAI](https://openai.com/dall-e-2/): De pago
-* [Lexica](#https://lexica.arte/)
-* [lipDrop](#https://clipdrop.co)
+* [Lexica](https://lexica.arte/)
+* [lipDrop](https://clipdrop.co)
  
  # Aplicaciones para dar a conocer la IA en la escuela
 
@@ -319,7 +319,7 @@ Se trata de una herramienta bastante interesante que nos permitirá saber si un 
 
 ![Ejemplo de comprobación de texto](img/27.png)
 
-De todas maneras no siempre te saca la realidad y, obviamente, existe [https://www.humanizeaitext.org/](#https://#www.humanizeaitext.org/) o Quillbot, que sirve para humanizar mś el texto generado por una IA para que resulto menos "artificial"
+De todas maneras no siempre te saca la realidad y, obviamente, existe [https://www.humanizeaitext.org/](https://www.humanizeaitext.org/) o Quillbot, que sirve para humanizar mś el texto generado por una IA para que resulto menos "artificial"
 
 ## Quillbot
 
@@ -329,7 +329,7 @@ Es otra herramienta que nos permite modificar el texto para que parega menos de 
 
 Tenemos otros ferramenntes para humanizar texto que harán más difícil detectar si el texto ha sido creado por una IA o no, recordáis que siempre hay que revisar el material general puesto que pueden aparecer *alucionacions* o incluso cambiar el sentido del texto, como hemos podido ver. Algunos ejemplos son
 
-* **Undetectable #AI** [https://undetectable.ai/](https://undetectable.ai/)
+* **Undetectable AI** [https://undetectable.ai/](https://undetectable.ai/)
 * **gpt4detector** [https://gpt4detector.ai](https://gpt4detector.ai)
 * **Trinka** [https://www.trinka.ai/es/](https://www.trinka.ai/es/)
 
@@ -363,7 +363,7 @@ Bien es verdad que el resultado es bastante sorprendente.
 
 ## Opusclip
 
-Es una herramienta que nos muestra las virtuds y las faltas de la IA, nos permite subir un video y hacernos una explicación resumida del video. En este caso subimos un video de un chiste pero no se capaz de detectar la ironía o las gracias (aunque sean muy malos). Y se lo toma como un video serio. Además le posa suntítols y lo hace de una manera bastante acertada #tratar de Chiquito de la calzada. Podemos ver los resultado:
+Es una herramienta que nos muestra las virtuds y las faltas de la IA, nos permite subir un video y hacernos una explicación resumida del video. En este caso subimos un video de un chiste pero no se capaz de detectar la ironía o las gracias (aunque sean muy malos). Y se lo toma como un video serio. Además le posa suntítols y lo hace de una manera bastante acertada tratar de Chiquito de la calzada. Podemos ver los resultado:
 
 ![Damos los parámetros del video](img/32.png){ width=10cm }
 
@@ -391,9 +391,9 @@ Existen otras aplicaciones que paga la pena nombrar:
 - GitMind en [https://gitmind.com/es/](https://gitmind.com/es/) es una aplicación gratuita de mapas mentales y lluvia de ideas impulsada por IA.
 - Decktopus en [https://www.decktopus.com/](https://www.decktopus.com/) es una plataforma de presentación impulsada por IA que ofrece una amplia gamma de temas, fuentes y colores.
 - Opus Clip en [https://www.opus.pro/](https://www.opus.pro/) es una herramienta de creación de clips cortos impulsada por IA que transforma videos largos en clips cortos y virales optimizados para varias plataformas de redes sociales.
-- Tome en [#https://beta.tome.app/](#https://beta.tome.app/) es una herramienta de creación de contenido impulsada por IA que ayuda a crear contenido de blog, correos electrónicos y redes sociales.
+- Tome en [https://beta.tome.app/](https://beta.tome.app/) es una herramienta de creación de contenido impulsada por IA que ayuda a crear contenido de blog, correos electrónicos y redes sociales.
 - SteveAI en [https://www.steve.ai/](https://www.steve.ai/) es una herramienta de creación de contenido impulsada por IA que ayuda a crear contenido de blog, correos electrónicos y redes sociales.
-- Gama en [#https://gamma.app/](#https://gamma.app/) es una herramienta de creación de contenido impulsada por IA que ayuda a crear contenido de blog, correos electrónicos y redes sociales.
+- Gama en [https://gamma.app/](https://gamma.app/) es una herramienta de creación de contenido impulsada por IA que ayuda a crear contenido de blog, correos electrónicos y redes sociales.
 - Mixo en [https://www.mixo.io/](https://www.mixo.io/) es una herramienta de creación de contenido impulsada por IA que ayuda a crear contenido de blog, correos electrónicos y redes sociales.
 - Microsoft Designer en [https://designer.microsoft.com/](https://designer.microsoft.com/) es una herramienta de diseño gráfico impulsada por IA que ayuda a crear diseños profesionales.
 - SkyBox en [https://skybox.blockadelabs.com/](https://skybox.blockadelabs.com/) es una herramienta de creación de contenido impulsada por IA que ayuda a crear contenido de blog, correos electrónicos y redes sociales.
@@ -429,13 +429,13 @@ La plataforma nos limita a la creación de 5 unidades y solo nos deja compartir 
 
 Una de las características más interesantes es que podemos subir un documento (una presentación por ejemplo) y nos creará un cuestionario, tenemos como ejemplo la siguiente unidad creada a partir de uan presentación que se hizo a las jornade CDD.
 
-[#https://h5p-live.nolej.app/documentos/5377afc5-5fc7-4601-81ba-147d293694df/previews/ibook/index.html](#https://h5p-live.nolej.app/documentos/5377afc5-5fc7-4601-81ba-147d293694df/previews/ibook/index.html)
+[https://h5p-live.nolej.app/documentos/5377afc5-5fc7-4601-81ba-147d293694df/previews/ibook/index.html](https://h5p-live.nolej.app/documentos/5377afc5-5fc7-4601-81ba-147d293694df/previews/ibook/index.html)
 
 Una herramienta alternativa es la siguiente: [LearningStudioAI](https://learningstudioai.com/) para generar automáticamente preguntas de opción múltiple, de discusión abiertas o «interpretativas» y de debates con las respuestas correspondientes, a partir de documentos adjuntados.
 
 ## Schemely
 
-[Schemely](#https://schemely.app/) es una plataforma de creación de cursos para profesores, con #AI generativa. Es bastante completa y nos permite enlazar la planificación generada con otras herramientas para crear materiales  adicionales.
+[Schemely](https://schemely.app/) es una plataforma de creación de cursos para profesores, con AI generativa. Es bastante completa y nos permite enlazar la planificación generada con otras herramientas para crear materiales  adicionales.
 
 :::info
 Cuando nos pide el título del curso pensáis que estáis realizando lo prompt al modelo, por lo tanto podéis ser detallistas al respeto.
@@ -451,15 +451,15 @@ Cuando nos pide el título del curso pensáis que estáis realizando lo prompt a
 
 [TutorAI](https://www.tutorai.me/) es una aplicación pensada para el autoaprendizaje. Le exponemos un tema y nos dará diferentes módulos para poder aprender.
 
-![Tutor #AI](img/44.png)
+![Tutor AI](img/44.png)
 
 ## MagicSchoolAi
 
 [MagicSchoolAi](https://www.magicschool.ai/) es un conjunto de herramientas agrupadas que nos permite crear materiales por el aula. Una opción interesante es la de crear un cuestionario a partir de una temática.
 
-![Tutor #AI](img/46.png)
+![Tutor AI](img/46.png)
 
-![Tutor #AI](img/45.png)
+![Tutor AI](img/45.png)
 
 :::note
 Al igual que las otras nos da un periode gratuito de muestra. Pero posteriormente a pesar de que no se podan utlitzar todas las herramientas, las que puedes utilizado son de gran utilidad.
@@ -495,7 +495,7 @@ Personalmente [ChaPDF](https://www.chatpdf.com) es una de las aplciacions que m�
 
 ## Geospy
 
-[Geospy](#https://geospy.web.app/) es una herramienta que nos permite conocer el lugar de dónde es la imagen. Es muy interesante porque te hace un razonamiento de porque cree que es ese lugar u otro. Muchos pensaréis que utiliza las metadates para saberlo pero dados los razonamiento te hacen dudar. Los resultados suelen ser bastante certers, pero al ejemplo podemos ver que no siempre es fiable (se trata de una fotografía de la superficie de la luna):
+[Geospy](https://geospy.web.app/) es una herramienta que nos permite conocer el lugar de dónde es la imagen. Es muy interesante porque te hace un razonamiento de porque cree que es ese lugar u otro. Muchos pensaréis que utiliza las metadates para saberlo pero dados los razonamiento te hacen dudar. Los resultados suelen ser bastante certers, pero al ejemplo podemos ver que no siempre es fiable (se trata de una fotografía de la superficie de la luna):
 
 ![Geospy](img/50.png)
 

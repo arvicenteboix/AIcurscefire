@@ -9,7 +9,7 @@ titlepage: true
 titlepage-rule-height: 2
 titlepage-rule-color: AA0000
 titlepage-texto-color: AA0000
-titlepage-background: U1.png
+titlepage-background: U2.png
 
 # Tabla de contenidos
 toque: true
@@ -93,11 +93,11 @@ Además, **Bing Copiloto** es lo más transparente, puesto que al final de cada 
 
 Para poder utilizar chatGPT, en primer lugar tenemos que registrarnos. Iremos a la página de [ChatGPT](https://chat.openai.com/auth/login)
 
-![#Registrar a ChatGPT](img/1.png)
+![Registrar a ChatGPT](img/1.png)
 
 Después tenemos que posar unos datos o si estás logat al navegador con una cuenta de Google, entras con él:
 
-![#Registrar a ChatGPT](img/2.png)
+![Registrar a ChatGPT](img/2.png)
 
 Una vez ya te hayas registrado podrás acceder directamente en la página de chatGPT, para empezar y ya le podemos plantear una cuestión:
 
@@ -108,7 +108,7 @@ Como que no especifica sobre qué quiere una respuesta, ofreceré una respuesta 
 
 Para determinar qué IA es la más idónea, se tienen que tener en cuenta varios factores, como por ejemplo la complejidad del problema, los recursos disponibles, las capacidades de la IA en cuestión y otras consideraciones técnicas y prácticas.
 
-Algunos de los sistemas de IA más conocidos incluyen OpenAI'#s GPT, Google'#s TensorFlow, y Microsoft'#s Azure Cognitive Services, pero hay otros muchos proveedores de IA y tecnologías disponibles.
+Algunos de los sistemas de IA más conocidos incluyen OpenAI's GPT, Google's TensorFlow, y Microsoft's Azure Cognitive Services, pero hay otros muchos proveedores de IA y tecnologías disponibles.
 
 Por lo tanto, para elegir la IA más idónea, es importante evaluar las necesidades particulares de tu proyecto o aplicación y comparar las capacidades y las limitaciones de las diferentes opciones disponibles.}
 
@@ -118,7 +118,7 @@ Podemos ver que bajo de cada respuesta hay 4 iconos que nos permitirán valorar 
 
 ## Bing Copiloto
 
-Para poder utilizar la herramienta de IA de Microsoft no hay que #registrar, podemos utilizarla directamente desde el navegador, podemos ir directamente a la página de [Bing](https://www.bing.com/) y ya podremos utilizar directamente la herramienta. Hagamos clic sobre el enlace *chat":
+Para poder utilizar la herramienta de IA de Microsoft no hay que registrar, podemos utilizarla directamente desde el navegador, podemos ir directamente a la página de [Bing](https://www.bing.com/) y ya podremos utilizar directamente la herramienta. Hagamos clic sobre el enlace *chat":
 
 ![Bing Copiloto](img/4.png)
 
@@ -128,14 +128,12 @@ Nos aparecerá esta pantalla y ya podemos preguntar directamente:
 
 \awesomebox[violet]{2pt}{\faRobot}{violet}{\textbf{Qué IA es mejor, ChatGPT, Bard o Copiloto}Gracias por tu pregunta. Como que tu mensaje está escrito en catalán, responderé en catalán.
 
-Hay muchas IA de chat para elegir, y la mejor depende del que busques. Según una comparación reciente de Tom'#s Guide ¹, ChatGPT Plus y Copiloto Pro son dos de las mejores opciones disponibles. Los dos utilizan la misma tecnología subyacente que impulsa el chatbot de OpenAI. Los dos también cobran el mismo precio por mes, 20 dólares. Copiloto Pro incluye acceso en todas las funciones de 365 Copiloto, cosa que lo diferencia de ChatGPT Plus. Google también lanzará Bard Advanced, una versión premium del chatbot que estará impulsada por el nuevo modelo Gemine Ultra más adelante este año ¹. Pero, si buscas una IA de chat gratuita, quizás querrás probar otras opciones como Poe, Perplexity #AI o Pi ².
+Hay muchas IA de chat para elegir, y la mejor depende del que busques. Según una comparación reciente de Tom's Guide ¹, ChatGPT Plus y Copiloto Pro son dos de las mejores opciones disponibles. Los dos utilizan la misma tecnología subyacente que impulsa el chatbot de OpenAI. Los dos también cobran el mismo precio por mes, 20 dólares. Copiloto Pro incluye acceso en todas las funciones de 365 Copiloto, cosa que lo diferencia de ChatGPT Plus. Google también lanzará Bard Advanced, una versión premium del chatbot que estará impulsada por el nuevo modelo Gemine Ultra más adelante este año ¹. Pero, si buscas una IA de chat gratuita, quizás querrás probar otras opciones como Poe, Perplexity AI o Pi ².
 
 Espero que esto te ayude a elegir la mejor IA de chat para tus necesidades.
 
 Origen: Conversación cono Bing, 25/1/2024
-(1) ChatGPT Plus vs Copiloto Pro — which premium chatbot is better?. https://www.tomsguide.com/features/chatgpt-plus-vs-copilot-pro-which-premium-chatbot-is-better.
-(2) 13 Best #AI Chatbots in 2024: ChatGPT, Bard & More Tested - Tech.co. https://tech.co/news/best-ai-chatbots.
-(3) The best #AI chatbots of 2024: ChatGPT and alternativas | ZDNET. https://www.zdnet.com/article/best-ai-chatbot/.}
+}
 
 ![Bing Copiloto chat](img/6.png)
 
@@ -165,7 +163,7 @@ Aunque estos son los 3 modelos más conocidos, hay otros modelos de herramientas
 - **TextCortex** es una herramienta basada en GPT-4 que permite generar texto, traducir idiomas, escribir diferentes tipos de contenido creativo y responder preguntas de manera informativa. Ofrece un plan gratuito con un límite de 200 caracteres por generación. Podemos acceder des [de aquí](https://app.textcortex.com)
 - **Writesonic** es una herramienta de redacción automatizada que utiliza GPT-3 para generar contenido de alta calidad, como por ejemplo artículos, anuncios, guiones, piezas musicales, correos electrónicos, cartas, etc. Ofrece un plan gratuito con un límite de 10 creaciones por día. Podemos acceder des [de aquí](https://app.writesonic.com/)
 - **Jasper** (antes Jarvis) es otra herramienta de redacción automatizada que utiliza GPT-3. Ofrece un plan gratuito con un límite de 10.000 palabras en el mes. Podemos acceder des [de aquí](https://app.jasper.ai/)
-- **Copy #AI** es una herramienta de creación de contenido que utiliza GPT-3 para generar textos, anuncios, guiones, piezas musicales, correos electrónicos, cartas, etc. Ofrece un plan gratuito con un límite de 10 creaciones por día. Podemos acceder des [de aquí](https://www.copy.ai/)
+- **Copy AI** es una herramienta de creación de contenido que utiliza GPT-3 para generar textos, anuncios, guiones, piezas musicales, correos electrónicos, cartas, etc. Ofrece un plan gratuito con un límite de 10 creaciones por día. Podemos acceder des [de aquí](https://www.copy.ai/)
 - **Rytr** es una herramienta de redacción automatizada que utiliza GPT-3. Ofrece un plan gratuito con un límite de 50 creaciones por día. Podemos acceder des [de aquí](https://rytr.me/)
 - **Poe** una otro chatbot de propósito general, tiene una limitación de ciertas cuestiones en el día. Puedes acceder desde aquí: [https://poe.com/login](https://poe.com/login)
 - *Ora.sh** Con datos hasta 2021 es una otro modelo de lenguaje [https://ora.ai/openai/gpt4](https://ora.ai/openai/gpt4)
@@ -183,7 +181,7 @@ Cómo puedes ver, la disponibilidad de herramientas GPT gratuitas es muy grande 
 
 Aquella que mejor se adapte a tus necesidades y a sus respuestas. Cada una de ellas ha tenido un entrenamiento diferente, por lo tanto a medida que vayas trabajando en cada una de ellas verás que siempre tiendes a utilizar la misma.
 
-En este casa habría que utilizar varías y no #centrar las 3 principales puesto que aquellas no tan conocidas pueden dar respuestas tan válidas o incluso mejor que las otras.
+En este casa habría que utilizar varías y no centrar las 3 principales puesto que aquellas no tan conocidas pueden dar respuestas tan válidas o incluso mejor que las otras.
 
 De todas maneras una cosa es cierta, un persona puede ser muy inteligente y tener una muy buena conversación pero si quien conversa en ella no es un buen conversador no podrá sacar su potencial.
 
@@ -245,7 +243,7 @@ En el apartado anterior hemos hablar de estructuras modulares que dan buenos res
 
 **Lenguaje:** Un prompt tiene la audiencia objetivo, el que conseguirá la máquina. Para generar un texto, por ejemplo, se especifica si es un artículo, lema, poema, etc., qué temas trata; en qué estilo tiene que estar escrito y para qué audiencia. Si queréis que la IA sepa qué tono serio imaginéis... Descríbelo en el prompt como si estuvieras hablando con alguien. Las palabras clave del objetivo tienen que coincidir con estas del lenguaje; sirven tanto al contexto como al tono.
 
-**Ejemplos:** Proporciona ejemplos sobre el que esperas obtener con el prompt. Pueden ser textos que has leído o publicado, fotografías tuyas... son parecidos al que te gustaría. Los ejemplos permitirán a la IA #familiarizar con los datos y mejorar su rendimiento sin programación explícita.
+**Ejemplos:** Proporciona ejemplos sobre el que esperas obtener con el prompt. Pueden ser textos que has leído o publicado, fotografías tuyas... son parecidos al que te gustaría. Los ejemplos permitirán a la IA familiarizar con los datos y mejorar su rendimiento sin programación explícita.
 
 **Formato:** Decid qué formato tiene que tener la salida de la IA y cuánta información voláis en cada línea. Decid si queréis que sea un poco poético o más prosaico, etc. Si dices que quieres una imagen, indica la medida, la resolución, la gamma de colores... cualquier detalle o requisito para hacer
 
@@ -260,7 +258,7 @@ Que al fin es una mezcla de todas ellas, pero teniendo claro estos puntos ya pue
 * Pose comodines de formato: redacción, mesa, listado, comparativa, diálogo, gráfico…
 * Utiliza palabras clave: Actúa como... / Eras uno...
 * Crea una secuencia de prompts para ir acotant y llevando la IA hacia donde tú quieres.
-* Pósale un foco y guía la IA para que genero #basar en nuestros intereses.
+* Pósale un foco y guía la IA para que genero basar en nuestros intereses.
 * Si no estás seguro de la respuesta de la IA, pide que lo explique y argumento. Esto ayuda a comprender mejor la respuesta y a identificar cualquier sesgo o error potencial.
 * Amenaza o dale una propina a la IA. Pare mintiera pero, en alguna casos, amenazándola que tu vida corre peligro puede dar mejores resultados que si no lo haces.
 
@@ -278,7 +276,7 @@ Algunos Chatbots no tienen toda la información actualizada a 2024 y pueden dart
 
 # Creando prompts
 
-A la [siguiente página](#https://#www.iberestudios.como/noticias/21-prompts-o-formas-de-preguntar-a-chatgpt-para-obtener-resultados-asombrosos/) podemos encontrar una serie de ejemplos de como crear buenos prompts:
+A la [siguiente página](https://www.iberestudios.como/noticias/21-prompts-o-formas-de-preguntar-a-chatgpt-para-obtener-resultados-asombrosos/) podemos encontrar una serie de ejemplos de como crear buenos prompts:
 
 > Por favor, actúa como un narrador. Inventará historias entretenidas que sean atractivas, imaginativas y cautivadoras para el público. Pueden ser cuentos de hadas, historias educativas o cualquier otro tipo de historia que tenga el potencial de capturar la atención y la imaginación de las personas. Dependiendo del público objetivo, puedes elegir temas o temas específicos para tu sesión de cuentos. Por ejemplo, si son niños, puedes hablar sobre animales; si son adultos, los cuentos basados en la historia pueden involucrarlos mejor, etc. Mi primera solicitud es «Necesito una historia interesante sobre la perseverancia».
 
