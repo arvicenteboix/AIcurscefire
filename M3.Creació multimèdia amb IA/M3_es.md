@@ -237,9 +237,9 @@ Aquí tendríamos un ejemplo de la herramienta de generación de imágenes con w
 
 ![Ejemplo de wepik](img/18.png)
 
-## Bing Copiloto
+## Bing Copilot
 
-Hemos estado hablando hasta ahora de Bing Copiloto cono a modelo de lenguaje pero este también puerta incorporada la tecnología DALL-E y podemos generar imágenes desde el mismo Chat de Bing copiloto. Este te lleva a la página [https://www.bing.com/images/create?](https://www.bing.com/images/create?) para que te das de alta y ya puedes crear imágenes. Es recomendable tener una cuenta de Outlook para #dar de alta.
+Hemos estado hablando hasta ahora de Bing Copilot cono a modelo de lenguaje pero este también puerta incorporada la tecnología DALL-E y podemos generar imágenes desde el mismo Chat de Bing copiloto. Este te lleva a la página [https://www.bing.com/images/create?](https://www.bing.com/images/create?) para que te das de alta y ya puedes crear imágenes. Es recomendable tener una cuenta de Outlook para #dar de alta.
 
 \awesomebox[violet]{2pt}{\faRobot}{violet}{\textbf{Generamos una imagen animo de una persona ingeniera que está ante un rack de red y está quitando un cable de un switch}}
 
@@ -382,6 +382,20 @@ Esta herramienta igualmente nos permite convertir texto a audio o un audio a otr
 Podemos acceder a la plataforma des [de aquí](https://elevenlabs.io/).
 
 El mismo podemos encontrar a la plataforma [https://www.happyscribe.com/](https://www.happyscribe.com/).
+
+# Bing Copilot (complemento Suno)
+
+Con el navegador Bing podemos acceder a Copilot desde el botón situado a la parte superior derecha, pero Copilot también tiene su [propia plataforma](https://copilot.microsoft.com/). Una de las ventajas que resultan más interesantes respecto a las plataformas GPT más conocidas es el uso de complementos de forma gratuita:
+
+![Complementos](img/51.png){ width=13cm }
+
+Uno de los complementos interesants que nos ofrece Copilot es **Suno**, que nos permite crear una canción:
+
+![Canción creada](img/52.png){ width=13cm }
+
+Y podemos compartir el resultado que puedes escuchar [aquí](https://sl.bing.net/bsh2udkcyka).
+
+También podemos ir directamente a la página de [Suno](https://app.suno.ai/) y hacer nuestra creación desde allí.
 
 ## Otras aplicaciones multimedia de interés
 
