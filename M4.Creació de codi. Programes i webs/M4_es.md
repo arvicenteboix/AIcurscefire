@@ -343,9 +343,198 @@ Así que no siempre obtendremos el resultados esperados y habrá que ir modifica
 
 Pera crear páginas web de manera rápida y zenzilla igualmente podamos recòrrer a las plataformas GPT, pero como hemos visto estas tenem una limitación de caracteres de respuesta y te limita en una página. Puedes ir preguntado-le que te vaya generando cada uno de los ficheros que necesitas.
 
+## Pineapple
+
+Con [Pineapple](https://www.pineapplebuilder.com/) puedes crea una página web en cuestión de minutos. Nomś netre en la página ya nos preguntará qué queremos hacer:
+
+\awesomebox[violet]{2pt}{\faRobot}{violet}{Una página para mi centro educativo que explico cuáles es la normativa del centro y qué particularidades tiene.
+}
+
+![Pineapple](img/11.png)
+
+De primeras ya nos pegunta por el *Bussiness details* que es el objetivo de la página web y por el *target audience*, a quién va dirigida. Nos da una propuesta para cada temática y le damos a generar la página.
+
+![ 1](img/12.png)
+
+Ahora tendremos que se cosechar los colores y un poco la temática, o podemos dejar el que ente proposse...
+
+![ 2](img/13.png)
+
+Le damos a *Save* y, como no, nos pedirá que entes inscribim y ya nos pido el nombre de la "compañía", y el logo.
+
+![ 3](img/14.png)
+
+Y ya finalmente ente apreixerà un editor para editar nuestra página, pero ya tenemos un esqueleto creado:
+
+![ 4](img/15.png)
+
+En nuestro caso le damos directamente a publicar y ya la podemos [ver](https://sailfish_rose_453.pineapplebuilder.com/)
+
+:::info
+Lo grande desvantatge que tiene esta herramienta es que solo nos crea la página dentro del dominio que ella nos da. Los programadores siempre podrán hacer uno:
+```
+wget -r [nombre de la página]
+```
+Y podrán utilizar el código. Aunque viene comprimido. Por es una buena opción para experimentar
+:::
+
+## Hocoos
+
+[Hocoos](https://magic.hocoos.com) es una plataforma dónde con 7 pases que nos irá preguntando podremos crear nuestra página
+
+![Temática](img/16.png)
+
+Iremos respondiendo a todas las cuestiones que nos va planteando
+
+![Temática](img/19.png)
+
+Y finalmente escogeremos una de las propuestas creadas, escogeremos la paleta de colores y empezará la creación de la web y la podremos [encontrar açí](https://tiana431.hocoos.com).
+
+Igualmente, no podemos acceder al código, pero si tenemos un dominio comprado podremos acceder a nuestro archivo de configuración del DNS para que apunto en nuestra página. El problema de esto es que podriem decir que hay que tener ciertos conocimientos de informática para poder realizarlo.
+
+## Mixo
+
+[Mixo](https://app.mixo.io) directamente nos plantea un prompt y una cuestión y con solo esto ya te crea una página. En l´ultim  ya te pide que te inscribas.
+
+![Mixo](img/20.png)
+
+El resultado podemos encontrarlo [aquí](https://www.mixo.io/site/tecno-educa-12onu)
+
+:::info
+El plan gratuito solo te deja publicar una única página y está bastando limitado
+:::
+
+## ChatGPT o Copiloto
+
+\awesomebox[violet]{2pt}{\faRobot}{violet}{Crea un página en un solo archivo para un centro educativo que utilizo tecnología Html5 y css y esté contenido en un único Archivo. Los iconos que utilizará serán fontawesome del plan gratuito. La página mostrará 3 botones respinsive que cuando se muestre desde un ordenador se vean los botones en horzontal, cuando se pose el cursos encima de cada botón, este girará y mostrará la dirección url. Los 3 botos ocuparán la parte central de la página y tendrán un icono relacionado. El primer botón llevará a la página del cefire de Valencia: https://portal.edu.gva.es/cefirevalencia/es/inicio/ el segundo botón portará  al página de Aulas: https://aules.edu.gva.es/formaciodelprofessorat/login/index.php y el tercer botón a la dirección: https://cefire.eu/guacomole . Si se ve desde un mòvil los botones se voran de manera vertical. La página tendrá un título grande a la parte superior que mostrará el título Página de enlazo y un footer que posará: creado con tecnología Copiloto para el curso del cefire. El fondo de la página será vert clarete.} 
+
+El resultado que nos da es un pequeño tutorial de como crear una página web, por el que habrá que insistirle.
+
+\awesomebox[violet]{2pt}{\faRobot}{violet}{Puedes crearme todo el código html necesario? También falta el título que irá arriba de los botones y el footer que tendrá un texto en el centro mostrando el que te he dicho.} 
+
+Finalmente el resultado, a pesar de que no es del todo, el que ente esperavem es bastante aceptable:
+
+```html
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <title>Página de enlace</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #0072c6;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #d1e0e0;
+    }
+    header {
+      background-color: #0072c6;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 36px;
+      margin: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+    }
+    .button {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 10px;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      transition: transform 0.3s ease-in-out;
+      width: 100%;
+      max-width: 400px;
+      text-align: center;
+    }
+    .button:hover {
+      transform: rotate(360deg);
+    }
+    .button i {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+    .button span {
+      font-size: 24px;
+      text-align: center;
+    }
+    footer {
+      background-color: #0072c6;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      margin-top: 50px;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Página de enlace</h1>
+  </header>
+  <div class="container">
+    <div class="button-container">
+      <a href="https://portal.edu.gva.es/cefirevalencia/es/inicio/" class="button">
+        <i class="fas fa-university"></i>
+        <span>Cefire de Valencia</span>
+      </a>
+      <a href="https://aules.edu.gva.es/formaciodelprofessorat/login/index.php" class="button">
+        <i class="fas fa-chalkboard-teacher"></i>
+        <span>Aulas</span>
+      </a>
+      <a href="https://cefire.eu/guacamole" class="button">
+        <i class="fas fa-book"></i>
+        <span>Guacomole</span>
+      </a>
+    </div>
+  </div>
+  <footer>
+    <p>Creado con tecnología Copiloto para el curso del cefire. Contacto: <a href="mailto: ar.vicenteboix@edu.gva.es" class="href">Alfredo Vicente</a></p>
+  </footer>
+</body>
+</html>
+```
+
+Que hemos subido al nuestro [servidor que tenemos de pruebas](htps://cefire.eu) para que lo veáis.
 
 
-# Más possiblitats
+## Conclusiones
+
+Existen multitud de aplicaciones para crear webs estáticas, pero tal vez no marcan la diferencia respecto a crear tu propia página partiendo de un plantilla y crearla poco a poco. Pero siempre es más interesante tener algún conocimiento de progrmació web para dirigir las cuestiones para situaciones más concretas sobre qué es le que queremos ir modificando.
+
+# Más possibilidades
 
 Las posibilidades para programar en cualquier framework son infinitas y pueden tener un profesor las 24h disponible para ir preguntando aquello que necesitamos, pero hay que saber qué preguntar. Se podría haber utilizado una plataforma profesional como Unity que habría que instalar y programar con ella es más complexe puesto que no es solo código. Aun así  han muchos ejemplos en la red de crear un juego con Unity pero hay que ir preguntando poco a poco y diciendo "Y ahora que hago?".
 
