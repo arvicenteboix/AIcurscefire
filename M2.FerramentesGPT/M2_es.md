@@ -141,7 +141,7 @@ Podemos ver que la respuesta que nos da es bastante diferente a la que nos ha of
 
 ## Bard
 
-En este caso tendremos que ir a la página de [Bard](https://bard.google.com/chat). Del mismo modo hará falta que te creas una cuenta de google y entras con esta cuenta, sino no la podrás utilitzas.
+En este caso tendremos que ir a la página de [Bard](https://bard.google.com/chat). Del mismo modo hará falta que te creas una cuenta de Google y entras con esta cuenta, sino no la podrás utilizar.
 
 ![Bard chat](img/7.png)
 
@@ -189,7 +189,7 @@ Por eso hay que saber preguntar adecuadamente a la IA qué es el que volamos y n
 
 # Creando prompts
 
-Lo prompts, como ya hemos comentado, son aquellos mandos que vayamos a a darle a la inteligencia artificial, espero que a partir de una cuestión o prompt esperamos que nos dé la respuesta más pareguda al que esperemos. Una de las máximas que hay que aplicar en estos casos es que la cuestión tiene que ser tan clara que la IA no tenga que presuponer nada.
+Lo prompts, como ya hemos comentado, son aquellos mandos que vayamos a a darle a la inteligencia artificial, espero que a partir de una cuestión o prompt esperamos que nos dé la respuesta más parecida a la esperada. Una de las máximas que hay que aplicar en estos casos es que la cuestión tiene que ser tan clara que la IA no tenga que presuponer nada.
 
 Un ejemplo claro son en las tareas del día a día, si a casa le dices alguien "ve a hacer comprar" es posible que ya tenga una idea del que tiene que hacer, donde tiene que ir a comprar y en qué ciudad, cuando puedes ir a comprar, donde encontrar la lista de la compra, el presupuesto, los objetos prioritarios, las alternativas si no hay un producto y qué manías tienen los miembros de la familia. Todas estas cosas la IA no las sabe, por lo tanto los prompts no pueden #parecer a las cuestiones que planteamos en nuestro día a día, tenemos que definido más exactamente qué es el que volamos.
 

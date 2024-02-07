@@ -74,15 +74,15 @@ Este documento está sujeto a una licencia creative commons que permite su difus
 
 # Introducción
 
-Hasta ahora hemos visto algunas herramientas GPT, pero en la red podemos encontrar un montón de aplicaciones que hacen uso de la inteligencia artificial para crear casi cualquier producto multimedia. En este módulo os plantearemos algunas herramientas que os pueden ser de utilidad en vuestro día a día. Pero como bien sabréis, son unas cuántas de ejemplo. Estoy seguro que vosotros  conoceréis muchas más y que seràn tan útiles como las planteadas aquí.
+Hasta ahora hemos visto algunas herramientas GPT, pero en la red podemos encontrar muchas mas aplicaciones que hacen uso de la inteligencia artificial para crear casi cualquier producto multimedia. En este módulo os plantearemos algunas herramientas que os pueden ser de utilidad en vuestro día a día. Pero como bien sabréis, son unas cuántas de ejemplo. Estoy seguro que vosotros  conoceréis muchas más y que serán tan útiles como las planteadas aquí.
 
 :::warning
-Es recomendable que os creéis un correo aleatorio para poder #inscribir uno probar así todas las herramientas sin necesidad de tener que mujer vuestro correo personal. Si alguna os interesa ya mucho, di que podrieu utilizar vuestro correo para estar informado de las novedades.
+Es recomendable que os creéis un correo aleatorio para poder inscribirse en cada una de las plataformas para probar así todas las herramientas sin necesidad de tener que usar vuestro correo personal. Si alguna os interesa mucho sí que lo podríais utilizar para estar informado de las novedades.
 :::
 
 # Buscadores que utilizen inteligencia artifical
 
-Ya hemos comentado al módulo 1 la diferencia entre algoritmo y red neuronal, básicamente un algoritmo es una secuencia lógica de pasos que permite solucionar un problema mediante operaciones matemáticas no-ambiguas, mientras que una red neuronal es un sistema que puede aprender y #modificar a sí mismo. Los buscadores más conocidos, a pesar de que poco a poco van introduciendo redes neuronales están basados principalmente en algoritmos de busca. Pero existen otros tipos de buscadores que nos pueden facilitar más nuestra busca por Internet. Aquí os damos dos ejemplos:
+Ya hemos comentado en el módulo 1 la diferencia entre algoritmo y red neuronal, básicamente un algoritmo es una secuencia lógica de pasos que permite solucionar un problema mediante operaciones matemáticas no-ambiguas, mientras que una red neuronal es un sistema que puede aprender y modificarse a sí misma. Los buscadores más conocidos, a pesar de que poco a poco van introduciendo redes neuronales están basados principalmente en algoritmos de busca. Pero existen otro tipo de buscadores que nos pueden facilitar más nuestra búsqueda por Internet. Aquí os damos dos ejemplos:
 
 ## Perplexity
 
@@ -91,12 +91,12 @@ Perplexity tiene un entorno similar a los bots conversacionales pero este está 
 [http://www.perplexity.ai](http://www.perplexity.ai)
 
 :::info
-Como en todas las plataformas habrá que acceder con una cuenta de google o hacer el registro en la página.
+Como en todas las plataformas habrá que acceder con una cuenta de Google o hacer el registro en la página.
 :::
 
-Aquí tenéis un ejemplo que ilustra un poco el que estamos comentando. Si le preguntamos a perplexity:
+Aquí tenéis un ejemplo que ilustra un poco el que estamos comentando. Si le preguntamos a Perplexity:
 
-\awesomebox[violet]{2pt}{\faRobot}{violet}{\textbf{Qué centro de la comunidad valenciana ha sacado las mejores notas en las pruebas EBAU al 2023}
+\awesomebox[violet]{2pt}{\faRobot}{violet}{\textbf{Qué centro de la comunidad valenciana ha sacado las mejores notas en las pruebas EBAU en el 2023}
 Podemos ver que las respuestas que nos da difieren de si le doy un contexto o no} 
 
 ![Pregunta sin contexto](./img/1.png){ width=10cm }
@@ -107,18 +107,18 @@ Fijaos que él coge unas referencias que él considera óptimas, pero no son las
 
 ![Pregunta con contexto](./img/2.png){ width=10cm }
 
-:::importando
-Fijaos que las respuestas dadas no son una verdad absoluta, le hemos dado un contexto. En este caso nos da unos resultados #basar en unas medias numéricas que es el que ha considerado el diario como mejor o peor. Hace falta siempre tener una capacidad de valoración para saber el tipo de respuesta que tenemos.
+:::important
+Las respuestas dadas no son una verdad absoluta, les tenemos que dar un contexto. En este caso nos da unos resultados basados en unas medias numéricas que es el contexto que ha considerado el diario como mejor o peor. Hace falta siempre tener una capacidad de valoración para saber el tipo de respuesta que tenemos.
 :::
 
-Si basura una cuestión más general, entenderemos porque esta herramienta está orientada más en la busca de información:
+Si hacemos una cuestión más general, entenderemos porque esta herramienta está orientada más en la busca de información:
 
 ![Pregunta general](./img/3.png){ width=10cm }
 
 Probablemente otro chatbot como chatgpt ya nos habría dado algún ejemplo sobre alguna receta de cocina.
 
 :::tip
-Como veáis cada IA tiene un propósito específico. Por eso es importante en que no os quedáis solo en una y que vayáis investigando diferentes versiones de todas ellas. También dependerás de las necesidades que tengan en cada momento para utilizar una u otra.
+Como veáis cada IA tiene un propósito específico. Por eso es importante en que no os quedéis solo en una y que vayáis investigando diferentes versiones de todas ellas. También dependerás de las necesidades que se tenga en cada momento para utilizar una u otra.
 :::
 
 ## You
@@ -127,43 +127,43 @@ Podemos encontrar el buscador you en la página:
 
 [https://you.com/](https://you.com/)
 
-Al igual que Perplexity, you también es una IA centrada en la busca de información, las respuestas que nos da son más naturales pero no nos da las referencias de dónde ha extraído la información. Fijémonos qué respuesta nos da a la misma cuestión plateada a perplexity:
+Al igual que Perplexity, You también es una IA centrada en la búsqueda de información, las respuestas que nos da son más naturales pero no nos da las referencias de dónde ha extraído la información. Fijémonos qué respuesta nos da a la misma cuestión plateada a perplexity:
 
 ![Pregunta con contexto](./img/4.png){ width=10cm }
 
 :::note
-Si analizamos la respuesta veremos que nos da un resultado bastante diferente del que esperábamos, por eso es importante leer la respuesta puesto que podemos ver que nos dice claramente han llegado a la selectividad con la mejor nota mediana de toda la Comunidad Valenciana al 2023*. Y no está hablando concretamente de la nota mediana después sino de antes.
+Si analizamos la respuesta veremos que nos da un resultado bastante diferente del que esperábamos, por eso es importante leer la respuesta puesto que podemos ver que nos dice claramente *han llegado a la selectividad con la mejor nota mediana de toda la Comunidad Valenciana al 2023*. Y no está hablando concretamente de la nota media después sino de antes.
 :::
 
 # Creación de imágenes y videos
 
 ## Flexclip
 
-Se trata de una herramienta para crear y editar videos, esta presenta una parte donde puedes generar videos a partir de texto. Hay que ser muy específicos con el que se desea puesto que los resultados no son nunca los que uno está pensando. Es un herramienta. Podemos acceder desde aquí:
+Se trata de una herramienta para crear y editar videos, esta presenta una parte donde puedes generar videos a partir de texto. Hay que ser muy específicos con el que se desea puesto que los resultados no son nunca los que uno está pensando. Podemos acceder desde aquí:
 
 [https://www.flexclip.com](https://www.flexclip.com)
 
 Para crear un video a partir de texto tenemos que ir a la herramienta AI Video Generator:
 
-![Ay Video Generator](img/6.png){ width=10cm }
+![AI Video Generator](img/6.png){ width=10cm }
 
 Y escribimos un texto:
 
-![Ay Video Generator](img/5.png){ width=10cm }
+![AI Video Generator](img/5.png){ width=10cm }
 
 :::note
-Se trata de una herramienta de pago como case todas las que vayamos a ver, estas nos permiten crear una serie de archivos multimedia en el día. Así que hay que tener en cuenta estas limitaciones. Flexclip, también otros herramientas que pueden resultar interesante como la generación de imágenes además de ser un editor de video online.
+Se trata de una herramienta de pago como casi todas las que vamos a ver, estas nos permiten crear una serie de archivos multimedia en el día. Así que hay que tener en cuenta estas limitaciones. Flexclip, también es un editor de video online.
 :::
 
 ## Deepai
 
-Podemos acceder a deepai desde aquí: [https://deepai.org](https://deepai.org). Se trata de un generador de imágenes. Podemos ver que como todas las IA hay que dar un contexto más ancho para tener un resultado más deseado
+Podemos acceder a Deepai desde aquí: [https://deepai.org](https://deepai.org). Se trata de un generador de imágenes. Podemos ver que como todas las IA hay que dar un contexto más ancho para tener un resultado más deseado
 
 ![Prompt para generar imagen](img/7.png){ width=10cm }
 
 :::caution
-Nosotros estamos planteando un prompt en valenciano, los mejores resultado siempre serán aquellos que expresamos en inglés. Generar imágenes a partir de IA es un tanto más complexe, siempre podemos modificar el prompt para ir buscando el resultado esperado. Dos cosas que tenéis que tener en cuenta cuando creáis prompts en imagen es que la primera frase es más importante que la última. Fijaos cómo yo quiero que aparezcan los dos alumnos y cambio el prompt para insistirle.
-Recordáis que las órdenes que reb la inteligencia artificial tienen que ser claras y directo. Olvidémonos de la educación, no es necesaria!
+Nosotros estamos planteando un prompt en valenciano, siempre daran mejor resultado aquellos que expresamos en inglés. Generar imágenes a partir de IA es un tanto más complejo, siempre podemos modificar el prompt para ir buscando el resultado esperado. Dos cosas que hay que tener en cuenta cuando se crea un prompt de imagen es que la primera frase es más importante que la última. Fijaos cómo yo quiero que aparezcan los dos alumnos y cambio el prompt para insistirle.
+Recordád que las órdenes que reb la inteligencia artificial tienen que ser claras y directo. Olvidémonos de la educación, no es necesaria!
 :::
 
 ![Ejemplo cambiando un poco lo prompt](img/9.png){ width=10cm }

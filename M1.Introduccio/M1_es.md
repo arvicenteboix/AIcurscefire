@@ -110,7 +110,7 @@ Dentro de la misma inteligencia artificial nos podemos encontrar diferentes cate
 | Tipo de IA | Descripción | Ejemplos |
 | --- | --- | --- |
 | **Inteligencia Artificial Estrecha (#IAE)** | La #IAE está programada para realizar una sola tarea, ya sea verificar el clima, poder jugar al ajedrez o analizar datos sin procesar para escribir informes periodísticos. Los sistemas #IAE pueden atender una tarea en tiempo real, pero extraen información de un conjunto de datos específico. No funcionan fuera de la única tarea para la cual están diseñados. | Verificar el clima, jugar al ajedrez, analizar datos sin procesar para escribir informes periodísticos¹. |
-| **Inteligencia Artificial General (IAG)** | La IAG puede autoaprendre y autoracionar dentro de su entorno. Se centra en tareas complejas y variadas, con la misma eficiencia que un ser humano². | Todavía en desarrollo. |
+| **Inteligencia Artificial General (IAG)** | La IAG puede autoaprender y razonar por sí misma dentro de su entorno. Se centra en tareas complejas y variadas, con la misma eficiencia que un ser humano². | Todavía en desarrollo. |
 | **Inteligencia Artificial Superintelectual (IAS)** | La IAS tiene la capacidad de superar la inteligencia humana en todas las áreas². | Teóricamente posible, pero todavía no existe. |
 
 ## Modelos de lenguaje a gran escala
@@ -127,7 +127,7 @@ Algunas aplicaciones destacadas de los MLL son:
 4. **Generación de Resúmenes Automáticos**: MLL son empleados para resumir automáticamente textos largos, facilitando la extracción de información clave.
 5. **Preguntas y Respuestas**: Modelos como BERT son utilizados en sistemas de preguntas y respuestas para entender y responder consultas en lenguaje natural.
 6. **Análisis de Sentimiento Avanzado**: MLL pueden mejorar la capacidad de analizar el sentimiento en grandes cantidades de texto, beneficiando aplicaciones en redes sociales y comentarios en linea.
-7. **Autocompletat de Texto Mejorado**: Herramientas de autocompletat, como las utilizadas en correos electrónicos o buscas en la web, se benefician de la capacidad predictiva de los MLL.
+7. **Autocompletado de Texto Mejorado**: Herramientas de autocompletado, como las utilizadas en correos electrónicos o buscas en la web, se benefician de la capacidad predictiva de los MLL.
 8. **Creación de Contenido Multimedia**: MLL pueden ser combinados con otros modelos de inteligencia artificial para crear contenido multimedia, como imágenes, videos o audio, a partir de texto.
 
 9. **Creación de Contenido para Redes Sociales**: Los MLL son utilizados para generar contenido relevante y atractivo en plataformas de redes sociales.
@@ -150,7 +150,7 @@ Ejemplos de modelos de difusión incluyen:
 
 3. **Stable Diffusion**: Un enfoque de difusión que busca conseguir una difusión más estable y eficiente en términos de entrenamiento y generación de imágenes.
 
-Estos modelos de difusión tienen aplicaciones en varias áreas, incluyente:
+Estos modelos de difusión tienen aplicaciones en varias áreas, incluyendo:
 
 1. **Generación de Imágenes Artísticas y Creativas**: Los modelos de difusión como DALL-E se utilizan para generar imágenes artísticas y creativas basadas en descripciones textuales.
 
