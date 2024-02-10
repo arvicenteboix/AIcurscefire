@@ -19,7 +19,7 @@ toque-title: Contenidos
 # Cabeceras y pies
 header-left: 4. Creación de código. Programas y webs
 header-right: Curso 2023-2024
-footer-left: CEFIRE València
+footer-left: CEFIRE Valencia
 footer-right: \thepage/\pageref{LastPage}
 
 # Imágenes
@@ -59,7 +59,7 @@ pandoc-latex-environment:
 
 <!-- \textbf{greatest} -->
 
-<!-- \awesomebox[violet]{2pt}{\faRobot}{violet}{\textbf{greatest}} -->
+<!-- \awesomebox[violet]{2pt}{\faRobot}{violet}{\textbf{greatest}\hfill \break} -->
 
 \vspace{\fill}
 
@@ -72,32 +72,36 @@ Este documento está sujeto a una licencia creative commons que permite su difus
 
 # Introducción
 
-En esta unidad lo primero que vamos a pediros es que no os pongais nerviosos ni os desespereis, pero cuando hablamos de inteligencia artificial tenemos que hablar de una de sus principales funciones y que verdaderamente está revolucionando muchos aspectos de la vida profesional de muchos trabajadores. 
+En esta unidad lo primero que vamos a pediros es que no os pongáis nerviosos ni os desesperéis, pero cuando hablamos de inteligencia artificial tenemos que hablar de una de sus principales funciones y que verdaderamente está revolucionando muchos aspectos de la vida profesional de muchos trabajadores. 
 
-En este caso vayamos a realizar un aplicación con un lenguaje de programación muy conocido cómo es Python, y no, no hace falta que sepáis programar, no hace falta que entendáis el que dice, pero siguiendo las instrucciones que nos irá dando la plataforma haremos una aplicación.
+Estamos hablando de la creación de código. En este caso vamos a realizar una aplicación con un lenguaje de programación muy conocido como es Python, y no, no hace falta que sepáis programar, no hace falta que entendáis lo que dice, pero siguiendo las instrucciones que nos irá dando la plataforma haremos una aplicación.
 
 # Objetivo
 
-Nuestro objetivo va a ser crear una aplicación que activo la cámara web de nuestro ordenador y activo si estamos somriguent o estamos tristes.
+Nuestro objetivo va a ser crear una aplicación que active la cámara web de nuestro ordenador y nos diga si estamos sonriendo o estamos tristes.
 
-Para realizado esta aplicación tenemos que conocer en qué sistema operativo vayamos a crearlo puesto que no solo nos hará falta el código sino como ejecutarlo. Para este fin utilizaremos únicamente Bing Copilot puesto que es la que, en principio funciona mejor para programar.
+Para realizar esta aplicación tenemos que conocer en qué sistema operativo vamos a crearla puesto que no solo nos hará falta el código sino cómo ejecutarlo. Para este fin utilizaremos únicamente Bing Copilot puesto que es la que, en principio, funciona mejor para programar.
+
+:::important
+Cabe decir que no vamos a obtener un resultado que se ajuste al 100% de lo que nosotros esperamos. Hemos de realizar siempre una comprobación del código y modificar los aspectos que queremos adaptar.
+Si no sabemos programar hemos de conformarnos con lo que nos de o, es un buen punto para aprender a programar ya que la mejor manera de aprender es a base de ejemplos que nos irá dando la IA.
+:::
 
 # Realización
 
-Para crear un programa con python tenemos que pegar el código a una archivo de texto (.txt, no vale ni .doc ni .odt) y guardarlo.
+Para crear un programa con python tenemos que pegar el código en un archivo de texto (.txt, no vale ni .doc ni .odt) y guardarlo.
 
 Plantearemos un prompt como este:
 
-\awesomebox[violet]{2pt}{\faRobot}{violet}{Eras un programador experimentado que le gusta documentar su código y trabaja con linux. Nuestra vida depende de realizar un programa con python que abrirá una ventana que nos mostrará el que hay a la cámara web de nuestro ordenador. Este programa detectará cuando nuestra cara sonríe y cuando está triste y mostrará un mensaje a la pantalla que irá refrescar cada segundo mostrando el texto triste o alegre}
+\awesomebox[violet]{2pt}{\faRobot}{violet}{\textbf{Eres un programador experimentado que le gusta documentar su código y trabaja con linux. Nuestra vida depende de realizar un programa con python que abrirá una ventana que nos mostrará lo que hay en la cámara web de nuestro ordenador. Este programa detectará cuándo nuestra cara sonríe y cuándo está triste y mostrará un mensaje wn la pantalla que se refrescará cada segundo mostrando el texto triste o alegre}}
 
-Copiamos y pegan el que nos dice exactamente puesto que es trata de una respuesta bastante larga:
-
+Copiaremos y pegaremos lo que nos dice exactamente puesto que se trata de una respuesta bastante larga:
 
 Hola! Como que quieres hacer un programa que detecte emociones a través de la cámara web de tu ordenador, te recomiendo que utilices la librería **OpenCV** para Python. Esta librería es una herramienta de código abierto que se puede utilizar para la visión por computador y el procesamiento de imágenes. Para la detección de emociones, puedes utilizar el reconocimiento facial en tiempo real con **OpenCV**. Esto implica la detección de caras y la identificación de las emociones a través de las expresiones faciales.
 
-Para la detección de emociones, te recomiendo que utilices el modelo *HACER+** (Face Expression Recognition Plus) que es un modelo de red neuronal que se puede entrenar para la detección de emociones a través de las expresiones faciales. Este modelo se puede utilizar con **OpenCV** para la detección de emociones en tiempo real.
+Para la detección de emociones, te recomiendo que utilices el modelo **FER** (Face Expression Recognition Plus) que es un modelo de red neuronal que se puede entrenar para la detección de emociones a través de las expresiones faciales. Este modelo se puede utilizar con **OpenCV** para la detección de emociones en tiempo real.
 
-A continuación, te proporciono un ejemplo de código que utiliza **OpenCV** y *HACER+** para la detección de emociones a través de la cámara web de tu ordenador:
+A continuación, te proporciono un ejemplo de código que utiliza **OpenCV** y **FER** para la detección de emociones a través de la cámara web de tu ordenador:
 
 ```python
 importe cv2
@@ -135,9 +139,9 @@ cap.release()
 cv2.destroyAllWindows()
 ```
 
-Este código abre la cámara web de tu ordenador y detecta las caras en tiempo real. A continuación, utiliza el modelo *HACER+** para la detección de emociones a través de las expresiones faciales. El código dibuja cuadros delimitadores y hashtags de las caras detectadas y muestra el texto "alegre" o "triste" a la pantalla, dependiendo de la emoción detectada.
+Este código abre la cámara web de tu ordenador y detecta las caras en tiempo real. A continuación, utiliza el modelo **FER** para la detección de emociones a través de las expresiones faciales. El código dibuja cuadros delimitadores y hashtags de las caras detectadas y muestra el texto "alegre" o "triste" en la pantalla, dependiendo de la emoción detectada.
 
-Espero que esto te ayude a empezar a desarrollar tu programa! Si tienes alguna pregunta más, no dudes a preguntarme.
+Espero que esto te ayude a empezar a desarrollar tu programa. Si tienes alguna pregunta más, no dudes a preguntarme.
 
 Origen: Conversación cono Bing, 29/1/2024
 (1) Facial Emotion Recognition In Real-Time - LearnOpenCV. https://learnopencv.com/facial-emotion-recognition/.
@@ -146,7 +150,7 @@ Origen: Conversación cono Bing, 29/1/2024
 (4) ajitharunai/Facial-Emotion-Recognition-with-OpenCV-and-Deepface. https://github.com/ajitharunai/facial-emotion-recognition-with-opencv-and-deepface/.
 (5) Real-time Facial Emotion Recognition using OpenCV and Deepface. https://github.com/saeedtaghavi/facial-emotion-recognition-with-opencv-and-deepface/blob/main/readme.md.
 
-Nosotros solo volamos el código, así que lo copiamos y pegamos en un archivo de texto llamado camera.py y ejecutamos a la terminal:
+Nosotros solo queremos el código, así que lo copiamos y pegamos en un archivo de texto llamado camera.py y ejecutamos en la terminal:
 
 ```
 python camera.py
@@ -156,41 +160,47 @@ Pero nos da un error y no funciona. Así que recurrimos a Bing Copilot para ver 
 
 ![Respuesta de Copilot](img/0.png){ height=50px }
 
-Así, ejecutamos el que nos dice la IA y volvemos a ejecutar:
+Así, ejecutamos lo que nos dice la IA y volvemos a ejecutar:
 
 ```python
 python camera.py
 ```
 Y este es el resultado:
 
-![Respuesta de Copilot](img/1.png){ height=50px }
+![Aplicación](img/1.png){ height=50px }
 
-![Respuesta de Copilot](img/2.png){ height=50px }
+![Aplicación](img/2.png){ height=50px }
 
-![Respuesta de Copilot](img/3.png){ height=50px }
+![Aplicación](img/3.png){ height=50px }
 
-![Respuesta de Copilot](img/4.png){ height=50px }
+![Aplicación](img/4.png){ height=50px }
+
+:::info
+En nuestro caso hemos usado un Sistema Operativo basado en linux como LliureX, pero cada sistema operativo tendrá su complejidad. LliureX destaca porque simplifica mucho las tareas de configuración.
+:::
 
 
 # Vayamos a crear un juego con python también
 
-Crear un juego no es una tarea sencilla y vamos a utilizar uan biblioteca de python llamada *Pygame* que es muy sencilla de utilizar. Personalmente no la he utilizado nunca. Pero podremos ver que no solo hay que realizar un mando para realizar el juego sino que habrá que ir dándole instrucciones para que vaya cambiando las cosas que no entiende del que nosotros volamos.
+Crear un juego no es una tarea sencilla y vamos a utilizar una biblioteca de python llamada *Pygame* que es muy sencilla de utilizar. Personalmente no la he utilizado nunca. Pero podremos ver que no solo hay que realizar un *prompt* para realizar el juego sino que habrá que ir dándole instrucciones para que vaya cambiando las cosas que no entiende para que al final haga lo que esperamos.
 
 :::caution
-La creación de un videojuego comporta muchas veces años, y juegos sencillos quizás no años pero meses dedicados en exclusiva, así que no esperamos sacar una maravilla de juego con un día, aun así los resultados son bastante sorprendentes.
+La creación de un videojuego lleva muchas veces años, y para juegos sencillos quizás no años pero sí meses dedicados en exclusiva, así que no esperemos sacar una maravilla de juego en un día, aun así los resultados son bastante sorprendentes.
 :::
 
-Puede parecer una tarea sencilla tal y como voy a planteároslo, pero lo prompt que he creado para que la IA me creo el videojuego he tenido que modifcar-lo un poco (y después he modificado un poco el código) para que me funciono correctamente. Además cómo hemos comentado siempre es importante conocer un poco (aunque sea muy poco) de que estamos tratando con la IA para poder perfilar mejor lo prompt. 
+Puede parecer una tarea sencilla tal y como voy a planteároslo, pero el *prompt* que he creado para que la IA me cree el videojuego he tenido que modificarlo un poco (y después he modificado un poco el código, aunque el primer resultado es bastante bueno) para que me funcione correctamente. Además como hemos comentado es importante conocer un poco (aunque sea muy poco) lo que estamos tratando con la IA para poder perfilar mejor el prompt. Y no hablo de saber programar, sino de conocer aspectos sobre la creación de videojuegos[^1].
 
-La plataforma que hemos utilizado es Bing Copilot con su modo más preciso y lo prompt planteado ha sido lo siguiente:
+[^1] Si preguntamos en clase seguro que muchos saben más que nosotros.
 
-awesomebox[violet]{2pt}{Crea un juego con la biblioteca Pygame para python que tenga una pantalla estática con una plataforma del 20% del total de la ventana que pueda desplazar a la izquierda o la derecha con el teclado de manera suave y rápida. La velocidad de la bola será constante de 1 y que se actualice la función que mueve la bola cada 0.3 según y cuando la bola choco con los extremos de la pantalla rebotará con un ángulo de 45° en la dirección que lleva, si la bola choca contra la plataforma rebotará, si rebota en la mitad derecha de la plataforma se  irá hacia la derecha con un ángulo de 45° hacia arriba y si rebota en la mitad izquierda de la plataforma se  irá hacia el izquierdo con un ángulo de 45° hacia arriba. Al comienzo habrá una bola encima de la tabla sin mover y cuando se polse la tecla espacio la bola empezará a mover hacia arriba. Escribir-me el código solo, sin comentarios y de la manera más resumida posible. No quiero que me escribas ninguna explicación, solo quiero el código y sin comentarios.}
+La plataforma que hemos utilizado es Bing Copilot con su modo más preciso y el prompt planteado ha sido lo siguiente:
+
+awesomebox[violet]{2pt}{\textbf{Crea un juego con la biblioteca Pygame para python que tenga una pantalla estática con una plataforma del 20% del total de la ventana que pueda desplazar a la izquierda o la derecha con el teclado de manera suave y rápida. La velocidad de la bola será constante de 1 y que se actualice la función que mueve la bola cada 0.3 segundos y cuando la bola choque con los extremos de la pantalla rebotará con un ángulo de 45° en la dirección que lleva, si la bola choca contra la plataforma rebotará, si rebota en la mitad derecha de la plataforma se  irá hacia la derecha con un ángulo de 45° hacia arriba y si rebota en la mitad izquierda de la plataforma se  irá hacia la izquierda con un ángulo de 45° hacia arriba. Al comienzo habrá una bola encima de la tabla sin mover y cuando se pulse la tecla espacio la bola empezará a moverse hacia arriba. Escríbeme el código solamente, sin comentarios y de la manera más resumida posible. No quiero que me escribas ninguna explicación, solo quiero el código y sin comentarios.}}
 
 La respuesta tal cual ha sido:
 
 ![Respuesta de Copilot](img/8.png)
 
-Os transcribim el código aquí
+Os transcribimos el código aquí
 
 ```python
 importe pygame
@@ -278,7 +288,7 @@ Este es el código generado y el resultado ha sido lo siguiente:
 
 ![Juego planteado](img/7.png)
 
-El problema que hemos detectado es que la bola iba muy lentamente, en este caso nosotros hemos decidido cambiado la tasa de refrescament de la pantalla que al prompt lo hemos dejado como: y que se actualice la función que mueve la bola cada 0.3 según*, y finalmente le hemos dado un valor de 120. 
+El problema que hemos detectado es que la bola iba muy lentamente, en este caso nosotros hemos decidido cambiado el refresco de la pantalla que en el prompt lo hemos reflejado como: *y que se actualice la función que mueve la bola cada 0.3 según*, y finalmente le hemos dado un valor de 120. 
 
 Pero le hemos preguntado a Copilot y la respuesta ha sido igualmente válida o incluso más lógica:
 
@@ -290,47 +300,51 @@ Hemos cambiado el valor de BAILE_SPEED a 5 y el juego ha mejorado bastante
 
 ## Explicación del prompt
 
-Vayamos a hacer una pequeña explicación del prompt, como podéis ver los prompts no suelen ser "Hazme un juego tipo *Arkanoid", hay que detallar claramente el que volamos.
+Vamos a hacer una pequeña explicación del prompt, como podéis ver los prompts no suelen ser "Hazme un juego tipo *Arkanoid*", hay que detallar claramente lo que queremos.
 
-:::noto
-Es posible que ahora ya haya deprés que el juego Arkanoid está relacionado con el prompt que he preguntado después y ya lo haya asociado y a volsatres os funcione. La IA va aprendiendo también del que nosotros le "enseñamos"
+:::note
+Es posible que ahora ya haya una respuesta para el prompt de crear una juego tipo Arkanoid ya que está relacionado con el prompt que he preguntado después y ya lo haya asociado. A vosotros os podría funcionar. La IA va aprendiendo también del que nosotros le "enseñamos"
 :::
 
 El prompt que hemos planteado es:
 
->Crea un juego con la bilioteca pygame para python que tenga una pantalla estática con una plataforma del 20% del total de la ventana que pueda desplazar a la izquierda o la derecha con el teclado de manera suave y rápida. La velocidad de la bola será constante de 1 y que se actualice la función que mueve la bola cada 0.3 según y cuando la bola choco con los extremos de la pantalla rebotará con un ángulo de 45° en la dirección que lleva, si la bola choca contra la plataforma rebotará, si rebota en la mitad derecha de la plataforma se  irá hacia la derecha con un ángulo de 45° hacia arriba y si rebota en la mitad izquierda de la plataforma se  irá hacia el izquierdo con un ángulo de 45° hacia arriba. Al comienzo habrá una bola encima de la tabla sin mover y cuando se polse la tecla espacio la bola empezará a mover hacia arriba. Escribir-me el código solo, sin comentarios y de la manera más resumida posible. No quiero que me escribas ninguna explicación, solo quiero el código y sin comentarios.
+>Crea un juego con la bilioteca pygame para python que tenga una pantalla estática con una plataforma del 20% del total de la ventana que pueda desplazar a la izquierda o la derecha con el teclado de manera suave y rápida. La velocidad de la bola será constante de 1 y que se actualice la función que mueve la bola cada 0.3 segundos y cuando la bola choque con los extremos de la pantalla rebotará con un ángulo de 45° en la dirección que lleva, si la bola choca contra la plataforma rebotará, si rebota en la mitad derecha de la plataforma se irá hacia la derecha con un ángulo de 45° hacia arriba y si rebota en la mitad izquierda de la plataforma se  irá hacia el izquierdo con un ángulo de 45° hacia arriba. Al comienzo habrá una bola encima de la tabla sin mover y cuando se pulse la tecla espacio la bola empezará a mover hacia arriba. Escríbeme el código solamente, sin comentarios y de la manera más resumida posible. No quiero que me escribas ninguna explicación, solo quiero el código y sin comentarios.
 
 > Crea un juego con la bilioteca pygame para python
 
-Tenemos que detallar la tecnlogia que volamos utiltizar, aquí estamos planteando un contexto en nuestro prompt
+Tenemos que detallar la tecnlogia que queremos utilizarr, aquí estamos planteando un contexto en nuestro prompt
 
 > que tenga una pantalla estática con una plataforma del 20% del total de la ventana 
 
-En este caso continuemos detallando el contexto, podríamos haber pedido una pantalla más pequeña pero ha supossat una pantalla de 800x600, si que le indiquemos que la ventana tenga un tamany determinado y volamos una plataforma que es donde rebotarán las bolas. Ved que le doy ya un valor, como que no le he dado un valor a la pantalla le hablo en porcentajes.
+En este caso continuamos detallando el contexto, podríamos haber pedido una pantalla más pequeña pero ha supuesto una pantalla de 800x600, sí que le indicamos que la ventana tenga un tamaño determinado y que queremos una plataforma que es donde rebotarán las bolas. Observa que ya le doy un valor, como no le he dado un valor a la pantalla hablo en porcentajes.
 
 > que pueda desplazar a la izquierda o la derecha con el teclado de manera suave y rápida. 
 
-Le dejamos claro que queremos manejar la plataforma con el teclado y no con el ratón, especificamos suave y rápida para que entienda que si mantenemos polsat la tecla queremos que continúe, en este caso me ha funcionado pero con otros modelos GPT no entiende suave y rápida* 
+Le dejamos claro que queremos manejar la plataforma con el teclado y no con el ratón, especificamos suave y rápida para que entienda que si mantenemos pulsada la tecla queremos que continúe, en este caso me ha funcionado pero con otros modelos GPT no entiende *suave y rápida* 
 
-> La velocidad de la bola será constante de 1 y que se actualice la función que mueve la bola cada 0.3 según 
+> La velocidad de la bola será constante de 1 y que se actualice la función que mueve la bola cada 0.3 segundos 
 
-Esta parte puede costar de entender un poco más, el FPS es la velocidad con la que quiero que se refresque la pantalla y se lo he dicho en según que la IA a interpretado 60 fps, y al velocidad 1 porque pygame solo permite valores mayores de 1.
+Esta parte puede costar de entender un poco más, el FPS es la velocidad con la que quiero que se refresque la pantalla y se lo he dicho en segundos que la IA a interpretado 60 fps, y la velocidad 1 porque pygame solo permite valores mayores de 1.
 
-> y cuando la bola choco con los extremos de la pantalla rebotará con un ángulo de 45° en la dirección que lleva
+> y cuando la bola choque con los extremos de la pantalla rebotará con un ángulo de 45° en la dirección que lleva
 
-Es importante delimitar como rebota, aquí es cuando le damos ejemplos a la IA para que entienda que tiene que rebotar en una dirección diferente, sino podría #quedar rebotando de un lado a otro sin cambiar. Hay que pensar en la dinámica del juego.
+Es importante delimitar como rebota, aquí es cuando le damos ejemplos a la IA para que entienda que tiene que rebotar en una dirección diferente, sino podría quedar rebotando de un lado a otro sin cambiar. Hay que pensar en la dinámica del juego.
 
->si la bola choca contra la plataforma rebotará, si rebota en la mitad derecha de la plataforma se  irá hacia la derecha con un ángulo de 45° hacia arriba y si rebota en la mitad izquierda de la plataforma se  irá hacia el izquierdo con un ángulo de 45° hacia arriba. 
+>si la bola choca contra la plataforma rebotará, si rebota en la mitad derecha de la plataforma se irá hacia la derecha con un ángulo de 45° hacia arriba y si rebota en la mitad izquierda de la plataforma se  irá hacia el izquierdo con un ángulo de 45° hacia arriba. 
 
-Continuamos con los ejemplos que ayudan a entender qué es el que deseamos.
+Continuamos con los ejemplos que ayudan a entender qué es lo que deseamos.
 
-> Al comienzo habrá una bola encima de la tabla sin mover y cuando se polse la tecla espacio la bola empezará a mover hacia arriba. 
+> Al comienzo habrá una bola encima de la tabla sin mover y cuando se pulse la tecla espacio la bola empezará a mover hacia arriba. 
 
-Hay que definir una situación inicial puesto que, como ya hemos comentado, la IA no presupone como un humano, sino especificamos algo se lo inventará y podría ser que no fuera el que deseamos
+Hay que definir una situación inicial puesto que, como ya hemos comentado, la IA no presupone como un humano, sino especificamos algo se lo inventará y podría ser que no fuera lo que deseamos. Las presuposiciones que hace no son humanas.
 
-> Escribir-me el código solo, sin comentarios y de la manera más resumida posible. No quiero que me escribas ninguna explicación, solo quiero el código y sin comentarios.
+> Escríbeme el código solamente, sin comentarios y de la manera más resumida posible. No quiero que me escribas ninguna explicación, solo quiero el código y sin comentarios.
 
-Por último insistimos que solo volamos el código sin ningún tipo de explicación y sin ningún tipo de comentario al código. Los comentarios nos pueden ayudar a entender mejor el código, pero la plataforma tiene limitado el número de caracteres que nos da como respuesta, de este modo estaviem cantidad de caracteres que queremos que nos dé.
+Por último insistimos que solo queremos el código sin ningún tipo de explicación y sin ningún tipo de comentario al código. Los comentarios nos pueden ayudar a entender mejor el código, pero la plataforma tiene limitado el número de caracteres que nos da como respuesta, de este modo ahorramos cantidad de caracteres que queremos que nos dé.
+
+:::important
+Insitimos en que la plataforma tiene limitado el número de caracteres que nos da como respuesta, por eso insistimos que no nos dé comentarios adicionales, para que se centre solamanete en el código que es lo que queremos
+:::
 
 :::warning
 Creando este prompt, en una de las pruebas la IA me contestó:
@@ -340,48 +354,49 @@ Creando este prompt, en una de las pruebas la IA me contestó:
 Así que no siempre obtendremos el resultados esperados y habrá que ir modificando variables hasta que nos doy el resultado esperado.
 :::
 
+No penséis que este prompt ha salido mágicamente de mi cabeza, hay que ir analizando las respuestas que va dando para ir creando el prompt, son varios intentos modificando el orden de las frases del prompt y preguntando por separado para analizar las respuestas y poder perfilar más.
+
 # Creación de páginas web
 
-Pera crear páginas web de manera rápida y zenzilla igualmente podamos recòrrer a las plataformas GPT, pero como hemos visto estas tenem una limitación de caracteres de respuesta y te limita en una página. Puedes ir preguntado-le que te vaya generando cada uno de los ficheros que necesitas.
+Para crear páginas web de manera rápida y sencilla también podemos recurrir a las plataformas GPT, pero como hemos visto, estas tienen una limitación de caracteres de respuesta y te limitan a una página. Puedes ir preguntándole que te vaya generando cada uno de los archivos que necesitas.
 
 ## Pineapple
 
-Con [Pineapple](https://www.pineapplebuilder.com/) puedes crea una página web en cuestión de minutos. Nomś netre en la página ya nos preguntará qué queremos hacer:
+Con [Pineapple](https://www.pineapplebuilder.com/) puedes crear una página web en cuestión de minutos. Nada más entrar en la página ya nos preguntará qué queremos hacer:
 
-\awesomebox[violet]{2pt}{\faRobot}{violet}{Una página para mi centro educativo que explico cuáles es la normativa del centro y qué particularidades tiene.
-}
+\awesomebox[violet]{2pt}{\faRobot}{violet}{\textbf{Una página para mi centro educativo que explique cuál es la normativa del centro y qué particularidades tiene.}}
 
 ![Pineapple](img/11.png)
 
 De primeras ya nos pegunta por el *Bussiness details* que es el objetivo de la página web y por el *target audience*, a quién va dirigida. Nos da una propuesta para cada temática y le damos a generar la página.
 
-![ 1](img/12.png)
+![Paso 1](img/12.png)
 
-Ahora tendremos que se cosechar los colores y un poco la temática, o podemos dejar el que ente proposse...
+Ahora tendremos que escoger los colores y un poco la temática, o podemos dejar lo que nos proponga...
 
-![ 2](img/13.png)
+![Paso 2](img/13.png)
 
-Le damos a *Save* y, como no, nos pedirá que entes inscribim y ya nos pido el nombre de la "compañía", y el logo.
+Le damos a *Save* y, como no, nos pedirá que entnoses inscribamos y ya nos pide el nombre de la "compañía", y el logo.
 
-![ 3](img/14.png)
+![Paso 3](img/14.png)
 
-Y ya finalmente ente apreixerà un editor para editar nuestra página, pero ya tenemos un esqueleto creado:
+Y ya finalmente nos aparecerá un editor para editar nuestra página, pero ya tenemos un esqueleto creado:
 
-![ 4](img/15.png)
+![Paso 4](img/15.png)
 
 En nuestro caso le damos directamente a publicar y ya la podemos [ver](https://sailfish_rose_453.pineapplebuilder.com/)
 
 :::info
-Lo grande desvantatge que tiene esta herramienta es que solo nos crea la página dentro del dominio que ella nos da. Los programadores siempre podrán hacer uno:
+La gran desventaja que tiene esta herramienta es que solo nos crea la página dentro del dominio que ella nos da. Los programadores siempre podrán hacer un:
 ```
 wget -r [nombre de la página]
 ```
-Y podrán utilizar el código. Aunque viene comprimido. Por es una buena opción para experimentar
+En el terminal de linux i podrán utilizar el código. Aunque viene comprimido. Pero es una buena opción para experimentar
 :::
 
 ## Hocoos
 
-[Hocoos](https://magic.hocoos.com) es una plataforma dónde con 7 pases que nos irá preguntando podremos crear nuestra página
+[Hocoos](https://magic.hocoos.com) es una plataforma dónde con 7 pasos que nos irá preguntando podremos crear nuestra página
 
 ![Temática](img/16.png)
 
@@ -389,31 +404,33 @@ Iremos respondiendo a todas las cuestiones que nos va planteando
 
 ![Temática](img/19.png)
 
-Y finalmente escogeremos una de las propuestas creadas, escogeremos la paleta de colores y empezará la creación de la web y la podremos [encontrar açí](https://tiana431.hocoos.com).
+Y finalmente escogeremos una de las propuestas creadas, escogeremos la paleta de colores y empezará la creación de la web y la podremos [encontrar aquí](https://tiana431.hocoos.com).
 
-Igualmente, no podemos acceder al código, pero si tenemos un dominio comprado podremos acceder a nuestro archivo de configuración del DNS para que apunto en nuestra página. El problema de esto es que podriem decir que hay que tener ciertos conocimientos de informática para poder realizarlo.
+Igualmente, no podemos acceder al código, pero si tenemos un dominio[^1] propio podremos acceder a nuestro archivo de configuración del DNS para que apunte desde nuestra página. El problema de esto es que hay que tener ciertos conocimientos de informática para poder realizarlo.
+
+[^1]: Un dominio es el nombre que escribimos en el navegador, por ejemplo www.microsoft.com
 
 ## Mixo
 
-[Mixo](https://app.mixo.io) directamente nos plantea un prompt y una cuestión y con solo esto ya te crea una página. En l´ultim  ya te pide que te inscribas.
+[Mixo](https://app.mixo.io) directamente nos plantea un prompt y una cuestión y con solo esto ya te crea una página. En el último paso ya te pide que te inscribas.
 
 ![Mixo](img/20.png)
 
 El resultado podemos encontrarlo [aquí](https://www.mixo.io/site/tecno-educa-12onu)
 
 :::info
-El plan gratuito solo te deja publicar una única página y está bastando limitado
+El plan gratuito solo te deja publicar una única página web y está bastando limitado
 :::
 
-## ChatGPT o Copiloto
+## ChatGPT o Copilot
 
-\awesomebox[violet]{2pt}{\faRobot}{violet}{Crea un página en un solo archivo para un centro educativo que utilizo tecnología Html5 y css y esté contenido en un único Archivo. Los iconos que utilizará serán fontawesome del plan gratuito. La página mostrará 3 botones respinsive que cuando se muestre desde un ordenador se vean los botones en horzontal, cuando se pose el cursos encima de cada botón, este girará y mostrará la dirección url. Los 3 botos ocuparán la parte central de la página y tendrán un icono relacionado. El primer botón llevará a la página del cefire de Valencia: https://portal.edu.gva.es/cefirevalencia/es/inicio/ el segundo botón portará  al página de Aulas: https://aules.edu.gva.es/formaciodelprofessorat/login/index.php y el tercer botón a la dirección: https://cefire.eu/guacomole . Si se ve desde un mòvil los botones se voran de manera vertical. La página tendrá un título grande a la parte superior que mostrará el título Página de enlazo y un footer que posará: creado con tecnología Copiloto para el curso del cefire. El fondo de la página será vert clarete.} 
+\awesomebox[violet]{2pt}{\faRobot}{violet}{\textbf{Crea un página en un solo archivo para un centro educativo que utilize tecnología Html5 y css y esté contenido en un único Archivo. Los iconos que utilizará serán fontawesome del plan gratuito. La página mostrará 3 botones responsive que cuando se muestre desde un ordenador se vean los botones en horizontal, cuando se ponga el cursor encima de cada botón, este girará y mostrará la dirección url. Los 3 botos ocuparán la parte central de la página y tendrán un icono relacionado. El primer botón llevará a la página del cefire de Valencia: https://portal.edu.gva.es/cefirevalencia/es/inicio/ el segundo botón llevará a la página de Aules: https://aules.edu.gva.es/formaciodelprofessorat/login/index.php y el tercer botón a la dirección: https://cefire.eu/guacomole. Si se ve desde un mòvil los botones se veran de manera vertical. La página tendrá un título grande a la parte superior que mostrará el título Página de enlace y un footer que pondrá: creado con tecnología Copilot para el curso del cefire. El fondo de la página será verde claro.}}
 
-El resultado que nos da es un pequeño tutorial de como crear una página web, por el que habrá que insistirle.
+El resultado que nos da es un pequeño tutorial de como crear una página web, por lo que habrá que insistirle.
 
-\awesomebox[violet]{2pt}{\faRobot}{violet}{Puedes crearme todo el código html necesario? También falta el título que irá arriba de los botones y el footer que tendrá un texto en el centro mostrando el que te he dicho.} 
+\awesomebox[violet]{2pt}{\faRobot}{violet}{Puedes crearme todo el código html necesario? También falta el título que irá encima de los botones y el footer que tendrá un texto en el centro mostrando lo que te he dicho.} 
 
-Finalmente el resultado, a pesar de que no es del todo, el que ente esperavem es bastante aceptable:
+Finalmente el resultado, a pesar de que no es del todo lo que esperábamos es bastante aceptable:
 
 ```html
 <!DOCTYPE html>
@@ -533,10 +550,10 @@ Que hemos subido al nuestro [servidor que tenemos de pruebas](htps://cefire.eu) 
 
 ## Conclusiones
 
-Existen multitud de aplicaciones para crear webs estáticas, pero tal vez no marcan la diferencia respecto a crear tu propia página partiendo de un plantilla y crearla poco a poco. Pero siempre es más interesante tener algún conocimiento de progrmació web para dirigir las cuestiones para situaciones más concretas sobre qué es le que queremos ir modificando.
+Existen multitud de aplicaciones para crear webs estáticas, pero tal vez no marcan la diferencia respecto a crear tu propia página partiendo de un plantilla y crearla poco a poco. Pero siempre es más interesante tener algún conocimiento de programación web para dirigir las cuestiones para situaciones más concretas sobre qué es le que queremos ir modificando.
 
 # Más possibilidades
 
-Las posibilidades para programar en cualquier framework son infinitas y pueden tener un profesor las 24h disponible para ir preguntando aquello que necesitamos, pero hay que saber qué preguntar. Se podría haber utilizado una plataforma profesional como Unity que habría que instalar y programar con ella es más complexe puesto que no es solo código. Aun así  han muchos ejemplos en la red de crear un juego con Unity pero hay que ir preguntando poco a poco y diciendo "Y ahora que hago?".
+Las posibilidades para programar en cualquier framework son infinitas y puedes tener un profesor las 24h disponible para ir preguntando aquello que necesitamos, pero hay que saber qué preguntar. Se podría haber utilizado una plataforma profesional como Unity que habría que instalar y programar con ella, es más compleja puesto que no es solo código. Aun así  hay muchos ejemplos en la red de crear un juego con Unity pero hay que ir preguntando poco a poco y diciendo "Y ahora que hago?".
 
 La única limitación que tenemos es el tiempo que podemos dedicarle.
