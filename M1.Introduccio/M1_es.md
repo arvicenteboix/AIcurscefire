@@ -19,7 +19,7 @@ toque-title: Contenidos
 # Cabeceras y pies
 header-left: 1. Introducción. Conceptos iniciales
 header-right: Curso 2023-2024
-footer-left: CEFIRE València
+footer-left: CEFIRE Valencia
 footer-right: \thepage/\pageref{LastPage}
 
 # Imágenes
@@ -70,34 +70,34 @@ Este documento está sujeto a una licencia creative commons que permite su difus
 
 # Introducción
 
-A buen seguro que muchos de vosotros ya habéis sentido hablar de la inteligencia artificial y de todo aquello que puede hacer, algunos ya habéis empezado a utilizarlo en vuestro día a día y hay que distinguir algunos conceptos sobre el que es la IA. En este curso trataremos de haceros una introducción sobre las diferentes herramientas que existen y como sacarle'#s provecho. 
+A buen seguro que muchos de vosotros ya habéis sentido hablar de la inteligencia artificial y de todo aquello que puede hacer, algunos ya habéis empezado a utilizarlo en vuestro día a día y hay que distinguir algunos conceptos sobre lo que es la IA. En este curso trataremos de haceros una introducción sobre las diferentes herramientas que existen y como sacarles provecho. 
 
-Hay que tener en cuenta que se trata de un curso de iniciación y es posible que os sintáis abrumados de toda la información que vayáis a ver, obviamente por la duración del curso no vayamos a poder profundizar en muchos de las utilidades que os presentaremos, esto ha os lo dejaremos a vosotros.
+Hay que tener en cuenta que se trata de un curso de iniciación y es posible que os sintáis abrumados de toda la información que vayáis a ver, obviamente por la duración del curso no vamos a poder profundizar en muchos de las utilidades que os presentaremos, esto ya os lo dejaremos a vosotros.
 
-Los módulos serán breves pero intensos, trataremos de ayudaros en todas las dudas que se os plantean, pero nosotros también hemos decidido hacer uso de las diferentes herramientas de IA para hacer el curso, sobre todo con las imágenes, en muchos casos os presentaremos el prompt[^1] y la respuesta que nos dará, trataremos de limitar la extensión al que realmente necesitáis. Las respuestas os decimos que estarán retocadas puesto que la respuesta que mujer siempre cualquiera plataforma siempre tiene que #retocar para que sea lo más idónea posible al que deseas. Os lo presentaremos con el siguiente icono.
+Los módulos serán breves pero intensos, trataremos de ayudaros en todas las dudas que se os planteen, prácticamente todo el texto escrito está redactado y no se ha utilizado la IA, algunas imágenes son la excepción, en muchos casos os presentaremos el prompt[^1] y la respuesta que nos dará, trataremos de limitar la extensión a lo que realmente necesitáis. Las respuestas os decimos que estarán retocadas puesto que la respuesta que obtiene cualquier plataforma siempre tiene que retocarse para que sea lo más idónea posible a lo que deseas. Os lo presentaremos con el siguiente icono.
 
 [^1]: Prompt, es el texto que escribes a la plataforma para que interpreto el que realmente necesitas. Entraremos con más detalle a la próxima unidad.
 
-\awesomebox[violet]{2pt}{\faRobot}{violet}{\textbf{Bienvenidos en el curso de Introducción a la Inteligencia Artificial! Este curso de 30 horas está diseñado para aquellos que quieran aprender los cimientos de la IA y sus aplicaciones prácticas. A través de seis módulos, cubriremos una amplia gamma de temas, desde los conceptos básicos hasta las herramientas más avanzadas.}\newline
+\awesomebox[violet]{2pt}{\faRobot}{violet}{\textbf{Bienvenidos en el curso de Introducción a la Inteligencia Artificial! Este curso de 30 horas está diseñado para aquellos que quieran aprender los cimientos de la IA y sus aplicaciones prácticas. A través de seis módulos, cubriremos una amplia gamma de temas, desde los conceptos básicos hasta las herramientas más avanzadas.}\hfill \break
 
-Bienvenidos en el curso de Introducción a la Inteligencia Artificial. Este curso de 30 horas está diseñado para aquellos que quieran aprender los cimientos de la IA y sus aplicaciones prácticas. A través de seis módulos, cubriremos una amplia gamma de temas, desde los conceptos básicos hasta las herramientas más avanzadas.
+Bienvenidos al curso de Introducción a la Inteligencia Artificial. Este curso de 30 horas está diseñado para aquellos que quieran aprender los fundamentos de la IA y sus aplicaciones prácticas. A través de seis módulos, cubriremos una amplia gama de temas, desde los conceptos básicos hasta las herramientas más avanzadas.
 
-La IA es una de las áreas más emocionantes e innovadoras de la informática, con el potencial de transformar muchos aspectos de nuestra sociedad. Aprenderás a crear modelos de lenguaje natural, a utilizar Microsoft Copiloto para escribir código más eficientemente y a aplicar la IA en la educación.
+La IA es una de las áreas más emocionantes e innovadoras de la informática, con el potencial de transformar muchos aspectos de nuestra sociedad. Aprenderás a crear modelos de lenguaje natural, a utilizar Microsoft Copilot para escribir código de manera más eficiente y a aplicar la IA en la educación.
 
-Este curso está diseñado para estudiantes con conocimientos previos de programación, matemáticas discretas y álgebra lineal. No se requiere experiencia previa en IA, a pesar de que se recomienda tener nociones de estadística y cálculo. El curso se impartirá en valenciano, con material complementario en inglés.}
+Este curso está diseñado para estudiantes con conocimientos previos de programación, matemáticas discretas y álgebra lineal. No se requiere experiencia previa en IA, aunque se recomienda tener nociones de estadística y cálculo. El curso se impartirá en valenciano, con material complementario en inglés.}
 
 Obviamente es una respuesta muy estándar que no se nos hubiera ocurrido escribir.
 
 # Que es y que no es la inteligencia artificial?
 
-Podemos pensar que todo el que basura al ordenador tiene que ver con la inteligencia artificial y obviamente no es así, los ordenadores utilizan algoritmos con lenguajes de programación para poder automatizar tareas o realizar programas. 
+Podemos pensar que todo lo que hacemos en el ordenador tiene que ver con la inteligencia artificial y obviamente no es así, los ordenadores utilizan algoritmos con lenguajes de programación para poder automatizar tareas o realizar programas.
 
-Aqui tenso un ejemplo de diagrama de flujo sencillo:
+Aquí tenéis un ejemplo de diagrama de flujo sencillo:
 
 <!-- DIAGRAMA FLUXE -->
 ![Diagrama de flujo. Origen: Wikipedia](img/1.svg)
 
-Estas funciones llevan una lógica atrás, en cambio las IA utilizan una manera de programar diferente que pelea muchísimas más posibilidades para dar una respuesta más creativa #basar en entradas más complejas. Aquí tenemos un ejemplo de red neuronal
+Estas funciones llevan una lógica atrás, en cambio las IA utilizan una manera de programar diferente que emplea muchísimas más posibilidades para dar una respuesta más creativa basada en entradas más complejas. Aquí tenemos un ejemplo de red neuronal
 
 ![Red neuronal. Origen: Wikipedia](img/2.png)
 
@@ -109,19 +109,19 @@ Dentro de la misma inteligencia artificial nos podemos encontrar diferentes cate
 
 | Tipo de IA | Descripción | Ejemplos |
 | --- | --- | --- |
-| **Inteligencia Artificial Estrecha (#IAE)** | La #IAE está programada para realizar una sola tarea, ya sea verificar el clima, poder jugar al ajedrez o analizar datos sin procesar para escribir informes periodísticos. Los sistemas #IAE pueden atender una tarea en tiempo real, pero extraen información de un conjunto de datos específico. No funcionan fuera de la única tarea para la cual están diseñados. | Verificar el clima, jugar al ajedrez, analizar datos sin procesar para escribir informes periodísticos¹. |
-| **Inteligencia Artificial General (IAG)** | La IAG puede autoaprender y razonar por sí misma dentro de su entorno. Se centra en tareas complejas y variadas, con la misma eficiencia que un ser humano². | Todavía en desarrollo. |
-| **Inteligencia Artificial Superintelectual (IAS)** | La IAS tiene la capacidad de superar la inteligencia humana en todas las áreas². | Teóricamente posible, pero todavía no existe. |
+| **Inteligencia Artificial Estrecha (IAE)** | La IAE está programada para realizar una sola tarea, ya sea verificar el clima, poder jugar al ajedrez o analizar datos sin procesar para escribir informes periodísticos. Los sistemas IAE pueden atender una tarea en tiempo real, pero extraen información de un conjunto de datos específico. No funcionan fuera de la única tarea para la cual están diseñados. | Verificar el clima, jugar al ajedrez, analizar datos sin procesar para escribir informes periodísticos¹. |
+| **Inteligencia Artificial General (IAG)** | La IAG puede aprender y razonar por sí misma dentro de su entorno. Se centra en tareas complejas y variadas, con la misma eficiencia que un ser humano. | Todavía en desarrollo. |
+| **Inteligencia Artificial Superintelectual (IAS)** | La IAS tiene la capacidad de superar la inteligencia humana en todas las áreas. | Teóricamente posible, pero todavía no existe. |
 
 ## Modelos de lenguaje a gran escala
 
 Los Modelos de Lenguaje a gran escala (MLL, por sus siglas en inglés, Large Language Modelos) son modelos de inteligencia artificial que han sido entrenados con enormes cantidades de datos textuales para aprender patrones, estructuras y representaciones del lenguaje natural. Estos modelos son capaces de realizar tareas relacionadas con el procesamiento del lenguaje, como entender el significado de frases, generar texto coherente y responder preguntas.
 
-Ejemplos de MLL incluyen GPT-3 (Generative Pre-trained Transformer 3) de OpenAI, BERT (Bidirectional Encoder Representations from Transformers) de Google, y T5 (Texto-tono-Texto Transfer Transformer) de Google.
+Ejemplos de MLL incluyen GPT-3 y 4 (Generative Pre-trained Transformer) de OpenAI, BERT (Bidirectional Encoder Representations from Transformers) de Google, y T5 (Texto-tono-Texto Transfer Transformer) de Google.
 
 Algunas aplicaciones destacadas de los MLL son:
 
-1. **Generación de Texto Creativo**: MLL como GPT-3 pueden ser utilizados para generar contenido textual creativo, desde poesía hasta narrativa.
+1. **Generación de Texto Creativo**: MLL como GPT pueden ser utilizados para generar contenido textual creativo, desde poesía hasta narrativa.
 2. **Asistentes Virtuales Avanzados**: MLL se integran en asistentes virtuales para mejorar su capacidad de comprensión y generación de respuestas en lenguaje natural.
 3. **Traducción Automática Mejorada**: Modelos como T5 han demostrado mejoras significativas en tareas de traducción automática.
 4. **Generación de Resúmenes Automáticos**: MLL son empleados para resumir automáticamente textos largos, facilitando la extracción de información clave.
@@ -129,11 +129,8 @@ Algunas aplicaciones destacadas de los MLL son:
 6. **Análisis de Sentimiento Avanzado**: MLL pueden mejorar la capacidad de analizar el sentimiento en grandes cantidades de texto, beneficiando aplicaciones en redes sociales y comentarios en linea.
 7. **Autocompletado de Texto Mejorado**: Herramientas de autocompletado, como las utilizadas en correos electrónicos o buscas en la web, se benefician de la capacidad predictiva de los MLL.
 8. **Creación de Contenido Multimedia**: MLL pueden ser combinados con otros modelos de inteligencia artificial para crear contenido multimedia, como imágenes, videos o audio, a partir de texto.
-
 9. **Creación de Contenido para Redes Sociales**: Los MLL son utilizados para generar contenido relevante y atractivo en plataformas de redes sociales.
-
-10. **Reconocimiento de Entidades Mejorado**: Modelos como GPT-3 pueden ayudar en la identificación y clasificación precisa de entidades en textos.
-
+10. **Reconocimiento de Entidades Mejorado**: Modelos como GPT pueden ayudar en la identificación y clasificación precisa de entidades en textos.
 11. **Personalización de Recomendaciones**: Los LLM contribuyen a mejorar la personalización en sistemas de recomendación en áreas como streaming y comercio electrónico.
 
 Estas aplicaciones resaltan como los MLL están transformando la forma en que las máquinas interactúan con el lenguaje humano, abriendo nuevas posibilidades en varias áreas.
@@ -146,7 +143,7 @@ Ejemplos de modelos de difusión incluyen:
 
 1. **DALL-E**: Desarrollado por OpenAI, DALL-E es conocido para generar imágenes creativas a partir de descripciones textuales. Puede crear imágenes realistas y únicas a partir de conceptos específicos.
 
-2. **MidJourney**: Otro modelo de difusión que se centra en la generación de imágenes a través de procesos de difusión probabilística. Puede #utilizar para crear imágenes realistas y detalladas.
+2. **MidJourney**: Otro modelo de difusión que se centra en la generación de imágenes a través de procesos de difusión probabilística. Se puede utilizar para crear imágenes realistas y detalladas.
 
 3. **Stable Diffusion**: Un enfoque de difusión que busca conseguir una difusión más estable y eficiente en términos de entrenamiento y generación de imágenes.
 
@@ -154,13 +151,13 @@ Estos modelos de difusión tienen aplicaciones en varias áreas, incluyendo:
 
 1. **Generación de Imágenes Artísticas y Creativas**: Los modelos de difusión como DALL-E se utilizan para generar imágenes artísticas y creativas basadas en descripciones textuales.
 
-2. **Reconstrucción y Mejora de Imágenes**: Pueden #aplicar para reconstruir o mejorar imágenes existentes, generando versiones más detalladas o modificadas.
+2. **Reconstrucción y Mejora de Imágenes**: Se pueden aplicar para reconstruir o mejorar imágenes existentes, generando versiones más detalladas o modificadas.
 
 3. **Generación de Contenido Visual Personalizado**: Se pueden emplear en la creación de contenido visual personalizado para aplicaciones de diseño gráfico, publicidad y marketing.
 
 4. **Simulación y Entrenamiento en Realidad Virtual**: Estos modelos pueden generar escenarios visuales realistas para aplicaciones de realidad virtual, simulación y entrenamiento.
 
-5. **Síntesis de Datos para la Investigación**: En ámbitos como la investigación científica y médica, los modelos de difusión pueden sintetizar datos visuales para hasta experimentales.
+5. **Síntesis de Datos para la Investigación**: En ámbitos como la investigación científica y médica, los modelos de difusión pueden sintetizar datos visuales para fines experimentales.
 
 6. **Generación de Contenido para Videojuegos**: Pueden #utilizar en la creación de mundos y elementos visuales en videojuegos, ofreciendo variedad y realismo.
 
@@ -174,21 +171,19 @@ Estas aplicaciones destacan la versatilidad de los modelos de difusión en la ge
 
 Teachable Machine de Google es una plataforma que permite a los usuarios crear modelos de aprendizaje automático sin necesidad de escribir código. Los usuarios pueden entrenar modelos de clasificación de imágenes, sonidos o posiciones utilizando una interfaz amigable, facilitando la incorporación de inteligencia artificial en proyectos creativos.
 
-[https://teachablemachine.withgoogle.com/](https://teachablemachine.withgoogle.com/)
+Esta herramienta nos permite entrenar a pequeña escala nuestro modelo de inteligencia artificial para un propósito, por ejemplo el de reconocer objetos, sonidos o posturas. Solo nos hace falta una webcam para hacerlo. Podemos acceder a la plataforma desde [aquí](https://teachablemachine.withgoogle.com/)
 
-Esta herramienta nos permite entrenar a pequeña escala nuestro modelo de inteligencia artificial para un propósito, por ejemplo el de reconocer objetos, sonidos o posturas. Solo nos hace falta una webcam para hacerlo. Podemos acceder a la plataforma desde aquí: [https://teachablemachine.withgoogle.com/](https://teachablemachine.withgoogle.com/)
-
-![Teachablemachine](img/24.png){ width=10cm }
+![Teachablemachine](img/24.png){ width=13cm }
 
 Y creamos nuestro primero proyecte
 
-![Modelo de imagen](img/25.png){ width=10cm }
+![Modelo de imagen](img/25.png){ width=13cm }
 
-Nosotros hemos preparado un modelo para distinguir entre un bolígrafo y unas tijeras, hemos yendo subiendo imágenes de cada uno.
+Nosotros hemos preparado un modelo para distinguir entre un bolígrafo y unas tijeras, hemos subido imágenes de cada caso.
 
-![Modelo de imagen creado](img/26.png){ width=10cm }
+![Modelo de imagen creado](img/26.png){ width=13cm }
 
-Este modelo lo podemos exportar y lo podemos compartir. Obviamente el modelo que he creado no es demasiado interesante, pero potd dedicarte a entrenar mejores modelos con muchas fotografías, de objetos de la clase y crear tu propio reconocedor de de objetos. Podéis descargar el modelo de de aquí: [https://teachablemachine.withgoogle.com/models/9oqm8e4an/](https://teachablemachine.withgoogle.com/models/9oqm8e4an/)
+Este modelo lo podemos exportar y lo podemos compartir. Obviamente el modelo que he creado no es demasiado interesante, pero popuedes entrenar mejores modelos con muchas fotografías, de objetos de la clase y crear tu propio reconocedor de de objetos. Podéis descargar el modelo des de [aquí](https://teachablemachine.withgoogle.com/models/9oqm8e4an/)
 
 ### Autodraw
 
@@ -200,7 +195,7 @@ Por ejemplo, si dibujamos un barco de la mejor manera que sabemos
 
 ![Imagen dibujada por nosotros](img/3.png){ width=10cm }
 
-Al menú arriba la plataforma tratará de averiguar qué hemos dibujado y nos proporcionará una imagen un tanto mejor dibujada que el que hemos hecho.
+La barra de menú superior de la plataforma cambiará  tratando de averiguar qué hemos dibujado y nos proporcionará una imagen un tanto mejor dibujada que lo que hemos hecho.
 
 ![Imagen del menú escogida](img/4.png){ width=10cm }
 
@@ -208,19 +203,21 @@ Al menú arriba la plataforma tratará de averiguar qué hemos dibujado y nos pr
 
 Quick, Draw! es un juego en linea desarrollado por Google que utiliza inteligencia artificial para reconocer y clasificar dibujos realizados por los usuarios en un tiempo limitado. El funcionamiento básico del juego es el siguiente:
 
-1. **Dibujo Rápido**: El jugador recibe una palabra sugerida y tiene un tiempo limitado (generalmente 20 según) para dibujar el objeto o concepto asociado en un lienzo digital.
+1. **Dibujo Rápido**: El jugador recibe una palabra sugerida y tiene un tiempo limitado (generalmente 20 segundos) para dibujar el objeto o concepto asociado en un lienzo digital.
 
-2. **Reconocimiento en Tiempo Real**: Mientras el jugador dibuja, la inteligencia artificial intenta adivinar el que está representando en tiempo real. Utiliza algoritmos de aprendizaje automático y redes neuronales para analizar el trazo del dibujo.
+2. **Reconocimiento en Tiempo Real**: Mientras el jugador dibuja, la inteligencia artificial intenta adivinar lo que estás representando en tiempo real. Utiliza algoritmos de aprendizaje automático y redes neuronales para analizar el trazo del dibujo.
 
 3. **Retroalimentación Instantánea**: Una vez que se completa el tiempo de dibujo, el juego proporciona retroalimentación instantánea sobre si la inteligencia artificial ha reconocido correctamente el dibujo o no. Además, muestra ejemplos de cómo otros usuarios han representado la misma palabra.
 
 4. **Contribución a Conjunto de Datos de Entrenamiento**: Los dibujos realizados por los usuarios no solo son parte del juego, sino que también contribuyen al conjunto de datos utilizado para entrenar y mejorar los algoritmos de reconocimiento de Google.
 
-En resumen, Quick, Draw! combina la diversión de un juego en linea con la recopilación de datos para mejorar los modelos de inteligencia artificial de reconocimiento de patrones. Los usuarios contribuyen a la mejora de la tecnología mientras participan en una experiencia interactiva y creativa.
+En resumen, Quick, Draw! a través de la diversión de un juego en linea recopila nuestros datos para mejorar los modelos de inteligencia artificial de reconocimiento de patrones.
 
 [https://quickdraw.withgoogle.com/](https://quickdraw.withgoogle.com/)
 
+:::info
 Se trata de un juego sencillo que nos permitirá experimentar con una red neuronal. Esta tratará de averiguar qué es el que estamos dibujando con un tiempo de 20 segundos.
+:::
 
 ![Juego](img/5.png){ width=10cm }
 
@@ -228,6 +225,11 @@ Se trata de un juego sencillo que nos permitirá experimentar con una red neuron
 
 ![Nuestro dibujo](img/7.png){ width=10cm }
 
-Así irá tirando durante 6 imágenes. Es un buen ejercicio para entender como funcionan las redes neuronales.
+Así continuará durante 6 imágenes. Es un buen ejercicio para entender como funcionan las redes neuronales.
 
 ![Nos ha acertado los 6](img/8.png){ width=10cm }
+
+:::info
+En esta unidad hemos visto una pequeña introducción a las posibilidades que nos ofrece la IA y las tecnologías que se están desarrollando al respecto.
+Además una serie de conceptos muy básicos a tener en cuenta, pero ¿Cuándo nos ponemos a hacer prompts? En el próximo módulo...
+:::

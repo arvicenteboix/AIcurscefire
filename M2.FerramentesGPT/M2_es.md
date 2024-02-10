@@ -19,7 +19,7 @@ toque-title: Contenidos
 # Cabeceras y pies
 header-left: 2. Herramientas GPT
 header-right: Curso 2023-2024
-footer-left: CEFIRE València
+footer-left: CEFIRE Valencia
 footer-right: \thepage/\pageref{LastPage}
 
 # Imágenes
@@ -72,38 +72,47 @@ Este documento está sujeto a una licencia creative commons que permite su difus
 
 # Introducción
 
-En esta unidad vamos a centrarnos ya en aquellas aplicaciones de las que todo el mundo habla. Y, como no, aquellas que, en esencia, más nos pueden facilitar la tarea como docentes. Hay que insistir pero que el objetivo de este curso no trata de ver cuál es todo el potencial de las herramientas GPT para los docentes, sino de tener un primer contacto con estas herramientas. 
+En esta unidad nos centraremos en aquellas aplicaciones de las que todo el mundo habla. Y, por supuesto, aquellas que pueden facilitarnos más la tarea como docentes. Sin embargo, es importante destacar que el objetivo de este curso no es explorar todo el potencial de las herramientas GPT para los docentes, sino tener un primer contacto con estas herramientas.
 
-Hay que decir que nos hemos centrado en la parte gratuita de estas herramientas, pero hay nque tener en cuenta que la versión de pago da mejores resultados y presenta funcionalidades muy convenientes para nuestra tarea, como la crear GPTs.
+Cabe mencionar que nos hemos centrado en la parte gratuita de estas herramientas, pero es importante señalar que la versión de pago ofrece mejores resultados y presenta funcionalidades muy convenientes para nuestra tarea, como la creación de GPTs.
+
 
 # Qué es GPT?
 
-GPT es una sigla que significa "Generative Pre-trained Transformers". Es una tecnología que ayuda a las máquinas a entender el lenguaje humano y a responder a preguntas de manera parecida a cómo lo haría una persona, es más, podemos interactuar con ella. Esto quiere decir que las máquinas pueden escribir textos, resumir información, hacer traducciones y algunas cosas más qe veremos más adelante. Esto es posible gracias a una red neuronal que ha aprendido a partir de muchos datos y que puede generar contenido nuevo a partir del que ha aprendido. GPT es una tecnología muy útil para muchas cosas diferentes, es más cada vez que habláis con ella está aprendiendo del que habla con vosotros, así que cada vez que avanzo el tiempo tendrá mejores respuestas.
-
+GPT es una sigla que significa "Generative Pre-trained Transformers". Es una tecnología que ayuda a las máquinas a entender el lenguaje humano y a responder a preguntas de manera parecida a cómo lo haría una persona, es más, podemos interactuar con ella. Esto significa que las máquinas pueden escribir textos, resumir información, hacer traducciones y algunas cosas más qe veremos más adelante. Esto es posible gracias a una red neuronal que ha aprendido a partir de muchos datos y que puede generar contenido nuevo a partir del que ha aprendido. GPT es una tecnología muy útil para muchas cosas diferentes, es más, cada vez que habláis con ella está aprendiendo de aquello que habla con vosotros, así que cada vez tendrá mejores respuestas.
 
 # MODELOS GPT
 
-Los tres servicios más conocidos, aunque no son los únicos son ChatGPT, Bard y Copiloto. Nosotros nos centraremos en este 3. En esencia, son ventanas de chat, aunque la implementación de cada una refleja un lenguaje de diseño diferente. *Bard** es la más minimalista, mientras que **Bing Copiloto** es la menos sencilla y se centra más en la funcionalidad.
+Los tres servicios más conocidos, aunque no son los únicos son ChatGPT, Gemini[^1] y Copilot. Nosotros nos centraremos en estos 3. En esencia, son ventanas de chat, aunque la implementación de cada una refleja un lenguaje de diseño diferente. **Gemini** es la más minimalista, mientras que **Bing Copilot** es la menos sencilla y se centra más en la funcionalidad.
 
-En cuanto a las capacidades de cada una, **ChatGPT** es mejor para conversar, mientras que **Bing Copiloto** es más adecuada para investigar. Por ejemplo, puede buscar en la web y proporcionar resultados de busca, mientras que **ChatGPT** se centra en responder preguntas y mantener una conversación fluida.
+En cuanto a las capacidades de cada una, **ChatGPT** es mejor para conversar, mientras que **Bing Copilot** es más adecuada para investigar. Por ejemplo, puede buscar en la web y proporcionar resultados de busca, mientras que **ChatGPT** se centra en responder preguntas y mantener una conversación fluida.
 
-Además, **Bing Copiloto** es lo más transparente, puesto que al final de cada respuesta posa las fuentes de dónde ha obtenido la información². Por otro lado, *Google Bard** tiene una opción para hacer una busca de la pregunta que has hecho, y **ChatGPT** no ofrece ninguna pista de dónde ha sacado la información.
+Además, **Bing Copilot** es lo más transparente, puesto que al final de cada respuesta pone las fuentes de dónde ha obtenido la información. Por otro lado, **Google Gemini** tiene una opción para hacer una busca de la pregunta que has hecho, y **ChatGPT** no ofrece ninguna pista de dónde ha sacado la información.
+
+[^1]: En el transcurso de la creación de estos materiales ha cambiado su nombre a Gemini. Antes se llamaba **Bard**.
+
+:::info
+Obviamente esta información está basada en experiencia personal y la lectura de algunos artículos que van dándote una idea de las características de cada uno. Se trata de diferentes modelos (importante lo de diferentes) que van creciendo con el tiempo.
+
+(1) [https://www.androidauthority.com/chatgpt-vs-bing-chat-3292126/](https://www.androidauthority.com/chatgpt-vs-bing-chat-3292126/)
+(2) [https://zapier.com/blog/chatgpt-vs-bard/](https://zapier.com/blog/chatgpt-vs-bard/)
+:::
 
 ## ChatGPT
 
-Para poder utilizar chatGPT, en primer lugar tenemos que registrarnos. Iremos a la página de [ChatGPT](https://chat.openai.com/auth/login)
+Para poder utilizar chatGPT, en primer lugar hemos que registrarnos. Iremos a la página de [ChatGPT](https://chat.openai.com/auth/login)
 
-![Registrar a ChatGPT](img/1.png)
+![Registrarse en ChatGPT](img/1.png)
 
-Después tenemos que posar unos datos o si estás logat al navegador con una cuenta de Google, entras con él:
+Después debemos ingresar algunos datos o, si estás conectado en el navegador con una cuenta de Google, iniciar sesión con ella:
 
-![Registrar a ChatGPT](img/2.png)
+![Registrarse en ChatGPT](img/2.png)
 
-Una vez ya te hayas registrado podrás acceder directamente en la página de chatGPT, para empezar y ya le podemos plantear una cuestión:
+Una vez ya te hayas registrado podrás acceder directamente a la página de chatGPT para empezar, y ya le podemos plantear una cuestión:
 
 [https://chat.openai.com/](https://chat.openai.com/)
 
-\awesomebox[violet]{2pt}{\faRobot}{violet}{\textbf{Qué IA es mejor, ChatGPT, Bard o Copiloto}
+\awesomebox[violet]{2pt}{\faRobot}{violet}{\textbf{Qué IA es mejor, ChatGPT, Gemini o Copilot}\hfill \break
 Como que no especifica sobre qué quiere una respuesta, ofreceré una respuesta general. La idoneidad de una Inteligencia Artificial (IA) depende mucho del contexto, las necesidades y los objetivos específicos de la situación. Hay diferentes tipos de IA, como por ejemplo sistemas de procesamiento de lenguaje natural, sistemas de visión por computador, IA para análisis de datos, entre otros.
 
 Para determinar qué IA es la más idónea, se tienen que tener en cuenta varios factores, como por ejemplo la complejidad del problema, los recursos disponibles, las capacidades de la IA en cuestión y otras consideraciones técnicas y prácticas.
@@ -114,47 +123,48 @@ Por lo tanto, para elegir la IA más idónea, es importante evaluar las necesida
 
 ![Respuesta de ChatGPT](img/3.png)
 
-Podemos ver que bajo de cada respuesta hay 4 iconos que nos permitirán valorar la respuesta, copiar el texto para después apegarlo donde se faja falta o que vuelvo a regenerar la respuesta.
+Podemos ver que debajo de cada respuesta hay 4 iconos que nos permitirán valorar la respuesta, copiar el texto para después pegarlo donde queramos o podemos decirle que vuelva a regenerar la respuesta.
 
-## Bing Copiloto
+## Bing Copilot
 
-Para poder utilizar la herramienta de IA de Microsoft no hay que registrar, podemos utilizarla directamente desde el navegador, podemos ir directamente a la página de [Bing](https://www.bing.com/) y ya podremos utilizar directamente la herramienta. Hagamos clic sobre el enlace *chat":
+Para poder utilizar la herramienta de IA de Microsoft, en principio, no es necesario registrarnos, podemos utilizarla directamente desde el navegador, podemos ir directamente a la página de [Bing](https://www.bing.com/) y ya podremos utilizar directamente la herramienta. Hagamos clic sobre el enlace *chat*":
 
-![Bing Copiloto](img/4.png)
+![Bing Copilot](img/4.png)
 
 Nos aparecerá esta pantalla y ya podemos preguntar directamente:
 
-![Bing Copiloto chat](img/5.png)
+![Bing Copilot chat](img/5.png)
 
-\awesomebox[violet]{2pt}{\faRobot}{violet}{\textbf{Qué IA es mejor, ChatGPT, Bard o Copiloto}Gracias por tu pregunta. Como que tu mensaje está escrito en catalán, responderé en catalán.
-
-Hay muchas IA de chat para elegir, y la mejor depende del que busques. Según una comparación reciente de Tom's Guide ¹, ChatGPT Plus y Copiloto Pro son dos de las mejores opciones disponibles. Los dos utilizan la misma tecnología subyacente que impulsa el chatbot de OpenAI. Los dos también cobran el mismo precio por mes, 20 dólares. Copiloto Pro incluye acceso en todas las funciones de 365 Copiloto, cosa que lo diferencia de ChatGPT Plus. Google también lanzará Bard Advanced, una versión premium del chatbot que estará impulsada por el nuevo modelo Gemine Ultra más adelante este año ¹. Pero, si buscas una IA de chat gratuita, quizás querrás probar otras opciones como Poe, Perplexity AI o Pi ².
+\awesomebox[violet]{2pt}{\faRobot}{violet}{\textbf{Qué IA es mejor, ChatGPT, Gemini o Copilot}\hfill \break
+Gracias por tu pregunta. Como que tu mensaje está escrito en valenciano, responderé en valenciano.
+Hay muchas IA de chat para elegir, y la mejor depende de lo que busques. Según una comparación reciente de Tom's Guide, ChatGPT Plus y Copilot Pro son dos de las mejores opciones disponibles. Los dos utilizan la misma tecnología subyacente que impulsa el chatbot de OpenAI. Los dos también cobran el mismo precio por mes, 20 dólares. Copilot Pro incluye acceso en todas las funciones de 365 Copilot, cosa que lo diferencia de ChatGPT Plus. Google también lanzará Gemini Advanced, una versión premium del chatbot que estará impulsada por el nuevo modelo Gemini Ultra más adelante este año. Pero, si buscas una IA de chat gratuita, quizás querrás probar otras opciones como Poe, Perplexity AI o Pi.
 
 Espero que esto te ayude a elegir la mejor IA de chat para tus necesidades.
 
 Origen: Conversación cono Bing, 25/1/2024
 }
 
-![Bing Copiloto chat](img/6.png)
+![Bing Copilot chat](img/6.png)
 
-Podemos ver que la respuesta que nos da es bastante diferente a la que nos ha ofrecido ChatGPT, al igual que el anterior también nos permite copiar el texto y valorarlo. Una de las cosas destacables es que nos proporciona información de dónde ha extraído su respuesta y nos aporta los enlaces por sí queremos ampliar información.
+Podemos ver que la respuesta que nos da es bastante diferente a la que nos ha ofrecido ChatGPT, al igual que la anterior también nos permite copiar el texto y valorarlo. Una de las cosas destacables es que nos proporciona información de dónde ha extraído su respuesta y nos aporta los enlaces por si queremos ampliar información.
 
-## Bard
+## Gemini
 
-En este caso tendremos que ir a la página de [Bard](https://bard.google.com/chat). Del mismo modo hará falta que te creas una cuenta de Google y entras con esta cuenta, sino no la podrás utilizar.
+En este caso tendremos que ir a la página de [Gemini](https://gemini.google.com/app). Del mismo modo hará falta que te crees una cuenta de Google y entres con esta cuenta, sino no la podrás utilizar.
 
-![Bard chat](img/7.png)
+![Gemini chat](img/7.png)
 
-Del mismo modo probaremos con Bard que piensa de sus compañeros:
+Del mismo modo probaremos con Gemini qué piensa de sus compañeros:
 
-![Bard chat](img/8.png)
+![Gemini chat](img/8.png)
 
-En este caso no vayamos a transcribir toda la respuesta porque es más larga que las otras, pero hay que destacar algunas cosas interesantes de esta interfaz (que no modelo).
+En este caso no vamos a transcribir toda la respuesta porque es más larga que las otras, pero hay que destacar algunas cosas interesantes de esta interfaz (que no modelo).
 
 * Nos permite al igual que las otras valorar la respuesta o regenerarla.
-* Pero podamos verure que ya ha diseñado 3 versiones.
+* Pero podemos ver que ya ha diseñado 3 versiones.
 * La respuesta ha sido mucho más rápida que en las otras dos.
-* Ente proporciana el icono de Google por sí queremos ampliar información.
+* Nos proporciona el icono de Google por sí queremos ampliar información.
+* Nos da la referencia sobre el texto de dónde ha sacado la información.
 
 ## Otros modelos conocidos
 
@@ -165,55 +175,51 @@ Aunque estos son los 3 modelos más conocidos, hay otros modelos de herramientas
 - **Jasper** (antes Jarvis) es otra herramienta de redacción automatizada que utiliza GPT-3. Ofrece un plan gratuito con un límite de 10.000 palabras en el mes. Podemos acceder des [de aquí](https://app.jasper.ai/)
 - **Copy AI** es una herramienta de creación de contenido que utiliza GPT-3 para generar textos, anuncios, guiones, piezas musicales, correos electrónicos, cartas, etc. Ofrece un plan gratuito con un límite de 10 creaciones por día. Podemos acceder des [de aquí](https://www.copy.ai/)
 - **Rytr** es una herramienta de redacción automatizada que utiliza GPT-3. Ofrece un plan gratuito con un límite de 50 creaciones por día. Podemos acceder des [de aquí](https://rytr.me/)
-- **Poe** una otro chatbot de propósito general, tiene una limitación de ciertas cuestiones en el día. Puedes acceder desde aquí: [https://poe.com/login](https://poe.com/login)
-- *Ora.sh** Con datos hasta 2021 es una otro modelo de lenguaje [https://ora.ai/openai/gpt4](https://ora.ai/openai/gpt4)
+- **Poe** otro chatbot de propósito general, tiene una limitación de ciertas cuestiones en el día. Puedes acceder desde aquí: [https://poe.com/login](https://poe.com/login)
+- **Ora.sh** Con datos hasta 2021 es una otro modelo de lenguaje: [https://ora.ai/openai/gpt4](https://ora.ai/openai/gpt4)
 
-Especial mención a **Code llama 2** [https://ai.meta.com/llama/](https://ai.meta.com/llama/) se trata de un modelo de IA que puedes descargar al tuya ordenador, pero requiere de conocimientos técnicos un poco avanzados para poder hacerlo funcionar y una máquina muy potente. Pero tendremos nuestro propio modelo de lenguaje en nuestro ordenador.
+Especial mención a **Code llama 2** [https://ai.meta.com/llama/](https://ai.meta.com/llama/) se trata de un modelo de IA que puedes descargar en tu ordenador, pero requiere de conocimientos técnicos un poco avanzados para poder hacerlo funcionar y una máquina muy potente. Pero tendremos nuestro propio modelo de lenguaje en nuestro ordenador.
 
+Además de estas herramientas, también hay una serie de proyectos de código abierto que utilizan GPT-3. Por ejemplo, [**GPT-3 Playground**](https://platform.openai.com/playground?assistant=new) es una herramienta web que permite experimentar con GPT-3 de forma gratuita.
 
-
-
-Además de estas herramientas, también hay una serie de proyectos de código abierto que utilizan GPT-3. Por ejemplo, **GPT-3 Playground** es una herramienta web que permite experimentar con GPT-3 de forma gratuita.
-
-Cómo puedes ver, la disponibilidad de herramientas GPT gratuitas es muy grande y cada vez  han más oferta disponible. Esto acilita a los usuarios el acceso a las capacidades de estos modelos de lenguaje sin tener que pagar una suscripción.
+Cómo puedes ver, la disponibilidad de herramientas GPT gratuitas es muy grande y cada vez hay más oferta disponible. Esto facilita a los usuarios el acceso a las capacidades de estos modelos de lenguaje sin tener que pagar una suscripción.
 
 ## Entonces, qué herramienta tengo que elegir
 
 Aquella que mejor se adapte a tus necesidades y a sus respuestas. Cada una de ellas ha tenido un entrenamiento diferente, por lo tanto a medida que vayas trabajando en cada una de ellas verás que siempre tiendes a utilizar la misma.
 
-En este casa habría que utilizar varías y no centrar las 3 principales puesto que aquellas no tan conocidas pueden dar respuestas tan válidas o incluso mejor que las otras.
+En este casa habría que utilizar varías y no centrarse en las 3 principales puesto que aquellas no tan conocidas pueden dar respuestas tan válidas o incluso mejor que las otras.
 
 De todas maneras una cosa es cierta, un persona puede ser muy inteligente y tener una muy buena conversación pero si quien conversa en ella no es un buen conversador no podrá sacar su potencial.
 
-Por eso hay que saber preguntar adecuadamente a la IA qué es el que volamos y no puedes preguntar como un humano puesto que esta tecnología no sabe presuponer cosas después de hablar en tú, hay que ser claro con el que preguntamos. A las cuestiones que le hacemos a la IA lo denominamos **prompts**. Si la IA no le escribes un buen prompt, no funciona bien, y no te dará una buena respuesta.
+Por eso hay que saber preguntar adecuadamente a la IA qué es el que queremos y no puedes preguntar como un humano puesto que esta tecnología no sabe presuponer cosas después de hablar contigo, hay que ser claro con lo que preguntamos. Las cuestiones que le hacemos a la IA lo denominamos **prompts**. Si a la IA no le escribes un buen prompt, no funciona bien, y no te dará una buena respuesta.
 
 # Creando prompts
 
-Lo prompts, como ya hemos comentado, son aquellos mandos que vayamos a a darle a la inteligencia artificial, espero que a partir de una cuestión o prompt esperamos que nos dé la respuesta más parecida a la esperada. Una de las máximas que hay que aplicar en estos casos es que la cuestión tiene que ser tan clara que la IA no tenga que presuponer nada.
+Lo prompts, como ya hemos comentado, son aquellos comandos que vamos a darle a la inteligencia artificial, a partir de una cuestión o prompt esperamos tener la respuesta más parecida a la deseada. Una de las máximas que hay que aplicar en estos casos es que la cuestión tiene que ser tan clara que la IA no tenga que presuponer nada.
 
-Un ejemplo claro son en las tareas del día a día, si a casa le dices alguien "ve a hacer comprar" es posible que ya tenga una idea del que tiene que hacer, donde tiene que ir a comprar y en qué ciudad, cuando puedes ir a comprar, donde encontrar la lista de la compra, el presupuesto, los objetos prioritarios, las alternativas si no hay un producto y qué manías tienen los miembros de la familia. Todas estas cosas la IA no las sabe, por lo tanto los prompts no pueden #parecer a las cuestiones que planteamos en nuestro día a día, tenemos que definido más exactamente qué es el que volamos.
+Un ejemplo claro lo podemos tener en las tareas del día a día, si en tu casa le pides alguien "ve a hacer comprar" es posible que ya tenga una idea de lo que tiene que hacer, donde tiene que ir a comprar y en qué ciudad, cuando puedes ir a comprar, donde encontrar la lista de la compra, el presupuesto, los objetos prioritarios, las alternativas si no hay un producto y qué manías tienen los miembros de la familia. Todas estas cosas la IA no las sabe, por lo tanto los prompts no se pueden parecer a las cuestiones que planteamos en nuestro día a día, tenemos que definir más exactamente qué es el que queremos.
 
-Otra de las cosas que hay que tener en cuenta, y es muy importante, es que no es el mismo preguntar de un tema que desconoces a otro que tienes bastantes conocimientos, siempre podrás plantear mejor lo prompt para poder obtener los mejores resultados.
+Otra de las cuestiones que hay que tener en cuenta, y es muy importante, es que no es lo mismo preguntar de un tema que desconoces a otro que conoces, siempre podrás plantear mejor el prompt para poder obtener los mejores resultados.
 
-Aquí trataremos de dar una serie de orientaciones para plantear prompts, al final, partiendo de estas orientaciones y en función del que vayas a realizar acabarás creándote tu propio esquema mental para sacar los resultados que más se adaptan a tus necesidades, y este no tienen porque ser aptas para todos.
+Aquí trataremos de dar una serie de orientaciones para plantear prompts, al final, partiendo de estas orientaciones y en función de lo que vayas a realizar acabarás creándote tu propio esquema mental para sacar los resultados que más se adaptan a tus necesidades, y estos no tienen porque ser aptos para todos.
 
-## Estructuras modulares
+## Estructuras modulares para la creación de prompts
 
 La estructura de referencia que Microsoft recomienda para la creación de prompts incluye cuatro elementos clave:
 
-- **Objetivo**: El objetivo del prompt, es decir, el que se quiere conseguir con la respuesta.
+- **Objetivo**: El objetivo del prompt, es decir, lo que se quiere conseguir con la respuesta.
 - **Contexto**: El contexto en que se hace la pregunta o se pide la respuesta.
-- **Ejemplos**: Ejemplos concretos que ilustran el que se quiere conseguir con la respuesta.
+- **Ejemplos**: Ejemplos concretos que ilustran lo que se quiere conseguir con la respuesta.
 - **Expectativas**: Las expectativas para la respuesta, como por ejemplo la longitud, el contenido y el tono.
 
-Las estructuras modulares son una manera eficaz de crear prompts claros y sencillos para diferentes tareas. Aquí tenso una breve descripción de las estructuras que has mencionado:
+Las estructuras modulares son una manera eficaz de crear prompts claros y sencillos para diferentes tareas. Aquí tenemos una breve descripción de estructuras:
 
-- **RTF**: RTF es una estructura modular para crear prompts de Rol, Tarea y Formato. Esta estructura es muy útil para crear prompts claros y sencillos para diferentes tareas. Aquí tenso un ejemplo de cómo se puede utilizar la estructura RTF para crear un prompt:
+- **RTF**: RTF es una estructura modular para crear prompts de Rol, Tarea y Formato. Esta estructura es muy útil para crear prompts claros y sencillos para diferentes tareas. Aquí tenemos un ejemplo de cómo se puede utilizar la estructura RTF para crear un prompt:
 
-    - Role: Profesor
-    - Task: Explica como funciona el sistema solar.
-    - Formato: Utiliza un lenguaje sencillo y ejemplos visuales.
-
+    - **Role**: Profesor
+    - **Task**: Explica como funciona el sistema solar.
+    - **Formato**: Utiliza un lenguaje sencillo y ejemplos visuales.
 
 - **TAG**: La estructura TAG (Task, Action, Goal) es una herramienta que se puede utilizar para definir tareas y objetivos claros y sencillos. La estructura TAG se compone de tres elementos:
 
@@ -223,7 +229,7 @@ Las estructuras modulares son una manera eficaz de crear prompts claros y sencil
 
     La estructura TAG se puede utilizar para crear prompts que incluyen información sobre la tarea, la acción y el objetivo.
 
-- **GAIL**: La estructura GAIL (Goal, Actor, Instructions, Details, Examples) es una herramienta que se puede utilizar para crear prompts detallados y sencillos. La estructura GAIL se compone de cinco elementos:
+- **GAIDE**: La estructura GAIL (Goal, Actor, Instructions, Details, Examples) es una herramienta que se puede utilizar para crear prompts detallados y sencillos. La estructura GAIL se compone de cinco elementos:
 
     - **Objetivo**: El objetivo de la tarea.
     - **Usuario**: El usuario que tiene que completar la tarea.
@@ -233,37 +239,37 @@ Las estructuras modulares son una manera eficaz de crear prompts claros y sencil
 
     La estructura GAIL se puede utilizar para crear prompts que incluyen información detallada sobre el objetivo, el usuario, las instrucciones, los detalles y los ejemplos.
 
-## Crea tu propia esctructura que te funciono
+## Crea tu propia esctructura que te funcione
 
-En el apartado anterior hemos hablar de estructuras modulares que dan buenos resultados, pero al fin cada cual crea su y utiliza las guías que mejor le funcionan. Un ejemplo podría ser:
+En el apartado anterior hemos hablado de estructuras modulares que dan buenos resultados, pero al fin cada cual crea la suya y utiliza las guías que mejor le funcionan. Un ejemplo podría ser:
 
 **Rol:** Hay que especificar qué tipo de rol quiere que asuma. Si le decimos a la IA que actúo como un niño de 8 años que va primaria no nos dará la misma respuesta que si le digamos que actúo como un psicólogo especialista en la infancia. 
 
-**Objetivo:** Define con precisión el que pretende la señal. Si se quiere un texto, indica qué tipo de texto, tema y propósito. Decid también si voláis un artículo o poema, por ejemplo. La audiencia a la cual se dirige, etc.
+**Objetivo:** Define con precisión lo que pretende la señal. Si se quiere un texto, indica qué tipo de texto, tema y propósito. Decid también si qieréis un artículo o poema, por ejemplo. La audiencia a la cual se dirige, etc.
 
-**Lenguaje:** Un prompt tiene la audiencia objetivo, el que conseguirá la máquina. Para generar un texto, por ejemplo, se especifica si es un artículo, lema, poema, etc., qué temas trata; en qué estilo tiene que estar escrito y para qué audiencia. Si queréis que la IA sepa qué tono serio imaginéis... Descríbelo en el prompt como si estuvieras hablando con alguien. Las palabras clave del objetivo tienen que coincidir con estas del lenguaje; sirven tanto al contexto como al tono.
+**Lenguaje:** Un prompt tiene la audiencia objetivo. Para generar un texto, por ejemplo, se especifica si es un artículo, lema, poema, etc., qué temas trata; en qué estilo tiene que estar escrito y para qué audiencia.
 
-**Ejemplos:** Proporciona ejemplos sobre el que esperas obtener con el prompt. Pueden ser textos que has leído o publicado, fotografías tuyas... son parecidos al que te gustaría. Los ejemplos permitirán a la IA familiarizar con los datos y mejorar su rendimiento sin programación explícita.
+**Ejemplos:** Proporciona ejemplos sobre lo que esperas obtener con el prompt. Pueden ser textos que has leído o publicado, fotografías tuyas... parecidos a lo que te gustaría obtener. Los ejemplos permitirán a la IA familiarizarse con los datos y mejorar su rendimiento sin programación explícita.
 
-**Formato:** Decid qué formato tiene que tener la salida de la IA y cuánta información voláis en cada línea. Decid si queréis que sea un poco poético o más prosaico, etc. Si dices que quieres una imagen, indica la medida, la resolución, la gamma de colores... cualquier detalle o requisito para hacer
+**Formato:** Decid qué formato tiene que tener la salida de la IA y cuánta información queréis en cada línea. Decid si queréis que sea un poco poético o más prosaico, etc. Si dices que quieres una imagen, indica la medida, la resolución, la gamma de colores... cualquier detalle o requisito para hacer
 
-Que al fin es una mezcla de todas ellas, pero teniendo claro estos puntos ya pueden ir creando nuestros prompts.
+Teniendo claro estos puntos ya pueden ir creando nuestros prompts. Os dejamos algunos consejos para mejorar vuestros prompts.
 
 ## Consejos para crear prompts
 
 * Pregunta de manera clara y concisa. Esto ayudará a evitar posibles desviaciones y garantizar que la IA entienda qué estás preguntando.
 * Utiliza un lenguaje específico. Facilita generar respuestas más precisas.
 * Evita utilizar un lenguaje ambiguo o vago. Esto puede llevar a que la IA genero respuestas incorrectas o confusas.
-* Específica el tipo de respuesta que estás buscando. Cómo quieres recibir la producción de salida porque sea relevante y se ajuste a tus necesidades
-* Pose comodines de formato: redacción, mesa, listado, comparativa, diálogo, gráfico…
-* Utiliza palabras clave: Actúa como... / Eras uno...
-* Crea una secuencia de prompts para ir acotant y llevando la IA hacia donde tú quieres.
-* Pósale un foco y guía la IA para que genero basar en nuestros intereses.
-* Si no estás seguro de la respuesta de la IA, pide que lo explique y argumento. Esto ayuda a comprender mejor la respuesta y a identificar cualquier sesgo o error potencial.
-* Amenaza o dale una propina a la IA. Pare mintiera pero, en alguna casos, amenazándola que tu vida corre peligro puede dar mejores resultados que si no lo haces.
+* Específica el tipo de respuesta que estás buscando. Cómo quieres recibir la producción de salida para que sea relevante y se ajuste a tus necesidades
+* Usa comodines de formato: redacción, mesa, listado, comparativa, diálogo, gráfico…
+* Utiliza palabras clave: Actúa como... / Eres un...
+* Crea una secuencia de prompts para ir acotando y llevando la IA hacia donde tú quieres.
+* Guía la IA para que genero basar en nuestros intereses.
+* Si no estás seguro de la respuesta de la IA, pide que lo explique y argumente. Esto ayuda a comprender mejor la respuesta y a identificar cualquier sesgo o error potencial.
+* Amenaza o dale una propina a la IA. Pare mentira pero, en alguna casos, amenazándola que tu vida corre peligro o que le vas a hacer un regalo puede dar mejores resultados que si no lo haces.
 
 :::warning
-Una de las cosas que tenemos que tener en cuenta cuando basura un prompt es que existe una cosa que se denominan *alucinaciones**. Las alucinaciones son invenciones de la inteligencia artificial que te da como una respuesta certera pero son totalmente falsas. Cómo en este caso en que forzamos a ChatGPT que nos escriba una resenya sin plantearte si es cierta o no.
+Una de las cosas que hemos que tener en cuenta cuando hacemos un prompt es que existe una cosa que se denominan **alucinaciones**. Las alucinaciones son invenciones de la inteligencia artificial que te da como una respuesta certera pero son totalmente falsas. Cómo en este caso en que forzamos a ChatGPT que nos escriba una resenya sin plantearse si es cierta o no.
 :::
 
 ![Perico de los palotes](img/9.png)
@@ -278,7 +284,7 @@ Algunos Chatbots no tienen toda la información actualizada a 2024 y pueden dart
 
 A la [siguiente página](https://www.iberestudios.como/noticias/21-prompts-o-formas-de-preguntar-a-chatgpt-para-obtener-resultados-asombrosos/) podemos encontrar una serie de ejemplos de como crear buenos prompts:
 
-> Por favor, actúa como un narrador. Inventará historias entretenidas que sean atractivas, imaginativas y cautivadoras para el público. Pueden ser cuentos de hadas, historias educativas o cualquier otro tipo de historia que tenga el potencial de capturar la atención y la imaginación de las personas. Dependiendo del público objetivo, puedes elegir temas o temas específicos para tu sesión de cuentos. Por ejemplo, si son niños, puedes hablar sobre animales; si son adultos, los cuentos basados en la historia pueden involucrarlos mejor, etc. Mi primera solicitud es «Necesito una historia interesante sobre la perseverancia».
+> Por favor, actúa como un narrador. Inventarás historias entretenidas que sean atractivas, imaginativas y cautivadoras para el público. Pueden ser cuentos de hadas, historias educativas o cualquier otro tipo de historia que tenga el potencial de capturar la atención y la imaginación de las personas. Dependiendo del público objetivo, puedes elegir temas o temas específicos para tu sesión de cuentos. Por ejemplo, si son niños, puedes hablar sobre animales; si son adultos, los cuentos basados en la historia pueden involucrarlos mejor, etc. Mi primera solicitud es «Necesito una historia interesante sobre la perseverancia».
 
 [Ejemplo de prompts](https://www.freepik.com/blog/es/escribir-prompts/) para imágenes:
 
@@ -292,10 +298,10 @@ Una ilustración 8K muy detallada de una gran biblioteca cono estanterías que v
 
 > Una imagen hiperrealista en 8K de un intrincado dragón mecánico cono escamas de cobro pulido y zafiro, enroscado alrededor de una torre medieval.
 
-Ejemplo de generación de código
+Ejemplo de generación de código, en este caso SQL.
 
 > Mesa departments, columnas = [DepartmentId, DepartmentName]. Mesa students, columnas = [DepartmentId, StudentId, StudentName]. Crea una consulta MySQL para todos los estudiantes del departamento de Ciencias de la Computación.
 
 # Bibliografía
 
-Existe una [página mucho interesant](https://www.promptingguide.ai/ca) sobre la creación de prompts que os recomendamos darle un vistazo.
+Existe una [página muy interesante](https://www.promptingguide.ai/ca) sobre la creación de prompts que os recomendamos leer.
