@@ -95,11 +95,11 @@ Podemos pensar que todo lo que hacemos en el ordenador tiene que ver con la inte
 Aquí tenéis un ejemplo de diagrama de flujo sencillo:
 
 <!-- DIAGRAMA FLUXE -->
-![Diagrama de flujo. Origen: Wikipedia](img/1.svg)
+![Diagrama de flujo. Origen: Wikipedia](img/1.svg){ height=300px }
 
 Estas funciones llevan una lógica atrás, en cambio las IA utilizan una manera de programar diferente que emplea muchísimas más posibilidades para dar una respuesta más creativa basada en entradas más complejas. Aquí tenemos un ejemplo de red neuronal
 
-![Red neuronal. Origen: Wikipedia](img/2.png)
+![Red neuronal. Origen: Wikipedia](img/2.png){ height=300px }
 
 :::note
 La Inteligencia Artificial (IA) es un campo amplio que incluye diferentes técnicas y algoritmos para crear sistemas que puedan simular la inteligencia humana. Las redes neuronales son una de las técnicas de IA que imitan el funcionamiento del cerebro humano para resolver problemas
