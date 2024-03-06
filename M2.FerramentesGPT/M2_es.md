@@ -77,17 +77,17 @@ En esta unidad nos centraremos en aquellas aplicaciones de las que todo el mundo
 Cabe mencionar que nos hemos centrado en la parte gratuita de estas herramientas, pero es importante señalar que la versión de pago ofrece mejores resultados y presenta funcionalidades muy convenientes para nuestra tarea, como la creación de GPTs.
 
 
-# Qué es GPT?
+# ¿Qué es GPT?
 
-GPT es una sigla que significa "Generative Pre-trained Transformers". Es una tecnología que ayuda a las máquinas a entender el lenguaje humano y a responder a preguntas de manera parecida a cómo lo haría una persona, es más, podemos interactuar con ella. Esto significa que las máquinas pueden escribir textos, resumir información, hacer traducciones y algunas cosas más qe veremos más adelante. Esto es posible gracias a una red neuronal que ha aprendido a partir de muchos datos y que puede generar contenido nuevo a partir del que ha aprendido. GPT es una tecnología muy útil para muchas cosas diferentes, es más, cada vez que habláis con ella está aprendiendo de aquello que habla con vosotros, así que cada vez tendrá mejores respuestas.
+GPT es una sigla que significa "Generative Pre-trained Transformers". Es una tecnología que ayuda a las máquinas a entender el lenguaje humano y a responder a preguntas de manera parecida a cómo lo haría una persona, es más, podemos interactuar con ella. Esto significa que las máquinas pueden escribir textos, resumir información, hacer traducciones y algunas cosas más que veremos más adelante. Esto es posible gracias a una red neuronal que ha aprendido a partir de muchos datos y que puede generar contenido nuevo a partir del que ha aprendido. GPT es una tecnología muy útil para muchas cosas diferentes, es más, cada vez que habláis con ella está aprendiendo de aquello que habla con vosotros, así que cada vez tendrá mejores respuestas.
 
 # MODELOS GPT
 
 Los tres servicios más conocidos, aunque no son los únicos son ChatGPT, Gemini[^1] y Copilot. Nosotros nos centraremos en estos 3. En esencia, son ventanas de chat, aunque la implementación de cada una refleja un lenguaje de diseño diferente. **Gemini** es la más minimalista, mientras que **Bing Copilot** es la menos sencilla y se centra más en la funcionalidad.
 
-En cuanto a las capacidades de cada una, **ChatGPT** es mejor para conversar, mientras que **Bing Copilot** es más adecuada para investigar. Por ejemplo, puede buscar en la web y proporcionar resultados de busca, mientras que **ChatGPT** se centra en responder preguntas y mantener una conversación fluida.
+En cuanto a las capacidades de cada una, **ChatGPT** es mejor para conversar, mientras que **Bing Copilot** es más adecuada para investigar. Por ejemplo, puede buscar en la web y proporcionar resultados de búsqueda, mientras que **ChatGPT** se centra en responder preguntas y mantener una conversación fluida.
 
-Además, **Bing Copilot** es lo más transparente, puesto que al final de cada respuesta pone las fuentes de dónde ha obtenido la información. Por otro lado, **Google Gemini** tiene una opción para hacer una busca de la pregunta que has hecho, y **ChatGPT** no ofrece ninguna pista de dónde ha sacado la información.
+Además, **Bing Copilot** es lo más transparente, puesto que al final de cada respuesta pone las fuentes de dónde ha obtenido la información. Por otro lado, **Google Gemini** tiene una opción para hacer una búsqueda de la pregunta que has hecho, y **ChatGPT** no ofrece ninguna pista de dónde ha sacado la información.
 
 [^1]: En el transcurso de la creación de estos materiales ha cambiado su nombre a Gemini. Antes se llamaba **Bard**.
 
@@ -100,7 +100,7 @@ Obviamente esta información está basada en experiencia personal y la lectura d
 
 ## ChatGPT
 
-Para poder utilizar chatGPT, en primer lugar hemos que registrarnos. Iremos a la página de [ChatGPT](https://chat.openai.com/auth/login)
+Para poder utilizar chatGPT, en primer lugar tenemos de registrarnos. Iremos a la página de [ChatGPT](https://chat.openai.com/auth/login)
 
 ![Registrarse en ChatGPT](img/1.png)
 
@@ -176,7 +176,7 @@ Aunque estos son los 3 modelos más conocidos, hay otros modelos de herramientas
 - **Copy AI** es una herramienta de creación de contenido que utiliza GPT-3 para generar textos, anuncios, guiones, piezas musicales, correos electrónicos, cartas, etc. Ofrece un plan gratuito con un límite de 10 creaciones por día. Podemos acceder des [de aquí](https://www.copy.ai/)
 - **Rytr** es una herramienta de redacción automatizada que utiliza GPT-3. Ofrece un plan gratuito con un límite de 50 creaciones por día. Podemos acceder des [de aquí](https://rytr.me/)
 - **Poe** otro chatbot de propósito general, tiene una limitación de ciertas cuestiones en el día. Puedes acceder desde aquí: [https://poe.com/login](https://poe.com/login)
-- **Ora.sh** Con datos hasta 2021 es una otro modelo de lenguaje: [https://ora.ai/openai/gpt4](https://ora.ai/openai/gpt4)
+- **Ora.sh** Con datos hasta 2021, es otro modelo de lenguaje: [https://ora.ai/openai/gpt4](https://ora.ai/openai/gpt4)
 
 Especial mención a **Code llama 2** [https://ai.meta.com/llama/](https://ai.meta.com/llama/) se trata de un modelo de IA que puedes descargar en tu ordenador, pero requiere de conocimientos técnicos un poco avanzados para poder hacerlo funcionar y una máquina muy potente. Pero tendremos nuestro propio modelo de lenguaje en nuestro ordenador.
 
@@ -192,13 +192,13 @@ En este casa habría que utilizar varías y no centrarse en las 3 principales pu
 
 De todas maneras una cosa es cierta, un persona puede ser muy inteligente y tener una muy buena conversación pero si quien conversa en ella no es un buen conversador no podrá sacar su potencial.
 
-Por eso hay que saber preguntar adecuadamente a la IA qué es el que queremos y no puedes preguntar como un humano puesto que esta tecnología no sabe presuponer cosas después de hablar contigo, hay que ser claro con lo que preguntamos. Las cuestiones que le hacemos a la IA lo denominamos **prompts**. Si a la IA no le escribes un buen prompt, no funciona bien, y no te dará una buena respuesta.
+Por eso hay que saber preguntar adecuadamente a la IA qué es lo que queremos y no puedes preguntar como un humano puesto que esta tecnología no sabe presuponer cosas después de hablar contigo, hay que ser claro con lo que preguntamos. Las cuestiones que le hacemos a la IA lo denominamos **prompts**. Si a la IA no le escribes un buen prompt, no funciona bien, y no te dará una buena respuesta.
 
 # Creando prompts
 
 Lo prompts, como ya hemos comentado, son aquellos comandos que vamos a darle a la inteligencia artificial, a partir de una cuestión o prompt esperamos tener la respuesta más parecida a la deseada. Una de las máximas que hay que aplicar en estos casos es que la cuestión tiene que ser tan clara que la IA no tenga que presuponer nada.
 
-Un ejemplo claro lo podemos tener en las tareas del día a día, si en tu casa le pides alguien "ve a hacer comprar" es posible que ya tenga una idea de lo que tiene que hacer, donde tiene que ir a comprar y en qué ciudad, cuando puedes ir a comprar, donde encontrar la lista de la compra, el presupuesto, los objetos prioritarios, las alternativas si no hay un producto y qué manías tienen los miembros de la familia. Todas estas cosas la IA no las sabe, por lo tanto los prompts no se pueden parecer a las cuestiones que planteamos en nuestro día a día, tenemos que definir más exactamente qué es el que queremos.
+Un ejemplo claro lo podemos tener en las tareas del día a día, si en tu casa le pides a alguien "ve a hacer la compra" es posible que ya tenga una idea de lo que tiene que hacer, donde tiene que ir a comprar y en qué ciudad, cuando puedes ir a comprar, donde encontrar la lista de la compra, el presupuesto, los objetos prioritarios, las alternativas si no hay un producto y qué manías tienen los miembros de la familia. Todas estas cosas la IA no las sabe, por lo tanto los prompts no se pueden parecer a las cuestiones que planteamos en nuestro día a día, tenemos que definir más exactamente qué es lo que queremos.
 
 Otra de las cuestiones que hay que tener en cuenta, y es muy importante, es que no es lo mismo preguntar de un tema que desconoces a otro que conoces, siempre podrás plantear mejor el prompt para poder obtener los mejores resultados.
 
@@ -239,13 +239,13 @@ Las estructuras modulares son una manera eficaz de crear prompts claros y sencil
 
     La estructura GAIL se puede utilizar para crear prompts que incluyen información detallada sobre el objetivo, el usuario, las instrucciones, los detalles y los ejemplos.
 
-## Crea tu propia esctructura que te funcione
+## Crea tu propia estructura que te funcione
 
-En el apartado anterior hemos hablado de estructuras modulares que dan buenos resultados, pero al fin cada cual crea la suya y utiliza las guías que mejor le funcionan. Un ejemplo podría ser:
+En el apartado anterior hemos hablado de estructuras modulares que dan buenos resultados, pero al final, cada cual crea la suya y utiliza las guías que mejor le funcionan. Un ejemplo podría ser:
 
-**Rol:** Hay que especificar qué tipo de rol quiere que asuma. Si le decimos a la IA que actúo como un niño de 8 años que va primaria no nos dará la misma respuesta que si le digamos que actúo como un psicólogo especialista en la infancia. 
+**Rol:** Hay que especificar qué tipo de rol quiere que asuma. Si le decimos a la IA que actúo como un niño de 8 años que va primaria no nos dará la misma respuesta que si le decimos que actúe como un psicólogo especialista en la infancia. 
 
-**Objetivo:** Define con precisión lo que pretende la señal. Si se quiere un texto, indica qué tipo de texto, tema y propósito. Decid también si qieréis un artículo o poema, por ejemplo. La audiencia a la cual se dirige, etc.
+**Objetivo:** Define con precisión lo que pretende la señal. Si se quiere un texto, indica qué tipo de texto, tema y propósito. Decid también si queréis un artículo o poema, por ejemplo. La audiencia a la cual se dirige, etc.
 
 **Lenguaje:** Un prompt tiene la audiencia objetivo. Para generar un texto, por ejemplo, se especifica si es un artículo, lema, poema, etc., qué temas trata; en qué estilo tiene que estar escrito y para qué audiencia.
 
@@ -253,23 +253,23 @@ En el apartado anterior hemos hablado de estructuras modulares que dan buenos re
 
 **Formato:** Decid qué formato tiene que tener la salida de la IA y cuánta información queréis en cada línea. Decid si queréis que sea un poco poético o más prosaico, etc. Si dices que quieres una imagen, indica la medida, la resolución, la gamma de colores... cualquier detalle o requisito para hacer
 
-Teniendo claro estos puntos ya pueden ir creando nuestros prompts. Os dejamos algunos consejos para mejorar vuestros prompts.
+Teniendo claro estos puntos ya podéis ir creando nuestros prompts. Os dejamos algunos consejos para mejorar vuestros prompts.
 
 ## Consejos para crear prompts
 
 * Pregunta de manera clara y concisa. Esto ayudará a evitar posibles desviaciones y garantizar que la IA entienda qué estás preguntando.
 * Utiliza un lenguaje específico. Facilita generar respuestas más precisas.
-* Evita utilizar un lenguaje ambiguo o vago. Esto puede llevar a que la IA genero respuestas incorrectas o confusas.
+* Evita utilizar un lenguaje ambiguo o vago. Esto puede llevar a que la IA genere respuestas incorrectas o confusas.
 * Específica el tipo de respuesta que estás buscando. Cómo quieres recibir la producción de salida para que sea relevante y se ajuste a tus necesidades
-* Usa comodines de formato: redacción, mesa, listado, comparativa, diálogo, gráfico…
+* Usa comodines de formato: redacción, tabla, listado, comparativa, diálogo, gráfico…
 * Utiliza palabras clave: Actúa como... / Eres un...
 * Crea una secuencia de prompts para ir acotando y llevando la IA hacia donde tú quieres.
-* Guía la IA para que genero basar en nuestros intereses.
+* Guía la IA para que genere contenido basado en nuestros intereses.
 * Si no estás seguro de la respuesta de la IA, pide que lo explique y argumente. Esto ayuda a comprender mejor la respuesta y a identificar cualquier sesgo o error potencial.
-* Amenaza o dale una propina a la IA. Pare mentira pero, en alguna casos, amenazándola que tu vida corre peligro o que le vas a hacer un regalo puede dar mejores resultados que si no lo haces.
+* Amenaza o dale una propina a la IA. Parece mentira pero, en alguna casos, amenazándola que tu vida corre peligro o que le vas a hacer un regalo puede dar mejores resultados que si no lo haces.
 
 :::warning
-Una de las cosas que hemos que tener en cuenta cuando hacemos un prompt es que existe una cosa que se denominan **alucinaciones**. Las alucinaciones son invenciones de la inteligencia artificial que te da como una respuesta certera pero son totalmente falsas. Cómo en este caso en que forzamos a ChatGPT que nos escriba una resenya sin plantearse si es cierta o no.
+Una de las cosas que debemos tener en cuenta cuando hacemos un prompt es que existe una cosa que se denominan **alucinaciones**. Las alucinaciones son invenciones de la inteligencia artificial que te da como una respuesta certera pero son totalmente falsas. Cómo en este caso en que forzamos a ChatGPT que nos escriba una reseña sin plantearse si es cierta o no.
 :::
 
 ![Perico de los palotes](img/9.png)
@@ -282,21 +282,21 @@ Algunos Chatbots no tienen toda la información actualizada a 2024 y pueden dart
 
 # Creando prompts
 
-A la [siguiente página](https://www.iberestudios.como/noticias/21-prompts-o-formas-de-preguntar-a-chatgpt-para-obtener-resultados-asombrosos/) podemos encontrar una serie de ejemplos de como crear buenos prompts:
+En la [siguiente página](https://www.iberestudios.como/noticias/21-prompts-o-formas-de-preguntar-a-chatgpt-para-obtener-resultados-asombrosos/) podemos encontrar una serie de ejemplos de como crear buenos prompts:
 
 > Por favor, actúa como un narrador. Inventarás historias entretenidas que sean atractivas, imaginativas y cautivadoras para el público. Pueden ser cuentos de hadas, historias educativas o cualquier otro tipo de historia que tenga el potencial de capturar la atención y la imaginación de las personas. Dependiendo del público objetivo, puedes elegir temas o temas específicos para tu sesión de cuentos. Por ejemplo, si son niños, puedes hablar sobre animales; si son adultos, los cuentos basados en la historia pueden involucrarlos mejor, etc. Mi primera solicitud es «Necesito una historia interesante sobre la perseverancia».
 
 [Ejemplo de prompts](https://www.freepik.com/blog/es/escribir-prompts/) para imágenes:
 
-> Una foto vintage 8K de grande realismo de una torre de reloj entrelazada cono hiedra luminosa, cuyas hojas parpadean cono luz bioluminiscente al atardecer.
-Un intrincado paisaje urbano steampunk al amanecer, cono engranajes de latón y vapor surgiendo de callas adoquinadas, todo ello renderizado cono una asombrosa claridad 8K.
+> Una foto vintage 8K de gran realismo de una torre de reloj entrelazada con hiedra luminosa, cuyas hojas parpadean con luz bioluminiscente al atardecer.
+Un intrincado paisaje urbano steampunk al amanecer, con engranajes de latón y vapor surgiendo de calles adoquinadas, todo ello renderizado con una asombrosa claridad 8K.
 
 > Una imagen hiperrealista de un lago cristalino que refleja un cielo lleno de auroras en un prístino bosque 8K a medianoche.
-Una ilustración 8K muy detallada de una gran biblioteca cono estanterías que van del suelo al techo, escaleras ornamentadas y libros antiguos cono títulos etéreos que brillan.
+Una ilustración 8K muy detallada de una gran biblioteca cpn estanterías que van del suelo al techo, escaleras ornamentadas y libros antiguos con títulos etéreos que brillan.
 
-> Un mural realista en 8K de una metrópolis futurista, cono coches suspendidos y letreros holográficos, reflejados en las superficies brillantes de la arquitectura de la ciudad.
+> Un mural realista en 8K de una metrópolis futurista, con coches suspendidos y letreros holográficos, reflejados en las superficies brillantes de la arquitectura de la ciudad.
 
-> Una imagen hiperrealista en 8K de un intrincado dragón mecánico cono escamas de cobro pulido y zafiro, enroscado alrededor de una torre medieval.
+> Una imagen hiperrealista en 8K de un intrincado dragón mecánico con escamas de cobre pulido y zafiro, enroscado alrededor de una torre medieval.
 
 Ejemplo de generación de código, en este caso SQL.
 

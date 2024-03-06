@@ -70,9 +70,9 @@ Este documento está sujeto a una licencia creative commons que permite su difus
 
 # Introducción
 
-A buen seguro que muchos de vosotros ya habéis sentido hablar de la inteligencia artificial y de todo aquello que puede hacer, algunos ya habéis empezado a utilizarlo en vuestro día a día y hay que distinguir algunos conceptos sobre lo que es la IA. En este curso trataremos de haceros una introducción sobre las diferentes herramientas que existen y como sacarles provecho. 
+A buen seguro que muchos de vosotros ya habéis oído hablar de la inteligencia artificial y de todo aquello que puede hacer, algunos ya habéis empezado a utilizarla en vuestro día a día y hay que distinguir algunos conceptos sobre lo que es la IA. En este curso trataremos de haceros una introducción sobre las diferentes herramientas que existen y como sacarles provecho. 
 
-Hay que tener en cuenta que se trata de un curso de iniciación y es posible que os sintáis abrumados de toda la información que vayáis a ver, obviamente por la duración del curso no vamos a poder profundizar en muchos de las utilidades que os presentaremos, esto ya os lo dejaremos a vosotros.
+Hay que tener en cuenta que se trata de un curso de iniciación y es posible que os sintáis abrumados de toda la información que vayáis a ver, obviamente por la duración del curso no vamos a poder profundizar en muchas de las utilidades que os presentaremos, esto ya os lo dejaremos a vosotros.
 
 Los módulos serán breves pero intensos, trataremos de ayudaros en todas las dudas que se os planteen, prácticamente todo el texto escrito está redactado y no se ha utilizado la IA, algunas imágenes son la excepción, en muchos casos os presentaremos el prompt[^1] y la respuesta que nos dará, trataremos de limitar la extensión a lo que realmente necesitáis. Las respuestas os decimos que estarán retocadas puesto que la respuesta que obtiene cualquier plataforma siempre tiene que retocarse para que sea lo más idónea posible a lo que deseas. Os lo presentaremos con el siguiente icono.
 
@@ -88,7 +88,7 @@ Este curso está diseñado para estudiantes con conocimientos previos de program
 
 Obviamente es una respuesta muy estándar que no se nos hubiera ocurrido escribir.
 
-# Que es y que no es la inteligencia artificial?
+# ¿Qué es y qué no es la inteligencia artificial?
 
 Podemos pensar que todo lo que hacemos en el ordenador tiene que ver con la inteligencia artificial y obviamente no es así, los ordenadores utilizan algoritmos con lenguajes de programación para poder automatizar tareas o realizar programas.
 
@@ -97,7 +97,7 @@ Aquí tenéis un ejemplo de diagrama de flujo sencillo:
 <!-- DIAGRAMA FLUXE -->
 ![Diagrama de flujo. Origen: Wikipedia](img/1.svg){ height=300px }
 
-Estas funciones llevan una lógica atrás, en cambio las IA utilizan una manera de programar diferente que emplea muchísimas más posibilidades para dar una respuesta más creativa basada en entradas más complejas. Aquí tenemos un ejemplo de red neuronal
+Estas funciones llevan una lógica detrás, en cambio las IA utilizan una manera de programar diferente que emplea muchísimas más posibilidades para dar una respuesta más creativa basada en entradas más complejas. Aquí tenemos un ejemplo de red neuronal
 
 ![Red neuronal. Origen: Wikipedia](img/2.png){ height=300px }
 
@@ -127,7 +127,7 @@ Algunas aplicaciones destacadas de los MLL son:
 4. **Generación de Resúmenes Automáticos**: MLL son empleados para resumir automáticamente textos largos, facilitando la extracción de información clave.
 5. **Preguntas y Respuestas**: Modelos como BERT son utilizados en sistemas de preguntas y respuestas para entender y responder consultas en lenguaje natural.
 6. **Análisis de Sentimiento Avanzado**: MLL pueden mejorar la capacidad de analizar el sentimiento en grandes cantidades de texto, beneficiando aplicaciones en redes sociales y comentarios en linea.
-7. **Autocompletado de Texto Mejorado**: Herramientas de autocompletado, como las utilizadas en correos electrónicos o buscas en la web, se benefician de la capacidad predictiva de los MLL.
+7. **Autocompletado de Texto Mejorado**: Herramientas de autocompletado, como las utilizadas en correos electrónicos o navegadores en la web, se benefician de la capacidad predictiva de los MLL.
 8. **Creación de Contenido Multimedia**: MLL pueden ser combinados con otros modelos de inteligencia artificial para crear contenido multimedia, como imágenes, videos o audio, a partir de texto.
 9. **Creación de Contenido para Redes Sociales**: Los MLL son utilizados para generar contenido relevante y atractivo en plataformas de redes sociales.
 10. **Reconocimiento de Entidades Mejorado**: Modelos como GPT pueden ayudar en la identificación y clasificación precisa de entidades en textos.
@@ -159,7 +159,7 @@ Estos modelos de difusión tienen aplicaciones en varias áreas, incluyendo:
 
 5. **Síntesis de Datos para la Investigación**: En ámbitos como la investigación científica y médica, los modelos de difusión pueden sintetizar datos visuales para fines experimentales.
 
-6. **Generación de Contenido para Videojuegos**: Pueden #utilizar en la creación de mundos y elementos visuales en videojuegos, ofreciendo variedad y realismo.
+6. **Generación de Contenido para Videojuegos**: Se pueden utilizar en la creación de mundos y elementos visuales en videojuegos, ofreciendo variedad y realismo.
 
 7. **Creación de ilustraciones y Arte Digital**: Los artistas digitales pueden emplear modelos de difusión para crear ilustraciones y arte digital único.
 
@@ -183,7 +183,7 @@ Nosotros hemos preparado un modelo para distinguir entre un bolígrafo y unas ti
 
 ![Modelo de imagen creado](img/26.png){ width=13cm }
 
-Este modelo lo podemos exportar y lo podemos compartir. Obviamente el modelo que he creado no es demasiado interesante, pero popuedes entrenar mejores modelos con muchas fotografías, de objetos de la clase y crear tu propio reconocedor de de objetos. Podéis descargar el modelo des de [aquí](https://teachablemachine.withgoogle.com/models/9oqm8e4an/)
+Este modelo lo podemos exportar y lo podemos compartir. Obviamente el modelo que he creado no es demasiado interesante, pero puedes entrenar mejores modelos con muchas fotografías, de objetos de la clase y crear tu propio reconocedor de objetos. Podéis descargar el modelo des de [aquí](https://teachablemachine.withgoogle.com/models/9oqm8e4an/)
 
 ### Autodraw
 
@@ -216,7 +216,7 @@ En resumen, Quick, Draw! a través de la diversión de un juego en linea recopil
 [https://quickdraw.withgoogle.com/](https://quickdraw.withgoogle.com/)
 
 :::info
-Se trata de un juego sencillo que nos permitirá experimentar con una red neuronal. Esta tratará de averiguar qué es el que estamos dibujando con un tiempo de 20 segundos.
+Se trata de un juego sencillo que nos permitirá experimentar con una red neuronal. Esta tratará de averiguar qué es lo que estamos dibujando con un tiempo de 20 segundos.
 :::
 
 ![Juego](img/5.png){ width=10cm }
