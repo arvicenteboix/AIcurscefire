@@ -116,7 +116,7 @@ Si en la secuencia didáctica no aparecen desarrolladas las actividades, pídele
 
 Llegados a este punto podemos intentar que la IA nos haga una propuesta en relación a la evaluación. Podemos pedirle que nos indique qué instrumentos de evaluación propone para registrar cada criterio.
 
-\awesomebox[violet]{2pt}{\faRobot}{violet}{\textbf{Crea una mesa con dos columnas: criterio de evaluación e instrumento de evaluación (observación directa, lista de cotejo, rúbrica, diana de evaluación,  exit ticket\...). Rellénala con los criterios de evaluación que te indiqué y el instrumento de evaluación que consideras más apropiado en cada caso.}}
+\awesomebox[violet]{2pt}{\faRobot}{violet}{\textbf{Crea una tabla con dos columnas: criterio de evaluación e instrumento de evaluación (observación directa, lista de cotejo, rúbrica, diana de evaluación,  exit ticket\...). Rellénala con los criterios de evaluación que te indiqué y el instrumento de evaluación que consideras más apropiado en cada caso.}}
 
 Puedes pedirle incluso que desarrolle o creo esos instrumentos de evaluación:
 
@@ -126,7 +126,7 @@ Puedes pedirle incluso que desarrolle o creo esos instrumentos de evaluación:
 
 Si en este apartado, los resultados que te ofrece la IA no te convencen te proponemos otra forma de utilizarla para facilitar el proceso de evaluación. Como en una situación de aprendizaje, de lo que se trata es de evaluar el progreso en el grado de adquisición de las competencias específicas, tomando como referente los criterios de evaluación, te ayudamos a mostrarlo en forma de rúbrica. 
 
-Crea una tabla similar a esta, en la sustituyas la competencia específica, y sus respectivos criterios de evaluación, por los que a ti te interese:
+Crea una tabla similar a esta, en la que sustituyas la competencia específica, y sus respectivos criterios de evaluación, por los que a ti te interese:
 
 \awesomebox[violet]{2pt}{\faRobot}{violet}{\textbf{CE 1. Describir y contextualizar en el tiempo y el espacio los acontecimientos y los procesos más relevantes de la historia propia y universal, identificando referentes de la evolución hacia la sociedad actual y valorando la diversidad.}}
 

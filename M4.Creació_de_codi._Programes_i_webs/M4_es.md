@@ -93,7 +93,7 @@ Para crear un programa con python tenemos que pegar el código en un archivo de 
 
 Plantearemos un prompt como este:
 
-\awesomebox[violet]{2pt}{\faRobot}{violet}{\textbf{Eres un programador experimentado que le gusta documentar su código y trabaja con linux. Nuestra vida depende de realizar un programa con python que abrirá una ventana que nos mostrará lo que hay en la cámara web de nuestro ordenador. Este programa detectará cuándo nuestra cara sonríe y cuándo está triste y mostrará un mensaje wn la pantalla que se refrescará cada segundo mostrando el texto triste o alegre}}
+\awesomebox[violet]{2pt}{\faRobot}{violet}{\textbf{Eres un programador experimentado que le gusta documentar su código y trabaja con linux. Nuestra vida depende de realizar un programa con python que abrirá una ventana que nos mostrará lo que hay en la cámara web de nuestro ordenador. Este programa detectará cuándo nuestra cara sonríe y cuándo está triste y mostrará un mensaje en la pantalla que se refrescará cada segundo mostrando el texto triste o alegre}}
 
 Copiaremos y pegaremos lo que nos dice exactamente puesto que se trata de una respuesta bastante larga:
 
@@ -192,7 +192,7 @@ Puede parecer una tarea sencilla tal y como voy a planteároslo, pero el *prompt
 
 [^1] Si preguntamos en clase seguro que muchos saben más que nosotros.
 
-La plataforma que hemos utilizado es Bing Copilot con su modo más preciso y el prompt planteado ha sido lo siguiente:
+La plataforma que hemos utilizado es Bing Copilot con su modo más preciso y el prompt planteado ha sido el siguiente:
 
 awesomebox[violet]{2pt}{\textbf{Crea un juego con la biblioteca Pygame para python que tenga una pantalla estática con una plataforma del 20% del total de la ventana que pueda desplazar a la izquierda o la derecha con el teclado de manera suave y rápida. La velocidad de la bola será constante de 1 y que se actualice la función que mueve la bola cada 0.3 segundos y cuando la bola choque con los extremos de la pantalla rebotará con un ángulo de 45° en la dirección que lleva, si la bola choca contra la plataforma rebotará, si rebota en la mitad derecha de la plataforma se  irá hacia la derecha con un ángulo de 45° hacia arriba y si rebota en la mitad izquierda de la plataforma se  irá hacia la izquierda con un ángulo de 45° hacia arriba. Al comienzo habrá una bola encima de la tabla sin mover y cuando se pulse la tecla espacio la bola empezará a moverse hacia arriba. Escríbeme el código solamente, sin comentarios y de la manera más resumida posible. No quiero que me escribas ninguna explicación, solo quiero el código y sin comentarios.}}
 
@@ -284,11 +284,11 @@ if __name__ == "__main__":
     main()
 ```
 
-Este es el código generado y el resultado ha sido lo siguiente:
+Este es el código generado y el resultado ha sido el siguiente:
 
 ![Juego planteado](img/7.png)
 
-El problema que hemos detectado es que la bola iba muy lentamente, en este caso nosotros hemos decidido cambiado el refresco de la pantalla que en el prompt lo hemos reflejado como: *y que se actualice la función que mueve la bola cada 0.3 según*, y finalmente le hemos dado un valor de 120. 
+El problema que hemos detectado es que la bola iba muy lentamente, en este caso nosotros hemos decidido cambiar el refresco de la pantalla que en el prompt lo hemos reflejado como: *y que se actualice la función que mueve la bola cada 0.3 según*, y finalmente le hemos dado un valor de 120. 
 
 Pero le hemos preguntado a Copilot y la respuesta ha sido igualmente válida o incluso más lógica:
 
@@ -303,7 +303,7 @@ Hemos cambiado el valor de BAILE_SPEED a 5 y el juego ha mejorado bastante
 Vamos a hacer una pequeña explicación del prompt, como podéis ver los prompts no suelen ser "Hazme un juego tipo *Arkanoid*", hay que detallar claramente lo que queremos.
 
 :::note
-Es posible que ahora ya haya una respuesta para el prompt de crear una juego tipo Arkanoid ya que está relacionado con el prompt que he preguntado después y ya lo haya asociado. A vosotros os podría funcionar. La IA va aprendiendo también del que nosotros le "enseñamos"
+Es posible que ahora ya haya una respuesta para el prompt de crear una juego tipo Arkanoid ya que está relacionado con el prompt que he preguntado después y ya lo haya asociado. A vosotros os podría funcionar. La IA va aprendiendo también de lo que nosotros le "enseñamos"
 :::
 
 El prompt que hemos planteado es:
@@ -312,7 +312,7 @@ El prompt que hemos planteado es:
 
 > Crea un juego con la bilioteca pygame para python
 
-Tenemos que detallar la tecnlogia que queremos utilizarr, aquí estamos planteando un contexto en nuestro prompt
+Tenemos que detallar la tecnologia que queremos utilizar, aquí estamos planteando un contexto en nuestro prompt
 
 > que tenga una pantalla estática con una plataforma del 20% del total de la ventana 
 
@@ -324,7 +324,7 @@ Le dejamos claro que queremos manejar la plataforma con el teclado y no con el r
 
 > La velocidad de la bola será constante de 1 y que se actualice la función que mueve la bola cada 0.3 segundos 
 
-Esta parte puede costar de entender un poco más, el FPS es la velocidad con la que quiero que se refresque la pantalla y se lo he dicho en segundos que la IA a interpretado 60 fps, y la velocidad 1 porque pygame solo permite valores mayores de 1.
+Esta parte puede costar de entender un poco más, el FPS es la velocidad con la que quiero que se refresque la pantalla y se lo he dicho en segundos que la IA ha interpretado 60 fps, y la velocidad 1 porque pygame solo permite valores mayores de 1.
 
 > y cuando la bola choque con los extremos de la pantalla rebotará con un ángulo de 45° en la dirección que lleva
 
@@ -336,7 +336,7 @@ Continuamos con los ejemplos que ayudan a entender qué es lo que deseamos.
 
 > Al comienzo habrá una bola encima de la tabla sin mover y cuando se pulse la tecla espacio la bola empezará a mover hacia arriba. 
 
-Hay que definir una situación inicial puesto que, como ya hemos comentado, la IA no presupone como un humano, sino especificamos algo se lo inventará y podría ser que no fuera lo que deseamos. Las presuposiciones que hace no son humanas.
+Hay que definir una situación inicial puesto que, como ya hemos comentado, la IA no presupone como un humano, si no especificamos algo se lo inventará y podría ser que no fuera lo que deseamos. Las presuposiciones que hace no son humanas.
 
 > Escríbeme el código solamente, sin comentarios y de la manera más resumida posible. No quiero que me escribas ninguna explicación, solo quiero el código y sin comentarios.
 
@@ -351,7 +351,7 @@ Creando este prompt, en una de las pruebas la IA me contestó:
 
 ![La IA haciendo amigos](img/10.png)
 
-Así que no siempre obtendremos el resultados esperados y habrá que ir modificando variables hasta que nos doy el resultado esperado.
+Así que no siempre obtendremos el resultados esperados y habrá que ir modificando variables hasta que nos de el resultado esperado.
 :::
 
 No penséis que este prompt ha salido mágicamente de mi cabeza, hay que ir analizando las respuestas que va dando para ir creando el prompt, son varios intentos modificando el orden de las frases del prompt y preguntando por separado para analizar las respuestas y poder perfilar más.
@@ -376,27 +376,27 @@ Ahora tendremos que escoger los colores y un poco la temática, o podemos dejar 
 
 ![Paso 2](img/13.png)
 
-Le damos a *Save* y, como no, nos pedirá que entnoses inscribamos y ya nos pide el nombre de la "compañía", y el logo.
+Le damos a *Save* y, como no, nos pedirá que nos inscribamos y luego pide el nombre de la "compañía", y el logo.
 
 ![Paso 3](img/14.png)
 
-Y ya finalmente nos aparecerá un editor para editar nuestra página, pero ya tenemos un esqueleto creado:
+Y finalmente nos aparecerá un editor para editar nuestra página, pero ya tenemos un esqueleto creado:
 
 ![Paso 4](img/15.png)
 
-En nuestro caso le damos directamente a publicar y ya la podemos [ver](https://sailfish_rose_453.pineapplebuilder.com/)
+En nuestro caso le damos directamente a publicar y la podemos [ver](https://sailfish_rose_453.pineapplebuilder.com/)
 
 :::info
 La gran desventaja que tiene esta herramienta es que solo nos crea la página dentro del dominio que ella nos da. Los programadores siempre podrán hacer un:
 ```
 wget -r [nombre de la página]
 ```
-En el terminal de linux i podrán utilizar el código. Aunque viene comprimido. Pero es una buena opción para experimentar
+En el terminal de linux, y así, podrán utilizar el código. Aunque viene comprimido. Pero es una buena opción para experimentar
 :::
 
 ## Hocoos
 
-[Hocoos](https://magic.hocoos.com) es una plataforma dónde con 7 pasos que nos irá preguntando podremos crear nuestra página
+[Hocoos](https://magic.hocoos.com) es una plataforma dónde, con 7 pasos que nos irá preguntando, podremos crear nuestra página
 
 ![Temática](img/16.png)
 
@@ -404,7 +404,7 @@ Iremos respondiendo a todas las cuestiones que nos va planteando
 
 ![Temática](img/19.png)
 
-Y finalmente escogeremos una de las propuestas creadas, escogeremos la paleta de colores y empezará la creación de la web y la podremos [encontrar aquí](https://tiana431.hocoos.com).
+Y finalmente escogeremos una de las propuestas creadas, eligiremos la paleta de colores y empezará la creación de la web y la podremos [encontrar aquí](https://tiana431.hocoos.com).
 
 Igualmente, no podemos acceder al código, pero si tenemos un dominio[^1] propio podremos acceder a nuestro archivo de configuración del DNS para que apunte desde nuestra página. El problema de esto es que hay que tener ciertos conocimientos de informática para poder realizarlo.
 
@@ -424,11 +424,11 @@ El plan gratuito solo te deja publicar una única página web y está bastando l
 
 ## ChatGPT o Copilot
 
-\awesomebox[violet]{2pt}{\faRobot}{violet}{\textbf{Crea un página en un solo archivo para un centro educativo que utilize tecnología Html5 y css y esté contenido en un único Archivo. Los iconos que utilizará serán fontawesome del plan gratuito. La página mostrará 3 botones responsive que cuando se muestre desde un ordenador se vean los botones en horizontal, cuando se ponga el cursor encima de cada botón, este girará y mostrará la dirección url. Los 3 botos ocuparán la parte central de la página y tendrán un icono relacionado. El primer botón llevará a la página del cefire de Valencia: https://portal.edu.gva.es/cefirevalencia/es/inicio/ el segundo botón llevará a la página de Aules: https://aules.edu.gva.es/formaciodelprofessorat/login/index.php y el tercer botón a la dirección: https://cefire.eu/guacomole. Si se ve desde un mòvil los botones se veran de manera vertical. La página tendrá un título grande a la parte superior que mostrará el título Página de enlace y un footer que pondrá: creado con tecnología Copilot para el curso del cefire. El fondo de la página será verde claro.}}
+\awesomebox[violet]{2pt}{\faRobot}{violet}{\textbf{Crea un página en un solo archivo para un centro educativo que utilize tecnología Html5 y css y esté contenido en un único Archivo. Los iconos que utilizará serán fontawesome del plan gratuito. La página mostrará 3 botones responsive que cuando se muestre desde un ordenador se vean los botones en horizontal, cuando se ponga el cursor encima de cada botón, este girará y mostrará la dirección url. Los 3 botos ocuparán la parte central de la página y tendrán un icono relacionado. El primer botón llevará a la página del cefire de Valencia: https://portal.edu.gva.es/cefirevalencia/es/inicio/ el segundo botón llevará a la página de Aules: https://aules.edu.gva.es/formaciodelprofessorat/login/index.php y el tercer botón a la dirección: https://cefire.eu/guacomole. Si se ve desde un mòvil los botones se veran de manera vertical. La página tendrá un título grande en la parte superior que mostrará el título Página de enlace y un footer que pondrá: creado con tecnología Copilot para el curso del cefire. El fondo de la página será verde claro.}}
 
 El resultado que nos da es un pequeño tutorial de como crear una página web, por lo que habrá que insistirle.
 
-\awesomebox[violet]{2pt}{\faRobot}{violet}{Puedes crearme todo el código html necesario? También falta el título que irá encima de los botones y el footer que tendrá un texto en el centro mostrando lo que te he dicho.} 
+\awesomebox[violet]{2pt}{\faRobot}{violet}{¿Puedes crearme todo el código html necesario? También falta el título que irá encima de los botones y el footer que tendrá un texto en el centro mostrando lo que te he dicho.} 
 
 Finalmente el resultado, a pesar de que no es del todo lo que esperábamos es bastante aceptable:
 
@@ -550,10 +550,10 @@ Que hemos subido al nuestro [servidor que tenemos de pruebas](htps://cefire.eu) 
 
 ## Conclusiones
 
-Existen multitud de aplicaciones para crear webs estáticas, pero tal vez no marcan la diferencia respecto a crear tu propia página partiendo de un plantilla y crearla poco a poco. Pero siempre es más interesante tener algún conocimiento de programación web para dirigir las cuestiones para situaciones más concretas sobre qué es le que queremos ir modificando.
+Existen multitud de aplicaciones para crear webs estáticas, pero tal vez no marcan la diferencia respecto a crear tu propia página partiendo de un plantilla y crearla poco a poco. Pero siempre es más interesante tener algún conocimiento de programación web para dirigir las cuestiones para situaciones más concretas sobre qué es lo que queremos ir modificando.
 
-# Más possibilidades
+# Más posibilidades
 
-Las posibilidades para programar en cualquier framework son infinitas y puedes tener un profesor las 24h disponible para ir preguntando aquello que necesitamos, pero hay que saber qué preguntar. Se podría haber utilizado una plataforma profesional como Unity que habría que instalar y programar con ella, es más compleja puesto que no es solo código. Aun así  hay muchos ejemplos en la red de crear un juego con Unity pero hay que ir preguntando poco a poco y diciendo "Y ahora que hago?".
+Las posibilidades para programar en cualquier framework son infinitas y puedes tener un profesor las 24h disponible para ir preguntando aquello que necesitamos, pero hay que saber qué preguntar. Se podría haber utilizado una plataforma profesional como Unity que habría que instalar y programar con ella, es más compleja puesto que no es solo código. Aun así  hay muchos ejemplos en la red de crear un juego con Unity pero hay que ir preguntando poco a poco y diciendo "¿Y ahora que hago?".
 
 La única limitación que tenemos es el tiempo que podemos dedicarle.

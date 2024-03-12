@@ -86,7 +86,7 @@ Ya hemos comentado en el módulo 1 la diferencia entre algoritmo y red neuronal,
 
 ## Perplexity
 
-Perplexity tiene un entorno similar a los bots conversacionales pero este está centrado en la busca de información y siempre partiendo de unas fuentes, que bien buscará él o podrás proporcionar tú. Podemos acceder desde aquí:
+Perplexity tiene un entorno similar a los bots conversacionales pero este está centrado en la búsqueda de información y siempre partiendo de unas fuentes, que bien buscará él o podrás proporcionar tú. Podemos acceder desde aquí:
 
 [http://www.perplexity.ai](http://www.perplexity.ai)
 
@@ -94,7 +94,7 @@ Perplexity tiene un entorno similar a los bots conversacionales pero este está 
 Como en todas las plataformas habrá que acceder con una cuenta de Google o hacer el registro en la página. 
 :::
 
-Aquí tenéis un ejemplo que ilustra un poco el que estamos comentando. Si le preguntamos a Perplexity:
+Aquí tenéis un ejemplo que ilustra un poco lo que estamos comentando. Si le preguntamos a Perplexity:
 
 \awesomebox[violet]{2pt}{\faRobot}{violet}{\textbf{Qué centro de la comunidad valenciana ha sacado las mejores notas en las pruebas EBAU en el 2023}\hfill \break
 Podemos ver que las respuestas que nos da difieren de si le doy un contexto o no} 
@@ -111,7 +111,7 @@ Fijaos que coge unas referencias que él considera óptimas, pero no son las ide
 Las respuestas dadas no son una verdad absoluta, les tenemos que dar un contexto. En este caso nos da unos resultados basados en unas medias numéricas que es el contexto que ha considerado el diario como mejor o peor. Hace falta siempre tener una capacidad de valoración para saber el tipo de respuesta que tenemos.
 :::
 
-Si hacemos una cuestión más general, entenderemos porqué esta herramienta está orientada más en la busca de información:
+Si hacemos una cuestión más general, entenderemos porqué esta herramienta está orientada más en la búsqueda de información:
 
 ![Pregunta general](./img/3.png){ width=10cm }
 
@@ -151,7 +151,7 @@ Se trata de una herramienta de pago como casi todas las que vamos a ver, estas n
 
 ## Deepai
 
-Podemos acceder a Deepai desde [aquí](https://deepai.org). Se trata de un generador de imágenes. Podemos ver que como todas las IA hay que dar un contexto más ancho para tener un resultado más deseado:
+Podemos acceder a Deepai desde [aquí](https://deepai.org). Se trata de un generador de imágenes. Podemos ver que como todas las IA hay que dar un contexto más amplio para tener un resultado más deseado:
 
 ![Prompt para generar imagen](img/7.png){ width=10cm }
 
@@ -233,7 +233,7 @@ Aquí tendríamos un ejemplo de la herramienta de generación de imágenes con W
 
 ## Bing Copilot
 
-Hemos estado hablando hasta ahora de Bing Copilot cono a modelo de lenguaje pero este también trae incorporada la tecnología DALL-E y podemos generar imágenes desde el mismo Chat de Bing Copilot. Este te lleva a la página [https://www.bing.com/images/create?](https://www.bing.com/images/create?) para que te des de alta y ya puedes crear imágenes. Es recomendable tener una cuenta de Outlook[^2] para darse de alta.
+Hemos estado hablando hasta ahora de Bing Copilot como un modelo de lenguaje pero este también trae incorporada la tecnología DALL-E y podemos generar imágenes desde el mismo Chat de Bing Copilot. Este te lleva a la página [https://www.bing.com/images/create?](https://www.bing.com/images/create?) para que te des de alta y ya puedes crear imágenes. Es recomendable tener una cuenta de Outlook[^2] para darse de alta.
 
 [^2]: No es recomendable usar la cuenta corporativa. Como os hemos comentado crearos una cuenta que no vayáis a usar más.
 
@@ -291,7 +291,7 @@ Nos permite así mismo [compartir](https://sketch.metademolab.com/share/f007a72f
 
 ## Teachablemachine
 
-Esta herramienta, como ya hemos comentado en el módulo 1, nos permite entrenar a pequeña escala nuestro modelo de inteligencia artifial para un propósito, por ejemplo el de reconocer objetos, sonidos o posturas. Solo nos hace falta una webcam para hacerlo o unas imágenes ya creadas. Podemos acceder a la plataforma desde [aquí](https://teachablemachine.withgoogle.com/).
+Esta herramienta, como ya hemos comentado en el módulo 1, nos permite entrenar a pequeña escala nuestro modelo de inteligencia artificial para un propósito, por ejemplo el de reconocer objetos, sonidos o posturas. Solo nos hace falta una webcam para hacerlo o unas imágenes ya creadas. Podemos acceder a la plataforma desde [aquí](https://teachablemachine.withgoogle.com/).
 
 ![Teachablemachine](img/24.png){ width=10cm }
 
@@ -303,7 +303,7 @@ Nosotros hemos preparado un modelo para distinguir entre un bolígrafo y unas ti
 
 ![Modelo de imagen creado](img/26.png){ width=10cm }
 
-Este modelo lo podemos exportar y lo podemos compartir. Obviamente el modelo que he creado no es demasiado interesante, pero podemos entrenar mejores modelos con muchas fotografías, objetos de la clase y crear tu propio reconocedor de objetos. Podéis descargar el modelo de de aquí: [https://teachablemachine.withgoogle.com/models/9oqm8e4an/](https://teachablemachine.withgoogle.com/models/9oqm8e4an/)
+Este modelo lo podemos exportar y lo podemos compartir. Obviamente el modelo que he creado no es demasiado interesante, pero podemos entrenar mejores modelos con muchas fotografías, objetos de la clase y crear tu propio reconocedor de objetos. Podéis descargar el modelo de aquí: [https://teachablemachine.withgoogle.com/models/9oqm8e4an/](https://teachablemachine.withgoogle.com/models/9oqm8e4an/)
 
 # Inteligencia artificial vs Inteligencia artificial
 
@@ -340,7 +340,7 @@ A pesar de que también funciona con créditos y permite un límite de creacione
 Podemos acceder a la herramienta desde [aquí](https://studio.d-id.com/editor).
 
 :::warning
-No penséis que podéis subir la fotografía de un famoso para que diga lo que nosotros queramos, la plataforma lo detecta y no te deja. Si queréis hacer eso como hemos visto con algunos personajes famosos hablando inglés cuando no saben, debes de crearte tú el modelo y es una tarea bastante más compleja. Podemos asimismo usar la herramienta que planteamos en el siguiente punto.
+No penséis que podéis subir la fotografía de un famoso para que diga lo que nosotros queramos, la plataforma lo detecta y no te deja. Si queréis hacer eso como hemos visto con algunos personajes famosos hablando inglés cuando no saben, debes crearte tú el modelo y es una tarea bastante más compleja. Podemos asimismo usar la herramienta que planteamos en el siguiente punto.
 :::
 
 [Synthesia](https://www.synthesia.io/), es otra herramienta que nos permitirá igualmente crear presentaciones a partir de un texto, el funcionamiento es muy parecido a Studio.
@@ -403,6 +403,7 @@ Existen muchas otras aplicaciones que merece la pena nombrar:
 - Tome en [https://beta.tome.app/](https://beta.tome.app/) es una herramienta de creación de contenido que ayuda a crear contenido de blog, correos electrónicos y redes sociales.
 - SteveAI en [https://www.steve.ai/](https://www.steve.ai/); Gama en [https://gamma.app/](https://gamma.app/); Mixo en [https://www.mixo.io/](https://www.mixo.io/) y SkyBox en [https://skybox.blockadelabs.com/](https://skybox.blockadelabs.com/) son herramientas de creación de contenido que ayuda a crear contenido para redes sociales.
 - Microsoft Designer en [https://designer.microsoft.com/](https://designer.microsoft.com/) es una herramienta de diseño gráfico que ayuda a crear diseños profesionales.
+- [Simpleshow](https://videos.simpleshow.com) es una herramienta que nos permite crear videotutoriales planteándole un prompt.
 
 ## ¿Cuál elegir?
 
@@ -413,7 +414,7 @@ Hoy en día podemos encontrar el uso de la IA prácticamente en cualquier herram
 Las siguientes herramientas nos permiten crear materiales de manera rápida y sencilla ya preparados para publicar. 
 
 :::warning
-Hay que tener en cuenta que los materiales que se genera están basados en otros materiales que tiene como referencia la IA. Y pueden ser o no adecuados a lo que tú esperas, todo aquello que cree es necesario revisarlo.
+Hay que tener en cuenta que los materiales que se generan están basados en otros materiales que tienen como referencia la IA. Y pueden ser o no adecuados a lo que tú esperas, todo aquello que cree es necesario revisarlo.
 :::
 
 ## Mindsmith
@@ -440,7 +441,7 @@ La plataforma nos limita a la creación de 5 unidades y solo nos deja compartir 
 
 Una de las características más interesantes es que podemos subir un documento (una presentación por ejemplo) y nos creará un cuestionario.
 
-Una herramienta alternativa es la siguiente: [LearningStudioAI](https://learningstudioai.com/) para generar automáticamente preguntas de opción múltiple, de discusión abiertas o «interpretativas» y de debates con las respuestas correspondientes, a partir de documentos adjuntados.
+Una herramienta alternativa es la siguiente: [LearningStudioAI](https://learningstudioai.com/) para generar automáticamente preguntas de opción múltiple, de discusión abiertas o «interpretativas» y de debates con las respuestas correspondientes, a partir de documentos adjuntos.
 
 ## Schemely
 
@@ -506,7 +507,7 @@ Personalmente [ChaPDF](https://www.chatpdf.com) es una de las aplicaciones que m
 
 ## Geospy
 
-[Geospy](https://geospy.web.app/) es una herramienta que nos permite conocer el lugar de dónde es una imagen. Es muy interesante porque te hace un razonamiento de porque cree que es ese lugar u otro. Muchos pensaréis que utiliza los metadatos de la imagen para saberlo pero dados los razonamientos que te da, te hacen dudar. Los resultados suelen ser bastante certeros, pero en el ejemplo podemos ver que no siempre es fiable (se trata de una fotografía de la superficie de la luna):
+[Geospy](https://geospy.web.app/) es una herramienta que nos permite conocer el lugar de dónde es una imagen. Es muy interesante porque te hace un razonamiento de por qué cree que es ese lugar u otro. Muchos pensaréis que utiliza los metadatos de la imagen para saberlo pero dados los razonamientos que te da, te hacen dudar. Los resultados suelen ser bastante certeros, pero en el ejemplo podemos ver que no siempre es fiable (se trata de una fotografía de la superficie de la luna):
 
 ![Geospy](img/50.png)
 
