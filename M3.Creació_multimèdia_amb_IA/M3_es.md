@@ -467,7 +467,7 @@ Es interesante ver como ya nos aparecen los enlaces para que nos cree con otras 
 
 ## MagicSchoolAi
 
-[MagicSchoolAi](https://www.magicschool.ai/) es un conjunto de herramientas agrupadas que nos permite crear materiales para el aula. Una opción interesante es la de crear un cuestionario a partir de una temática.
+[MagicSchoolAi](https://www.magicschool.ai/) es un conjunto de herramientas agrupadas que nos permite crear materiales para el aula. Una opción interesante es la de crear un cuestionario a partir de una temática. Los cuestionariso de este curso están creados con esta herramienta.
 
 ![Tutor AI](img/46.png)
 
@@ -497,7 +497,7 @@ Existen multitud de herramientas. Pero todas ellas parecidas para crear material
 
 ## ChatPDF
 
-Personalmente [ChaPDF](https://www.chatpdf.com) es una de las aplicaciones que más uso. En este caso se puede subir un PDF y "hablar" con él, puedes hacerle preguntas diversas. En este caso hemos subido la normativa de cursos de CEFIRE. Las respuestas que nos da no son 100% correctas pero te puede dar una idea y lo mejor, es que te enlaza la respuesta a la parte del documento donde se habla de ese tema:
+Personalmente [ChaPDF](https://www.chatpdf.com) es una de las aplicaciones que más uso. En este caso se puede subir un PDF y "hablar" con él, puedes hacerle preguntas diversas. En este caso hemos subido la normativa de cursos de CEFIRE. Las respuestas que nos da no son 100% correctas, pero te puede dar una idea, y lo mejor, es que te enlaza la respuesta a la parte del documento donde se habla de ese tema:
 
 ![Subiendo documento PDF](img/47.png)
 
