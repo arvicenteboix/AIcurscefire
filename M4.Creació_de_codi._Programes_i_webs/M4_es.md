@@ -84,18 +84,22 @@ Para realizar esta aplicación tenemos que conocer en qué sistema operativo vam
 
 :::important
 Cabe decir que no vamos a obtener un resultado que se ajuste al 100% de lo que nosotros esperamos. Hemos de realizar siempre una comprobación del código y modificar los aspectos que queremos adaptar.
-Si no sabemos programar hemos de conformarnos con lo que nos de o, es un buen punto para aprender a programar ya que la mejor manera de aprender es a base de ejemplos que nos irá dando la IA.
+Si no sabemos programar hemos de conformarnos con lo que nos de o, es un buen punto para aprender a programar, ya que la mejor manera de aprender es a base de ejemplos que nos irá dando la IA.
+:::
+
+:::tip
+Existe una opción de pago (gratuita para docentes) llamada github Copilot la cual nos permite modificar código específico sobre el editor de texto Visual Studio Code. En muchas de las formaciones que se están ofertando se explica esta opción. Pero está pensada más para programadores.
 :::
 
 # Realización
 
-Para crear un programa con python tenemos que pegar el código en un archivo de texto (.txt, no vale ni .doc ni .odt) y guardarlo.
+Para crear un programa con python tenemos que pegar el código en un archivo de texto (.txt, no vale ni .doc ni .odt) y guardarlo con estensión .py. 
 
 Plantearemos un prompt como este:
 
 \awesomebox[violet]{2pt}{\faRobot}{violet}{\textbf{Eres un programador experimentado que le gusta documentar su código y trabaja con linux. Nuestra vida depende de realizar un programa con python que abrirá una ventana que nos mostrará lo que hay en la cámara web de nuestro ordenador. Este programa detectará cuándo nuestra cara sonríe y cuándo está triste y mostrará un mensaje en la pantalla que se refrescará cada segundo mostrando el texto triste o alegre}}
 
-Copiaremos y pegaremos lo que nos dice exactamente puesto que se trata de una respuesta bastante larga:
+Copiaremos y pegaremos lo que nos dice exactamente, puesto que se trata de una respuesta bastante larga:
 
 Hola! Como que quieres hacer un programa que detecte emociones a través de la cámara web de tu ordenador, te recomiendo que utilices la librería **OpenCV** para Python. Esta librería es una herramienta de código abierto que se puede utilizar para la visión por computador y el procesamiento de imágenes. Para la detección de emociones, puedes utilizar el reconocimiento facial en tiempo real con **OpenCV**. Esto implica la detección de caras y la identificación de las emociones a través de las expresiones faciales.
 
@@ -144,11 +148,12 @@ Este código abre la cámara web de tu ordenador y detecta las caras en tiempo r
 Espero que esto te ayude a empezar a desarrollar tu programa. Si tienes alguna pregunta más, no dudes a preguntarme.
 
 Origen: Conversación cono Bing, 29/1/2024
-(1) Facial Emotion Recognition In Real-Time - LearnOpenCV. https://learnopencv.com/facial-emotion-recognition/.
-(2) facial-emotion-recognition · GitHub Topics · GitHub. https://github.com/topics/facial-emotion-recognition?l=python.
-(3) Emotion Detection using Python - Geeky Humanos. https://geekyhumans.com/emotion-detection-using-python-and-deepface/.
-(4) ajitharunai/Facial-Emotion-Recognition-with-OpenCV-and-Deepface. https://github.com/ajitharunai/facial-emotion-recognition-with-opencv-and-deepface/.
-(5) Real-time Facial Emotion Recognition using OpenCV and Deepface. https://github.com/saeedtaghavi/facial-emotion-recognition-with-opencv-and-deepface/blob/main/readme.md.
+
+(@) Facial Emotion Recognition In Real-Time - LearnOpenCV. https://learnopencv.com/facial-emotion-recognition/.
+(@) facial-emotion-recognition · GitHub Topics · GitHub. https://github.com/topics/facial-emotion-recognition?l=python.
+(@) Emotion Detection using Python - Geeky Humanos. https://geekyhumans.com/emotion-detection-using-python-and-deepface/.
+(@) ajitharunai/Facial-Emotion-Recognition-with-OpenCV-and-Deepface. https://github.com/ajitharunai/facial-emotion-recognition-with-opencv-and-deepface/.
+(@) Real-time Facial Emotion Recognition using OpenCV and Deepface. https://github.com/saeedtaghavi/facial-emotion-recognition-with-opencv-and-deepface/blob/main/readme.md.
 
 Nosotros solo queremos el código, así que lo copiamos y pegamos en un archivo de texto llamado camera.py y ejecutamos en la terminal:
 
@@ -194,7 +199,7 @@ Puede parecer una tarea sencilla tal y como voy a planteároslo, pero el *prompt
 
 La plataforma que hemos utilizado es Bing Copilot con su modo más preciso y el prompt planteado ha sido el siguiente:
 
-awesomebox[violet]{2pt}{\textbf{Crea un juego con la biblioteca Pygame para python que tenga una pantalla estática con una plataforma del 20% del total de la ventana que pueda desplazar a la izquierda o la derecha con el teclado de manera suave y rápida. La velocidad de la bola será constante de 1 y que se actualice la función que mueve la bola cada 0.3 segundos y cuando la bola choque con los extremos de la pantalla rebotará con un ángulo de 45° en la dirección que lleva, si la bola choca contra la plataforma rebotará, si rebota en la mitad derecha de la plataforma se  irá hacia la derecha con un ángulo de 45° hacia arriba y si rebota en la mitad izquierda de la plataforma se  irá hacia la izquierda con un ángulo de 45° hacia arriba. Al comienzo habrá una bola encima de la tabla sin mover y cuando se pulse la tecla espacio la bola empezará a moverse hacia arriba. Escríbeme el código solamente, sin comentarios y de la manera más resumida posible. No quiero que me escribas ninguna explicación, solo quiero el código y sin comentarios.}}
+awesomebox[violet]{2pt}{\textbf{Crea un juego con la biblioteca Pygame para python que tenga una pantalla estática con una plataforma del 20% del total de la ventana que pueda desplazar a la izquierda o la derecha con el teclado de manera suave y rápida. La velocidad de la bola será constante de 1 y que se actualice la función que mueve la bola cada 0.3 segundos y cuando la bola choque con los extremos de la pantalla rebotará con un ángulo de 45° en la dirección que lleva, si la bola choca contra la plataforma rebotará, si rebota en la mitad derecha de la plataforma se irá hacia la derecha con un ángulo de 45° hacia arriba y si rebota en la mitad izquierda de la plataforma se  irá hacia la izquierda con un ángulo de 45° hacia arriba. Al comienzo habrá una bola encima de la tabla sin mover y cuando se pulse la tecla espacio la bola empezará a moverse hacia arriba. Escríbeme el código solamente, sin comentarios y de la manera más resumida posible. No quiero que me escribas ninguna explicación, solo quiero el código y sin comentarios.}}
 
 La respuesta tal cual ha sido:
 
@@ -288,7 +293,7 @@ Este es el código generado y el resultado ha sido el siguiente:
 
 ![Juego planteado](img/7.png)
 
-El problema que hemos detectado es que la bola iba muy lentamente, en este caso nosotros hemos decidido cambiar el refresco de la pantalla que en el prompt lo hemos reflejado como: *y que se actualice la función que mueve la bola cada 0.3 según*, y finalmente le hemos dado un valor de 120. 
+El problema que hemos detectado es que la bola iba muy lentamente, en este caso nosotros hemos decidido cambiar el refresco de la pantalla que en el prompt lo hemos reflejado como: *y que se actualice la función que mueve la bola cada 0.3 segundos*, y finalmente le hemos dado un valor de 120. 
 
 Pero le hemos preguntado a Copilot y la respuesta ha sido igualmente válida o incluso más lógica:
 
@@ -300,10 +305,10 @@ Hemos cambiado el valor de BAILE_SPEED a 5 y el juego ha mejorado bastante
 
 ## Explicación del prompt
 
-Vamos a hacer una pequeña explicación del prompt, como podéis ver los prompts no suelen ser "Hazme un juego tipo *Arkanoid*", hay que detallar claramente lo que queremos.
+Vamos a hacer una pequeña explicación del prompt. Como podéis ver los prompts no suelen ser "Hazme un juego tipo *Arkanoid*", hay que detallar claramente lo que queremos.
 
 :::note
-Es posible que ahora ya haya una respuesta para el prompt de crear una juego tipo Arkanoid ya que está relacionado con el prompt que he preguntado después y ya lo haya asociado. A vosotros os podría funcionar. La IA va aprendiendo también de lo que nosotros le "enseñamos"
+Es posible que ahora ya haya una respuesta para el prompt de crear un juego tipo Arkanoid ya que está relacionado con el prompt que he preguntado después y ya lo haya asociado. A vosotros os podría funcionar. La IA va aprendiendo también de lo que nosotros le "enseñamos".
 :::
 
 El prompt que hemos planteado es:
@@ -343,7 +348,7 @@ Hay que definir una situación inicial puesto que, como ya hemos comentado, la I
 Por último insistimos que solo queremos el código sin ningún tipo de explicación y sin ningún tipo de comentario al código. Los comentarios nos pueden ayudar a entender mejor el código, pero la plataforma tiene limitado el número de caracteres que nos da como respuesta, de este modo ahorramos cantidad de caracteres que queremos que nos dé.
 
 :::important
-Insitimos en que la plataforma tiene limitado el número de caracteres que nos da como respuesta, por eso insistimos que no nos dé comentarios adicionales, para que se centre solamanete en el código que es lo que queremos
+Insitimos en que la plataforma tiene limitado el número de caracteres que nos da como respuesta, por eso le decimos que no nos dé comentarios adicionales, para que se centre solamanete en el código, que es lo que queremos.
 :::
 
 :::warning
@@ -351,10 +356,10 @@ Creando este prompt, en una de las pruebas la IA me contestó:
 
 ![La IA haciendo amigos](img/10.png)
 
-Así que no siempre obtendremos el resultados esperados y habrá que ir modificando variables hasta que nos de el resultado esperado.
+Así que no siempre obtendremos el resultado esperado y habrá que ir modificando variables hasta que nos de el resultado esperado.
 :::
 
-No penséis que este prompt ha salido mágicamente de mi cabeza, hay que ir analizando las respuestas que va dando para ir creando el prompt, son varios intentos modificando el orden de las frases del prompt y preguntando por separado para analizar las respuestas y poder perfilar más.
+No penséis que este prompt ha salido mágicamente de mi cabeza, hay que ir analizando las respuestas que va dando para ir creando el prompt, son varios intentos modificando el orden de las frases del prompt y preguntando por separado para analizar las respuestas y poder perfilar más el resultado.
 
 # Creación de páginas web
 

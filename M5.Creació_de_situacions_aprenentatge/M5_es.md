@@ -3,6 +3,8 @@
 title: 5. Creación de situaciones de aprendizaje
 lang: can
 page-background: img/bg.png
+linkcolor: blue
+
 
 # Portada
 titlepage: true
@@ -63,6 +65,7 @@ pandoc-latex-environment:
 
 \vspace{\fill}
 
+
 ![](img/cc.png){ height=50px }
 
 Este documento está sujeto a una licencia creative commons que permite su difusión y uso comercial reconociendo siempre la autoría de su creador. Este documento se encuentra para ser modificado en el siguiente repositorio de github:
@@ -76,7 +79,7 @@ En este bloque vamos a explicar cómo diseñar una Situación de aprendizaje (SA
 
 Antes de empezar necesitamos tener a mano dos documentos:
 
--   La plantilla de situación de aprendizaje. Descárgala aquí: Plantilla SA.
+-   La plantilla de situación de aprendizaje. Descárgala aquí: [Plantilla SA](https://portal.edu.gva.es/formaciodelprofessorat/es/2-situaciones-de-aprendizaje-en-marcha/).
 
 -   El currículo oficial del que extraeremos las competencias específicas, los criterios de evaluación y saberes básicos. Lo puedes encontrar fácilmente en [noucurrículum.es](https://portal.edu.gva.es/noucurriculum/)
 
@@ -90,9 +93,13 @@ Es fundamental crear buenos prompts (instrucciones) para obtener los mejores res
 
 ##  Seguir la plantilla de SA:
 
-Para poder crear un buen prompt, que nos ofrezca una respuesta lo más personalizada posible, hay apartados de la plantilla que debemos rellenar nosotros mismos. Se trata de toda la primera fila de la tabla. También debemos rellenar la información de contexto: Donde está ubicado el centro, nivel socioeconómico de las familias del alumnado, del entorno incluyendo las  características del alumnado, necesidades específicas, problemática concreta, etc. Finalmente, debemos indicar en la plantilla,  el mismo prompt qué criterios de evaluación y saberes básicos queremos trabajar. Para esto debemos ayudarnos del currículo oficial, cortando y pegando. Aquí tienes un ejemplo en el que debes sustituir el texto subrayado por el tuyo personalizado.
 
-\awesomebox[violet]{2pt}{\faRobot}{violet}{\textbf{Crea la estructura de una Situación de Aprendizaje para la materia de [Geografía e historia,]{.underline} de [1.º de ESO]{.underline}, que se desarrollará en el siguiente contexto: \_\_.}}
+
+Para poder crear un buen prompt, que nos ofrezca una respuesta lo más personalizada posible, hay apartados de la plantilla que debemos rellenar nosotros mismos. Se trata de toda la primera fila de la tabla. También debemos rellenar la información de contexto: Dónde está ubicado el centro, nivel socioeconómico de las familias del alumnado, del entorno incluyendo las características del alumnado, necesidades específicas, problemática concreta, etc. Finalmente, debemos indicar en la plantilla, el mismo prompt qué competencias específicas, criterios de evaluación y saberes básicos queremos trabajar. Para esto debemos ayudarnos del currículo oficial, cortando y pegando. Aquí tienes un ejemplo en el que debes sustituir el texto subrayado por el tuyo personalizado.
+
+\awesomebox[violet]{2pt}{\faRobot}{violet}{\textbf{Crea la estructura de una Situación de Aprendizaje para la materia de Geografía e historia, de 1.º de ESO, que se desarrollará en el siguiente contexto: \_\_.}}
+
+\awesomebox[violet]{2pt}{\faRobot}{violet}{\textbf{Tiene que trabajar estas competencias básicas: \_\_.}}
 
 \awesomebox[violet]{2pt}{\faRobot}{violet}{\textbf{Tiene que trabajar estos criterios de evaluación: \_\_.}}
 
@@ -106,11 +113,11 @@ A partir de aquí pega donde corresponda la respuesta de la IA. Si no te parece 
 
 A continuación podemos pedirle a la IA que genere las actividades y la temporalización de las mismas.
 
-\awesomebox[violet]{2pt}{\faRobot}{violet}{\textbf{Desarrolla las actividades que compondrán la Situación de Aprendizaje. Indica el número de sesiones de la situación de aprendizaje, el número de actividades por sesión y la descripción de la actividad. Ten en cuenta  que cada sesión es de [55 minutos]{.underline}. Finalmente indica la fecha de fin, sabiendo que quiero empezar \_\_ y que dedico \_\_ sesiones en la semana.}}
+\awesomebox[violet]{2pt}{\faRobot}{violet}{\textbf{Desarrolla las actividades que compondrán la Situación de Aprendizaje. Indica el número de sesiones de la situación de aprendizaje, el número de actividades por sesión y la descripción de la actividad. Ten en cuenta  que cada sesión es de 55 minutos. Finalmente indica la fecha de fin, sabiendo que quiero empezar \_\_ y que dedico \_\_ sesiones en la semana.}}
 
 Si en la secuencia didáctica no aparecen desarrolladas las actividades, pídele que lo haga si así lo deseas:
 
-\awesomebox[violet]{2pt}{\faRobot}{violet}{\textbf{Desarrolla [Sesión 1/Actividad 1]{.underline} e indica en forma de cronograma como se desarrollaría.}}
+\awesomebox[violet]{2pt}{\faRobot}{violet}{\textbf{Desarrolla Sesión 1/Actividad 1 e indica en forma de cronograma como se desarrollaría.}}
 
 ##  Prompt de evaluación:
 
